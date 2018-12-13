@@ -1,0 +1,2012 @@
+Waiting on git info....
+Git branch: repretrain
+Git SHA: cccca433a4653f554048b637e448387c2db87633
+Parsed args: 
+{
+  "allow_missing_task_map": 1,
+  "allow_reuse_of_pretraining_parameters": 0,
+  "allow_untrained_encoder_parameters": 1,
+  "batch_size": 32,
+  "bidirectional": 1,
+  "bpp_base": 1,
+  "char_embs": 0,
+  "char_filter_sizes": "2,3,4,5",
+  "classifier": "log_reg",
+  "classifier_dropout": 0.2,
+  "classifier_hid_dim": 512,
+  "classifier_loss_fn": "",
+  "classifier_span_pooling": "x,y",
+  "cola": {},
+  "cola_classifier_dropout": 0.1,
+  "cola_classifier_hid_dim": 256,
+  "cola_d_proj": 768,
+  "cola_lr": 6.25e-05,
+  "cola_val_interval": 100,
+  "cove": 0,
+  "cove_fine_tune": 0,
+  "cuda": 0,
+  "d_char": 100,
+  "d_ff": 2048,
+  "d_hid": 1024,
+  "d_hid_attn": 512,
+  "d_proj": 512,
+  "d_tproj": 64,
+  "d_word": 300,
+  "data_dir": "/scratch/tjf324/data/glue_auto_dl",
+  "dec_val_scale": 250,
+  "do_eval": 0,
+  "do_train": 1,
+  "dropout": 0.1,
+  "dropout_embs": 0.1,
+  "edgeprobe_cnn_context": 0,
+  "edges-ccg-parse": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 500
+  },
+  "edges-ccg-tag": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 500
+  },
+  "edges-constituent-ontonotes": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 250,
+    "pair_attn": 0,
+    "val_interval": 1000
+  },
+  "edges-constituent-ptb": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 500
+  },
+  "edges-coref-ontonotes": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 500
+  },
+  "edges-coref-ontonotes-conll": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 250,
+    "pair_attn": 0,
+    "val_interval": 1000
+  },
+  "edges-dep-labeling": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 500
+  },
+  "edges-dep-labeling-ewt": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 250,
+    "pair_attn": 0,
+    "val_interval": 1000
+  },
+  "edges-dpr": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 100
+  },
+  "edges-ner-conll2003": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 250
+  },
+  "edges-ner-ontonotes": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 250,
+    "pair_attn": 0,
+    "val_interval": 1000
+  },
+  "edges-spr1": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 100
+  },
+  "edges-spr2": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 100
+  },
+  "edges-srl-conll2005": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 500
+  },
+  "edges-srl-conll2012": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 1000
+  },
+  "edges-tmpl": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 500
+  },
+  "elmo": 0,
+  "elmo_chars_only": 1,
+  "elmo_finetune_all": 0,
+  "elmo_weight_file_path": "none",
+  "eval_data_absolute": -1,
+  "eval_data_fraction": 1,
+  "eval_max_vals": 1000,
+  "eval_tasks": "cola",
+  "eval_val_interval": 500,
+  "exp_dir": "/scratch/tjf324/jiant/repretrain/",
+  "exp_name": "repretrain",
+  "fake_sentence_detection_classifier_dropout": 0.1,
+  "fake_sentence_detection_d_proj": 768,
+  "fastText": 0,
+  "fastText_model_file": ".",
+  "global_ro_exp_dir": "/nfs/jsalt/share/exp/default",
+  "gradient_accumulation_passes": 1,
+  "grounded": {},
+  "grounded_d_proj": 2048,
+  "groundedsw": {},
+  "groundedsw_d_proj": 2048,
+  "is_probing_task": 0,
+  "keep_all_checkpoints": 0,
+  "load_eval_checkpoint": "none",
+  "load_model": 0,
+  "local_log_path": "/scratch/tjf324/jiant/repretrain/cola47/log.log",
+  "lr": 6.25e-05,
+  "lr_decay_factor": 0.5,
+  "max_char_v_size": 250,
+  "max_grad_norm": 1,
+  "max_seq_len": 50,
+  "max_targ_word_v_size": 20000,
+  "max_vals": 1000,
+  "max_word_v_size": 30000,
+  "min_lr": 1e-06,
+  "mnli": {},
+  "mnli-alt": {},
+  "mnli-alt_classifier_dropout": 0.2,
+  "mnli-alt_classifier_hid_dim": 512,
+  "mnli-alt_lr": 0.0003,
+  "mnli-alt_pair_attn": 1,
+  "mnli-alt_val_interval": 1000,
+  "mnli-diagnostic": {
+    "use_classifier": "mnli"
+  },
+  "mnli_classifier_dropout": 0.2,
+  "mnli_classifier_hid_dim": 512,
+  "mnli_lr": 0.0003,
+  "mnli_pair_attn": 1,
+  "mnli_single_seq_classifier_dropout": 0.1,
+  "mnli_single_seq_d_proj": 768,
+  "mnli_val_interval": 1000,
+  "mrpc": {},
+  "mrpc_classifier_dropout": 0.2,
+  "mrpc_classifier_hid_dim": 256,
+  "mrpc_d_proj": 256,
+  "mrpc_double_sim_classifier_dropout": 0.1,
+  "mrpc_double_sim_d_proj": 768,
+  "mrpc_lr": 0.0003,
+  "mrpc_pair_attn": 0,
+  "mrpc_single_seq_classifier_dropout": 0.1,
+  "mrpc_single_seq_d_proj": 768,
+  "mrpc_val_interval": 100,
+  "n_char_filters": 100,
+  "n_heads": 8,
+  "n_layers_enc": 2,
+  "n_layers_highway": 0,
+  "n_sent_train": 8551,
+  "nli-prob": {
+    "probe_path": ""
+  },
+  "num_epoch_openai_finetune": 3,
+  "openai_finetune_lm": 0,
+  "openai_lm_weight": 0.5,
+  "openai_nonlm_weight": 1.0,
+  "openai_transformer": 1,
+  "openai_transformer_fine_tune": 1,
+  "openai_transformer_fine_tune_min_layer": -1,
+  "optimizer": "openai_adam",
+  "pair_attn": 0,
+  "patience": 8,
+  "project_dir": "/scratch/tjf324/jiant",
+  "project_pooler": 0,
+  "qnli": {},
+  "qnli-alt": {},
+  "qnli-alt_classifier_dropout": 0.2,
+  "qnli-alt_classifier_hid_dim": 512,
+  "qnli-alt_lr": 0.0003,
+  "qnli-alt_pair_attn": 1,
+  "qnli-alt_val_interval": 1000,
+  "qnli_classifier_dropout": 0.2,
+  "qnli_classifier_hid_dim": 512,
+  "qnli_lr": 0.0003,
+  "qnli_pair_attn": 1,
+  "qnli_single_seq_classifier_dropout": 0.1,
+  "qnli_single_seq_d_proj": 768,
+  "qnli_val_interval": 1000,
+  "qqp": {},
+  "qqp-alt": {},
+  "qqp-alt_classifier_dropout": 0.2,
+  "qqp-alt_classifier_hid_dim": 512,
+  "qqp-alt_lr": 0.0003,
+  "qqp-alt_pair_attn": 1,
+  "qqp-alt_val_interval": 1000,
+  "qqp_classifier_dropout": 0.2,
+  "qqp_classifier_hid_dim": 512,
+  "qqp_double_sim_classifier_dropout": 0.1,
+  "qqp_double_sim_d_proj": 768,
+  "qqp_lr": 0.0003,
+  "qqp_pair_attn": 1,
+  "qqp_val_interval": 1000,
+  "random_seed": 47,
+  "reddit_sarcasm_classifier_dropout": 0.1,
+  "reddit_sarcasm_d_proj": 768,
+  "reindex_tasks": "",
+  "reload_indexing": 0,
+  "reload_tasks": 0,
+  "reload_vocab": 0,
+  "remote_log_name": "repretrain__cola47",
+  "rte": {},
+  "rte_classifier_dropout": 0.4,
+  "rte_classifier_hid_dim": 128,
+  "rte_d_proj": 128,
+  "rte_lr": 0.0003,
+  "rte_pair_attn": 0,
+  "rte_single_seq_classifier_dropout": 0.1,
+  "rte_single_seq_d_proj": 768,
+  "rte_val_interval": 100,
+  "run_dir": "/scratch/tjf324/jiant/repretrain/cola47",
+  "run_name": "cola47",
+  "run_prefix": "many_reruns_",
+  "s2s": {
+    "attention": "bilinear",
+    "d_hid_dec": 1024,
+    "n_layers_dec": 1,
+    "output_proj_input_dim": 1024,
+    "target_embedding_dim": 300
+  },
+  "scaling_method": "uniform",
+  "scheduler_threshold": 0.0001,
+  "sent_enc": "null",
+  "sep_embs_for_skip": 1,
+  "shared_optimizer": 1,
+  "shared_pair_attn": 0,
+  "skip_embs": 1,
+  "sst": {},
+  "sst_classifier_dropout": 0.1,
+  "sst_classifier_hid_dim": 256,
+  "sst_d_proj": 768,
+  "sst_lr": 6.25e-05,
+  "sst_val_interval": 100,
+  "sts-b": {},
+  "sts-b-alt": {},
+  "sts-b-alt_classifier_dropout": 0.2,
+  "sts-b-alt_classifier_hid_dim": 512,
+  "sts-b-alt_lr": 0.0003,
+  "sts-b-alt_pair_attn": 1,
+  "sts-b-alt_val_interval": 1000,
+  "sts-b_classifier_dropout": 0.2,
+  "sts-b_classifier_hid_dim": 512,
+  "sts-b_lr": 0.0003,
+  "sts-b_pair_attn": 1,
+  "sts-b_val_interval": 1000,
+  "stsb_double_sim_classifier_dropout": 0.1,
+  "stsb_double_sim_d_proj": 768,
+  "task_patience": 2,
+  "track_batch_utilization": 0,
+  "train_for_eval": 0,
+  "train_tasks": "cola",
+  "trainer_type": "sampling",
+  "training_data_absolute": -1,
+  "training_data_fraction": 1,
+  "use_classifier": "",
+  "val_data_limit": 5000,
+  "val_interval": 1000,
+  "warmup": 4000,
+  "weighted_openai_transformer": 0,
+  "weighted_openai_transformer_only_fine_tune_weights": 0,
+  "weighting_method": "proportional",
+  "wnli": {},
+  "wnli_classifier_dropout": 0.4,
+  "wnli_classifier_hid_dim": 128,
+  "wnli_d_proj": 128,
+  "wnli_lr": 0.0003,
+  "wnli_pair_attn": 0,
+  "wnli_single_seq_classifier_dropout": 0.1,
+  "wnli_single_seq_d_proj": 768,
+  "wnli_val_interval": 100,
+  "word_embs": "none",
+  "word_embs_file": "/scratch/tjf324/data/fastext/crawl-200d-2M.vec",
+  "write_preds": "val,test",
+  "write_strict_glue_format": 0
+}
+Saved config to /scratch/tjf324/jiant/repretrain/cola47/params.conf
+Using random seed 47
+Using GPU 0
+Loading tasks...
+Writing pre-preprocessed tasks to /scratch/tjf324/jiant/repretrain/
+	Loaded existing task cola
+	Task 'cola': train=8551 val=1043 test=1063
+	Finished loading tasks: cola.
+Loading token dictionary from /scratch/tjf324/jiant/repretrain/vocab.
+	Loaded vocab from /scratch/tjf324/jiant/repretrain/vocab
+	Vocab namespace chars: size 62
+	Vocab namespace tokens: size 6047
+	Vocab namespace openai_bpe: size 40483
+	Finished building vocab.
+	Task 'cola', split 'train': Found preprocessed copy in /scratch/tjf324/jiant/repretrain/preproc/cola__train_data
+	Task 'cola', split 'val': Found preprocessed copy in /scratch/tjf324/jiant/repretrain/preproc/cola__val_data
+	Task 'cola', split 'test': Found preprocessed copy in /scratch/tjf324/jiant/repretrain/preproc/cola__test_data
+	Task 'cola': cleared in-memory data.
+	Finished indexing tasks
+	Lazy-loading indexed data for task='cola' from /scratch/tjf324/jiant/repretrain/preproc
+All tasks initialized with data iterators.
+	  Training on cola
+	  Evaluating on cola
+	Finished loading tasks in 0.219s
+	 Tasks: ['cola']
+Building model...
+Using OpenAI transformer model; skipping other embedders.
+Loading OpenAI transformer model from /home/tjf324/jiant/src/openai_transformer_lm/tf_original/model/
+Loaded OpenAI transformer model.
+Initializing parameters
+Done initializing parameters; the following parameters are using their default initialization from their code
+   _text_field_embedder.model.embed.weight
+   _text_field_embedder.model.h.0.attn.c_attn.b
+   _text_field_embedder.model.h.0.attn.c_attn.w
+   _text_field_embedder.model.h.0.attn.c_proj.b
+   _text_field_embedder.model.h.0.attn.c_proj.w
+   _text_field_embedder.model.h.0.ln_1.b
+   _text_field_embedder.model.h.0.ln_1.g
+   _text_field_embedder.model.h.0.ln_2.b
+   _text_field_embedder.model.h.0.ln_2.g
+   _text_field_embedder.model.h.0.mlp.c_fc.b
+   _text_field_embedder.model.h.0.mlp.c_fc.w
+   _text_field_embedder.model.h.0.mlp.c_proj.b
+   _text_field_embedder.model.h.0.mlp.c_proj.w
+   _text_field_embedder.model.h.1.attn.c_attn.b
+   _text_field_embedder.model.h.1.attn.c_attn.w
+   _text_field_embedder.model.h.1.attn.c_proj.b
+   _text_field_embedder.model.h.1.attn.c_proj.w
+   _text_field_embedder.model.h.1.ln_1.b
+   _text_field_embedder.model.h.1.ln_1.g
+   _text_field_embedder.model.h.1.ln_2.b
+   _text_field_embedder.model.h.1.ln_2.g
+   _text_field_embedder.model.h.1.mlp.c_fc.b
+   _text_field_embedder.model.h.1.mlp.c_fc.w
+   _text_field_embedder.model.h.1.mlp.c_proj.b
+   _text_field_embedder.model.h.1.mlp.c_proj.w
+   _text_field_embedder.model.h.10.attn.c_attn.b
+   _text_field_embedder.model.h.10.attn.c_attn.w
+   _text_field_embedder.model.h.10.attn.c_proj.b
+   _text_field_embedder.model.h.10.attn.c_proj.w
+   _text_field_embedder.model.h.10.ln_1.b
+   _text_field_embedder.model.h.10.ln_1.g
+   _text_field_embedder.model.h.10.ln_2.b
+   _text_field_embedder.model.h.10.ln_2.g
+   _text_field_embedder.model.h.10.mlp.c_fc.b
+   _text_field_embedder.model.h.10.mlp.c_fc.w
+   _text_field_embedder.model.h.10.mlp.c_proj.b
+   _text_field_embedder.model.h.10.mlp.c_proj.w
+   _text_field_embedder.model.h.11.attn.c_attn.b
+   _text_field_embedder.model.h.11.attn.c_attn.w
+   _text_field_embedder.model.h.11.attn.c_proj.b
+   _text_field_embedder.model.h.11.attn.c_proj.w
+   _text_field_embedder.model.h.11.ln_1.b
+   _text_field_embedder.model.h.11.ln_1.g
+   _text_field_embedder.model.h.11.ln_2.b
+   _text_field_embedder.model.h.11.ln_2.g
+   _text_field_embedder.model.h.11.mlp.c_fc.b
+   _text_field_embedder.model.h.11.mlp.c_fc.w
+   _text_field_embedder.model.h.11.mlp.c_proj.b
+   _text_field_embedder.model.h.11.mlp.c_proj.w
+   _text_field_embedder.model.h.2.attn.c_attn.b
+   _text_field_embedder.model.h.2.attn.c_attn.w
+   _text_field_embedder.model.h.2.attn.c_proj.b
+   _text_field_embedder.model.h.2.attn.c_proj.w
+   _text_field_embedder.model.h.2.ln_1.b
+   _text_field_embedder.model.h.2.ln_1.g
+   _text_field_embedder.model.h.2.ln_2.b
+   _text_field_embedder.model.h.2.ln_2.g
+   _text_field_embedder.model.h.2.mlp.c_fc.b
+   _text_field_embedder.model.h.2.mlp.c_fc.w
+   _text_field_embedder.model.h.2.mlp.c_proj.b
+   _text_field_embedder.model.h.2.mlp.c_proj.w
+   _text_field_embedder.model.h.3.attn.c_attn.b
+   _text_field_embedder.model.h.3.attn.c_attn.w
+   _text_field_embedder.model.h.3.attn.c_proj.b
+   _text_field_embedder.model.h.3.attn.c_proj.w
+   _text_field_embedder.model.h.3.ln_1.b
+   _text_field_embedder.model.h.3.ln_1.g
+   _text_field_embedder.model.h.3.ln_2.b
+   _text_field_embedder.model.h.3.ln_2.g
+   _text_field_embedder.model.h.3.mlp.c_fc.b
+   _text_field_embedder.model.h.3.mlp.c_fc.w
+   _text_field_embedder.model.h.3.mlp.c_proj.b
+   _text_field_embedder.model.h.3.mlp.c_proj.w
+   _text_field_embedder.model.h.4.attn.c_attn.b
+   _text_field_embedder.model.h.4.attn.c_attn.w
+   _text_field_embedder.model.h.4.attn.c_proj.b
+   _text_field_embedder.model.h.4.attn.c_proj.w
+   _text_field_embedder.model.h.4.ln_1.b
+   _text_field_embedder.model.h.4.ln_1.g
+   _text_field_embedder.model.h.4.ln_2.b
+   _text_field_embedder.model.h.4.ln_2.g
+   _text_field_embedder.model.h.4.mlp.c_fc.b
+   _text_field_embedder.model.h.4.mlp.c_fc.w
+   _text_field_embedder.model.h.4.mlp.c_proj.b
+   _text_field_embedder.model.h.4.mlp.c_proj.w
+   _text_field_embedder.model.h.5.attn.c_attn.b
+   _text_field_embedder.model.h.5.attn.c_attn.w
+   _text_field_embedder.model.h.5.attn.c_proj.b
+   _text_field_embedder.model.h.5.attn.c_proj.w
+   _text_field_embedder.model.h.5.ln_1.b
+   _text_field_embedder.model.h.5.ln_1.g
+   _text_field_embedder.model.h.5.ln_2.b
+   _text_field_embedder.model.h.5.ln_2.g
+   _text_field_embedder.model.h.5.mlp.c_fc.b
+   _text_field_embedder.model.h.5.mlp.c_fc.w
+   _text_field_embedder.model.h.5.mlp.c_proj.b
+   _text_field_embedder.model.h.5.mlp.c_proj.w
+   _text_field_embedder.model.h.6.attn.c_attn.b
+   _text_field_embedder.model.h.6.attn.c_attn.w
+   _text_field_embedder.model.h.6.attn.c_proj.b
+   _text_field_embedder.model.h.6.attn.c_proj.w
+   _text_field_embedder.model.h.6.ln_1.b
+   _text_field_embedder.model.h.6.ln_1.g
+   _text_field_embedder.model.h.6.ln_2.b
+   _text_field_embedder.model.h.6.ln_2.g
+   _text_field_embedder.model.h.6.mlp.c_fc.b
+   _text_field_embedder.model.h.6.mlp.c_fc.w
+   _text_field_embedder.model.h.6.mlp.c_proj.b
+   _text_field_embedder.model.h.6.mlp.c_proj.w
+   _text_field_embedder.model.h.7.attn.c_attn.b
+   _text_field_embedder.model.h.7.attn.c_attn.w
+   _text_field_embedder.model.h.7.attn.c_proj.b
+   _text_field_embedder.model.h.7.attn.c_proj.w
+   _text_field_embedder.model.h.7.ln_1.b
+   _text_field_embedder.model.h.7.ln_1.g
+   _text_field_embedder.model.h.7.ln_2.b
+   _text_field_embedder.model.h.7.ln_2.g
+   _text_field_embedder.model.h.7.mlp.c_fc.b
+   _text_field_embedder.model.h.7.mlp.c_fc.w
+   _text_field_embedder.model.h.7.mlp.c_proj.b
+   _text_field_embedder.model.h.7.mlp.c_proj.w
+   _text_field_embedder.model.h.8.attn.c_attn.b
+   _text_field_embedder.model.h.8.attn.c_attn.w
+   _text_field_embedder.model.h.8.attn.c_proj.b
+   _text_field_embedder.model.h.8.attn.c_proj.w
+   _text_field_embedder.model.h.8.ln_1.b
+   _text_field_embedder.model.h.8.ln_1.g
+   _text_field_embedder.model.h.8.ln_2.b
+   _text_field_embedder.model.h.8.ln_2.g
+   _text_field_embedder.model.h.8.mlp.c_fc.b
+   _text_field_embedder.model.h.8.mlp.c_fc.w
+   _text_field_embedder.model.h.8.mlp.c_proj.b
+   _text_field_embedder.model.h.8.mlp.c_proj.w
+   _text_field_embedder.model.h.9.attn.c_attn.b
+   _text_field_embedder.model.h.9.attn.c_attn.w
+   _text_field_embedder.model.h.9.attn.c_proj.b
+   _text_field_embedder.model.h.9.attn.c_proj.w
+   _text_field_embedder.model.h.9.ln_1.b
+   _text_field_embedder.model.h.9.ln_1.g
+   _text_field_embedder.model.h.9.ln_2.b
+   _text_field_embedder.model.h.9.ln_2.g
+   _text_field_embedder.model.h.9.mlp.c_fc.b
+   _text_field_embedder.model.h.9.mlp.c_fc.w
+   _text_field_embedder.model.h.9.mlp.c_proj.b
+   _text_field_embedder.model.h.9.mlp.c_proj.w
+No shared encoder (just using word embeddings)!
+Converting Params object to dict; logging of default values will not occur when dictionary parameters are used subsequently.
+CURRENTLY DEFINED PARAMETERS: 
+cls_type = log_reg
+d_hid = 256
+d_proj = 768
+shared_pair_attn = 0
+attn = 0
+d_hid_attn = 512
+dropout = 0.1
+cls_loss_fn = 
+cls_span_pooling = x,y
+edgeprobe_cnn_context = 0
+use_classifier = cola
+	Task 'cola' params: {
+  "cls_type": "log_reg",
+  "d_hid": 256,
+  "d_proj": 768,
+  "shared_pair_attn": 0,
+  "attn": 0,
+  "d_hid_attn": 512,
+  "dropout": 0.1,
+  "cls_loss_fn": "",
+  "cls_span_pooling": "x,y",
+  "edgeprobe_cnn_context": 0,
+  "use_classifier": "cola"
+}
+Using pool type final
+MultiTaskModel(
+  (sent_encoder): SentenceEncoder(
+    (_text_field_embedder): OpenAIEmbedderModule(
+      (model): TransformerModel(
+        (embed): Embedding(40993, 768)
+        (drop): Dropout(p=0.1)
+        (h): ModuleList(
+          (0): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (1): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (2): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (3): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (4): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (5): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (6): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (7): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (8): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (9): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (10): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (11): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+        )
+      )
+    )
+    (_highway_layer): TimeDistributed(
+      (_module): Highway(
+        (_layers): ModuleList()
+      )
+    )
+    (_phrase_layer): NullPhraseLayer()
+    (_dropout): Dropout(p=0.1)
+  )
+  (cola_mdl): SingleClassifier(
+    (pooler): Pooler()
+    (classifier): Classifier(
+      (classifier): Linear(in_features=768, out_features=2, bias=True)
+    )
+  )
+)
+>> Trainable param sent_encoder._text_field_embedder.model.embed.weight: torch.Size([40993, 768]) = 31482624
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.ln_2.b: torch.Size([768]) = 768
+>> Trainable param cola_mdl.classifier.classifier.weight: torch.Size([2, 768]) = 1536
+>> Trainable param cola_mdl.classifier.classifier.bias: torch.Size([2]) = 2
+Total number of parameters: 116538626 (1.16539e+08)
+Number of trainable parameters: 116538626 (1.16539e+08)
+	Finished building model in 5.138s
+Will run the following steps:
+Training model on tasks: cola
+Training...
+Setting t_total to 801, please ensure this is right for your task
+	Using ReduceLROnPlateau scheduler!
+patience = 8
+val_interval = 1000
+max_vals = 1000
+cuda_device = 0
+grad_norm = 1
+grad_clipping = None
+lr_decay = 0.99
+min_lr = 1e-06
+keep_all_checkpoints = 0
+val_data_limit = 5000
+dec_val_scale = 250
+training_data_fraction = 1
+Accumulating gradients over 1 forward passes
+type = openai_adam
+parameter_groups = None
+Converting Params object to dict; logging of default values will not occur when dictionary parameters are used subsequently.
+CURRENTLY DEFINED PARAMETERS: 
+lr = 6.25e-05
+schedule = warmup_linear
+l2 = 0.01
+warmup = 0.002
+max_grad_norm = 1
+t_total = 801
+type = reduce_on_plateau
+Converting Params object to dict; logging of default values will not occur when dictionary parameters are used subsequently.
+CURRENTLY DEFINED PARAMETERS: 
+mode = max
+factor = 0.5
+patience = 2
+threshold = 0.0001
+threshold_mode = abs
+verbose = True
+type = openai_adam
+parameter_groups = None
+Converting Params object to dict; logging of default values will not occur when dictionary parameters are used subsequently.
+CURRENTLY DEFINED PARAMETERS: 
+lr = 6.25e-05
+schedule = warmup_linear
+l2 = 0.01
+warmup = 0.002
+max_grad_norm = 1
+t_total = 801
+type = reduce_on_plateau
+Converting Params object to dict; logging of default values will not occur when dictionary parameters are used subsequently.
+CURRENTLY DEFINED PARAMETERS: 
+mode = max
+factor = 0.5
+patience = 2
+threshold = 0.0001
+threshold_mode = abs
+verbose = True
+Not loading.
+Training examples per task: {'cola': 8551}
+Sampling tasks proportional to number of training examples.
+Using weighting method: proportional, with normalized sample weights [1.] 
+Using loss scaling method: uniform, with weights {'cola': 1.0}
+Beginning training. Stopping metric: cola_mcc
+Update 32: task cola, batch 32 (32): mcc: 0.0186, accuracy: 0.6621, cola_loss: 0.6570 ||
+Update 69: task cola, batch 69 (69): mcc: 0.0421, accuracy: 0.6839, cola_loss: 0.6262 ||
+Update 106: task cola, batch 106 (106): mcc: 0.0709, accuracy: 0.6917, cola_loss: 0.6109 ||
+Update 143: task cola, batch 143 (143): mcc: 0.1112, accuracy: 0.7016, cola_loss: 0.5981 ||
+Update 180: task cola, batch 180 (180): mcc: 0.1751, accuracy: 0.7130, cola_loss: 0.5828 ||
+Update 217: task cola, batch 217 (217): mcc: 0.2096, accuracy: 0.7153, cola_loss: 0.5729 ||
+Update 254: task cola, batch 254 (254): mcc: 0.2408, accuracy: 0.7222, cola_loss: 0.5592 ||
+Update 289: task cola, batch 289 (289): mcc: 0.2936, accuracy: 0.7359, cola_loss: 0.5387 ||
+Update 326: task cola, batch 326 (326): mcc: 0.3479, accuracy: 0.7508, cola_loss: 0.5136 ||
+Update 363: task cola, batch 363 (363): mcc: 0.3886, accuracy: 0.7623, cola_loss: 0.4951 ||
+Update 400: task cola, batch 400 (400): mcc: 0.4099, accuracy: 0.7706, cola_loss: 0.4813 ||
+Update 437: task cola, batch 437 (437): mcc: 0.4278, accuracy: 0.7768, cola_loss: 0.4702 ||
+Update 474: task cola, batch 474 (474): mcc: 0.4478, accuracy: 0.7836, cola_loss: 0.4585 ||
+Update 511: task cola, batch 511 (511): mcc: 0.4701, accuracy: 0.7913, cola_loss: 0.4445 ||
+Update 546: task cola, batch 546 (546): mcc: 0.4901, accuracy: 0.7995, cola_loss: 0.4301 ||
+Update 583: task cola, batch 583 (583): mcc: 0.5187, accuracy: 0.8100, cola_loss: 0.4096 ||
+Update 620: task cola, batch 620 (620): mcc: 0.5402, accuracy: 0.8179, cola_loss: 0.3939 ||
+Update 657: task cola, batch 657 (657): mcc: 0.5607, accuracy: 0.8256, cola_loss: 0.3795 ||
+Update 694: task cola, batch 694 (694): mcc: 0.5780, accuracy: 0.8322, cola_loss: 0.3669 ||
+Update 731: task cola, batch 731 (731): mcc: 0.5934, accuracy: 0.8375, cola_loss: 0.3575 ||
+Update 768: task cola, batch 768 (768): mcc: 0.6042, accuracy: 0.8417, cola_loss: 0.3491 ||
+Finished warmup, stopping training
+***** Pass 801 / Epoch 0 *****
+cola: trained on 801 batches, 2.989 epochs
+Validating...
+Batch 12/33: mcc: 0.5872, accuracy: 0.8281, cola_loss: 0.5619 ||
+Best model found for cola.
+Best model found for micro.
+Best model found for macro.
+Advancing scheduler.
+	Best macro_avg: 0.530
+	# bad epochs: 0
+Statistic: cola_loss
+	training: 0.342056
+	validation: 0.664783
+Statistic: macro_avg
+	validation: 0.529668
+Statistic: micro_avg
+	validation: 0.529668
+Statistic: cola_mcc
+	training: 0.613839
+	validation: 0.529668
+Statistic: cola_accuracy
+	training: 0.845365
+	validation: 0.810163
+global_lr: 0.000063
+Saved files to /scratch/tjf324/jiant/repretrain/cola47
+Stopped training after 0 validation checks
+Trained cola for 801 batches or 2.989 epochs
+***** VALIDATION RESULTS *****
+cola_mcc, 0, cola_loss: 0.66478, macro_avg: 0.52967, micro_avg: 0.52967, cola_mcc: 0.52967, cola_accuracy: 0.81016
+micro_avg, 0, cola_loss: 0.66478, macro_avg: 0.52967, micro_avg: 0.52967, cola_mcc: 0.52967, cola_accuracy: 0.81016
+macro_avg, 0, cola_loss: 0.66478, macro_avg: 0.52967, micro_avg: 0.52967, cola_mcc: 0.52967, cola_accuracy: 0.81016
+In strict mode because train_for_eval is off. Will crash if any tasks are missing from the checkpoint.
+Loaded model state from /scratch/tjf324/jiant/repretrain/cola47/model_state_main_epoch_0.best_macro.th
+Done!
+Waiting on git info....
+Git branch: repretrain
+Git SHA: cccca433a4653f554048b637e448387c2db87633
+Parsed args: 
+{
+  "allow_missing_task_map": 1,
+  "allow_reuse_of_pretraining_parameters": 0,
+  "allow_untrained_encoder_parameters": 1,
+  "batch_size": 32,
+  "bidirectional": 1,
+  "bpp_base": 1,
+  "char_embs": 0,
+  "char_filter_sizes": "2,3,4,5",
+  "classifier": "log_reg",
+  "classifier_dropout": 0.2,
+  "classifier_hid_dim": 512,
+  "classifier_loss_fn": "",
+  "classifier_span_pooling": "x,y",
+  "cola": {},
+  "cola_classifier_dropout": 0.1,
+  "cola_classifier_hid_dim": 256,
+  "cola_d_proj": 768,
+  "cola_lr": 6.25e-05,
+  "cola_val_interval": 100,
+  "cove": 0,
+  "cove_fine_tune": 0,
+  "cuda": 0,
+  "d_char": 100,
+  "d_ff": 2048,
+  "d_hid": 1024,
+  "d_hid_attn": 512,
+  "d_proj": 512,
+  "d_tproj": 64,
+  "d_word": 300,
+  "data_dir": "/scratch/tjf324/data/glue_auto_dl",
+  "dec_val_scale": 250,
+  "do_eval": 1,
+  "do_train": 0,
+  "dropout": 0.1,
+  "dropout_embs": 0.1,
+  "edgeprobe_cnn_context": 0,
+  "edges-ccg-parse": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 500
+  },
+  "edges-ccg-tag": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 500
+  },
+  "edges-constituent-ontonotes": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 250,
+    "pair_attn": 0,
+    "val_interval": 1000
+  },
+  "edges-constituent-ptb": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 500
+  },
+  "edges-coref-ontonotes": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 500
+  },
+  "edges-coref-ontonotes-conll": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 250,
+    "pair_attn": 0,
+    "val_interval": 1000
+  },
+  "edges-dep-labeling": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 500
+  },
+  "edges-dep-labeling-ewt": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 250,
+    "pair_attn": 0,
+    "val_interval": 1000
+  },
+  "edges-dpr": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 100
+  },
+  "edges-ner-conll2003": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 250
+  },
+  "edges-ner-ontonotes": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 250,
+    "pair_attn": 0,
+    "val_interval": 1000
+  },
+  "edges-spr1": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 100
+  },
+  "edges-spr2": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 100
+  },
+  "edges-srl-conll2005": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 500
+  },
+  "edges-srl-conll2012": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 1000
+  },
+  "edges-tmpl": {
+    "classifier_dropout": 0.3,
+    "classifier_hid_dim": 256,
+    "classifier_loss_fn": "sigmoid",
+    "classifier_span_pooling": "attn",
+    "max_vals": 100,
+    "pair_attn": 0,
+    "val_interval": 500
+  },
+  "elmo": 0,
+  "elmo_chars_only": 1,
+  "elmo_finetune_all": 0,
+  "elmo_weight_file_path": "none",
+  "eval_data_absolute": -1,
+  "eval_data_fraction": 1,
+  "eval_max_vals": 1000,
+  "eval_tasks": "cola",
+  "eval_val_interval": 500,
+  "exp_dir": "/scratch/tjf324/jiant/repretrain/",
+  "exp_name": "repretrain",
+  "fake_sentence_detection_classifier_dropout": 0.1,
+  "fake_sentence_detection_d_proj": 768,
+  "fastText": 0,
+  "fastText_model_file": ".",
+  "global_ro_exp_dir": "/nfs/jsalt/share/exp/default",
+  "gradient_accumulation_passes": 1,
+  "grounded": {},
+  "grounded_d_proj": 2048,
+  "groundedsw": {},
+  "groundedsw_d_proj": 2048,
+  "is_probing_task": 0,
+  "keep_all_checkpoints": 0,
+  "load_eval_checkpoint": "none",
+  "load_model": 0,
+  "local_log_path": "/scratch/tjf324/jiant/repretrain/cola47/log.log",
+  "lr": 6.25e-05,
+  "lr_decay_factor": 0.5,
+  "max_char_v_size": 250,
+  "max_grad_norm": 1,
+  "max_seq_len": 50,
+  "max_targ_word_v_size": 20000,
+  "max_vals": 1000,
+  "max_word_v_size": 30000,
+  "min_lr": 1e-06,
+  "mnli": {},
+  "mnli-alt": {},
+  "mnli-alt_classifier_dropout": 0.2,
+  "mnli-alt_classifier_hid_dim": 512,
+  "mnli-alt_lr": 0.0003,
+  "mnli-alt_pair_attn": 1,
+  "mnli-alt_val_interval": 1000,
+  "mnli-diagnostic": {
+    "use_classifier": "mnli"
+  },
+  "mnli_classifier_dropout": 0.2,
+  "mnli_classifier_hid_dim": 512,
+  "mnli_lr": 0.0003,
+  "mnli_pair_attn": 1,
+  "mnli_single_seq_classifier_dropout": 0.1,
+  "mnli_single_seq_d_proj": 768,
+  "mnli_val_interval": 1000,
+  "mrpc": {},
+  "mrpc_classifier_dropout": 0.2,
+  "mrpc_classifier_hid_dim": 256,
+  "mrpc_d_proj": 256,
+  "mrpc_double_sim_classifier_dropout": 0.1,
+  "mrpc_double_sim_d_proj": 768,
+  "mrpc_lr": 0.0003,
+  "mrpc_pair_attn": 0,
+  "mrpc_single_seq_classifier_dropout": 0.1,
+  "mrpc_single_seq_d_proj": 768,
+  "mrpc_val_interval": 100,
+  "n_char_filters": 100,
+  "n_heads": 8,
+  "n_layers_enc": 2,
+  "n_layers_highway": 0,
+  "n_sent_train": 8551,
+  "nli-prob": {
+    "probe_path": ""
+  },
+  "num_epoch_openai_finetune": 3,
+  "openai_finetune_lm": 0,
+  "openai_lm_weight": 0.5,
+  "openai_nonlm_weight": 1.0,
+  "openai_transformer": 1,
+  "openai_transformer_fine_tune": 1,
+  "openai_transformer_fine_tune_min_layer": -1,
+  "optimizer": "openai_adam",
+  "pair_attn": 0,
+  "patience": 8,
+  "project_dir": "/scratch/tjf324/jiant",
+  "project_pooler": 0,
+  "qnli": {},
+  "qnli-alt": {},
+  "qnli-alt_classifier_dropout": 0.2,
+  "qnli-alt_classifier_hid_dim": 512,
+  "qnli-alt_lr": 0.0003,
+  "qnli-alt_pair_attn": 1,
+  "qnli-alt_val_interval": 1000,
+  "qnli_classifier_dropout": 0.2,
+  "qnli_classifier_hid_dim": 512,
+  "qnli_lr": 0.0003,
+  "qnli_pair_attn": 1,
+  "qnli_single_seq_classifier_dropout": 0.1,
+  "qnli_single_seq_d_proj": 768,
+  "qnli_val_interval": 1000,
+  "qqp": {},
+  "qqp-alt": {},
+  "qqp-alt_classifier_dropout": 0.2,
+  "qqp-alt_classifier_hid_dim": 512,
+  "qqp-alt_lr": 0.0003,
+  "qqp-alt_pair_attn": 1,
+  "qqp-alt_val_interval": 1000,
+  "qqp_classifier_dropout": 0.2,
+  "qqp_classifier_hid_dim": 512,
+  "qqp_double_sim_classifier_dropout": 0.1,
+  "qqp_double_sim_d_proj": 768,
+  "qqp_lr": 0.0003,
+  "qqp_pair_attn": 1,
+  "qqp_val_interval": 1000,
+  "random_seed": 47,
+  "reddit_sarcasm_classifier_dropout": 0.1,
+  "reddit_sarcasm_d_proj": 768,
+  "reindex_tasks": "",
+  "reload_indexing": 0,
+  "reload_tasks": 0,
+  "reload_vocab": 0,
+  "remote_log_name": "repretrain__cola47",
+  "rte": {},
+  "rte_classifier_dropout": 0.4,
+  "rte_classifier_hid_dim": 128,
+  "rte_d_proj": 128,
+  "rte_lr": 0.0003,
+  "rte_pair_attn": 0,
+  "rte_single_seq_classifier_dropout": 0.1,
+  "rte_single_seq_d_proj": 768,
+  "rte_val_interval": 100,
+  "run_dir": "/scratch/tjf324/jiant/repretrain/cola47",
+  "run_name": "cola47",
+  "run_prefix": "many_reruns_",
+  "s2s": {
+    "attention": "bilinear",
+    "d_hid_dec": 1024,
+    "n_layers_dec": 1,
+    "output_proj_input_dim": 1024,
+    "target_embedding_dim": 300
+  },
+  "scaling_method": "uniform",
+  "scheduler_threshold": 0.0001,
+  "sent_enc": "null",
+  "sep_embs_for_skip": 1,
+  "shared_optimizer": 1,
+  "shared_pair_attn": 0,
+  "skip_embs": 1,
+  "sst": {},
+  "sst_classifier_dropout": 0.1,
+  "sst_classifier_hid_dim": 256,
+  "sst_d_proj": 768,
+  "sst_lr": 6.25e-05,
+  "sst_val_interval": 100,
+  "sts-b": {},
+  "sts-b-alt": {},
+  "sts-b-alt_classifier_dropout": 0.2,
+  "sts-b-alt_classifier_hid_dim": 512,
+  "sts-b-alt_lr": 0.0003,
+  "sts-b-alt_pair_attn": 1,
+  "sts-b-alt_val_interval": 1000,
+  "sts-b_classifier_dropout": 0.2,
+  "sts-b_classifier_hid_dim": 512,
+  "sts-b_lr": 0.0003,
+  "sts-b_pair_attn": 1,
+  "sts-b_val_interval": 1000,
+  "stsb_double_sim_classifier_dropout": 0.1,
+  "stsb_double_sim_d_proj": 768,
+  "task_patience": 2,
+  "track_batch_utilization": 0,
+  "train_for_eval": 0,
+  "train_tasks": "cola",
+  "trainer_type": "sampling",
+  "training_data_absolute": -1,
+  "training_data_fraction": 1,
+  "use_classifier": "",
+  "val_data_limit": 5000,
+  "val_interval": 1000,
+  "warmup": 4000,
+  "weighted_openai_transformer": 0,
+  "weighted_openai_transformer_only_fine_tune_weights": 0,
+  "weighting_method": "proportional",
+  "wnli": {},
+  "wnli_classifier_dropout": 0.4,
+  "wnli_classifier_hid_dim": 128,
+  "wnli_d_proj": 128,
+  "wnli_lr": 0.0003,
+  "wnli_pair_attn": 0,
+  "wnli_single_seq_classifier_dropout": 0.1,
+  "wnli_single_seq_d_proj": 768,
+  "wnli_val_interval": 100,
+  "word_embs": "none",
+  "word_embs_file": "/scratch/tjf324/data/fastext/crawl-200d-2M.vec",
+  "write_preds": "val,test",
+  "write_strict_glue_format": 0
+}
+Saved config to /scratch/tjf324/jiant/repretrain/cola47/params.conf
+Using random seed 47
+Using GPU 0
+Loading tasks...
+Writing pre-preprocessed tasks to /scratch/tjf324/jiant/repretrain/
+	Loaded existing task cola
+	Task 'cola': train=8551 val=1043 test=1063
+	Finished loading tasks: cola.
+Loading token dictionary from /scratch/tjf324/jiant/repretrain/vocab.
+	Loaded vocab from /scratch/tjf324/jiant/repretrain/vocab
+	Vocab namespace chars: size 62
+	Vocab namespace tokens: size 6047
+	Vocab namespace openai_bpe: size 40483
+	Finished building vocab.
+	Task 'cola', split 'train': Found preprocessed copy in /scratch/tjf324/jiant/repretrain/preproc/cola__train_data
+	Task 'cola', split 'val': Found preprocessed copy in /scratch/tjf324/jiant/repretrain/preproc/cola__val_data
+	Task 'cola', split 'test': Found preprocessed copy in /scratch/tjf324/jiant/repretrain/preproc/cola__test_data
+	Task 'cola': cleared in-memory data.
+	Finished indexing tasks
+	Lazy-loading indexed data for task='cola' from /scratch/tjf324/jiant/repretrain/preproc
+All tasks initialized with data iterators.
+	  Training on cola
+	  Evaluating on cola
+	Finished loading tasks in 0.051s
+	 Tasks: ['cola']
+Building model...
+Using OpenAI transformer model; skipping other embedders.
+Loading OpenAI transformer model from /home/tjf324/jiant/src/openai_transformer_lm/tf_original/model/
+Loaded OpenAI transformer model.
+Initializing parameters
+Done initializing parameters; the following parameters are using their default initialization from their code
+   _text_field_embedder.model.embed.weight
+   _text_field_embedder.model.h.0.attn.c_attn.b
+   _text_field_embedder.model.h.0.attn.c_attn.w
+   _text_field_embedder.model.h.0.attn.c_proj.b
+   _text_field_embedder.model.h.0.attn.c_proj.w
+   _text_field_embedder.model.h.0.ln_1.b
+   _text_field_embedder.model.h.0.ln_1.g
+   _text_field_embedder.model.h.0.ln_2.b
+   _text_field_embedder.model.h.0.ln_2.g
+   _text_field_embedder.model.h.0.mlp.c_fc.b
+   _text_field_embedder.model.h.0.mlp.c_fc.w
+   _text_field_embedder.model.h.0.mlp.c_proj.b
+   _text_field_embedder.model.h.0.mlp.c_proj.w
+   _text_field_embedder.model.h.1.attn.c_attn.b
+   _text_field_embedder.model.h.1.attn.c_attn.w
+   _text_field_embedder.model.h.1.attn.c_proj.b
+   _text_field_embedder.model.h.1.attn.c_proj.w
+   _text_field_embedder.model.h.1.ln_1.b
+   _text_field_embedder.model.h.1.ln_1.g
+   _text_field_embedder.model.h.1.ln_2.b
+   _text_field_embedder.model.h.1.ln_2.g
+   _text_field_embedder.model.h.1.mlp.c_fc.b
+   _text_field_embedder.model.h.1.mlp.c_fc.w
+   _text_field_embedder.model.h.1.mlp.c_proj.b
+   _text_field_embedder.model.h.1.mlp.c_proj.w
+   _text_field_embedder.model.h.10.attn.c_attn.b
+   _text_field_embedder.model.h.10.attn.c_attn.w
+   _text_field_embedder.model.h.10.attn.c_proj.b
+   _text_field_embedder.model.h.10.attn.c_proj.w
+   _text_field_embedder.model.h.10.ln_1.b
+   _text_field_embedder.model.h.10.ln_1.g
+   _text_field_embedder.model.h.10.ln_2.b
+   _text_field_embedder.model.h.10.ln_2.g
+   _text_field_embedder.model.h.10.mlp.c_fc.b
+   _text_field_embedder.model.h.10.mlp.c_fc.w
+   _text_field_embedder.model.h.10.mlp.c_proj.b
+   _text_field_embedder.model.h.10.mlp.c_proj.w
+   _text_field_embedder.model.h.11.attn.c_attn.b
+   _text_field_embedder.model.h.11.attn.c_attn.w
+   _text_field_embedder.model.h.11.attn.c_proj.b
+   _text_field_embedder.model.h.11.attn.c_proj.w
+   _text_field_embedder.model.h.11.ln_1.b
+   _text_field_embedder.model.h.11.ln_1.g
+   _text_field_embedder.model.h.11.ln_2.b
+   _text_field_embedder.model.h.11.ln_2.g
+   _text_field_embedder.model.h.11.mlp.c_fc.b
+   _text_field_embedder.model.h.11.mlp.c_fc.w
+   _text_field_embedder.model.h.11.mlp.c_proj.b
+   _text_field_embedder.model.h.11.mlp.c_proj.w
+   _text_field_embedder.model.h.2.attn.c_attn.b
+   _text_field_embedder.model.h.2.attn.c_attn.w
+   _text_field_embedder.model.h.2.attn.c_proj.b
+   _text_field_embedder.model.h.2.attn.c_proj.w
+   _text_field_embedder.model.h.2.ln_1.b
+   _text_field_embedder.model.h.2.ln_1.g
+   _text_field_embedder.model.h.2.ln_2.b
+   _text_field_embedder.model.h.2.ln_2.g
+   _text_field_embedder.model.h.2.mlp.c_fc.b
+   _text_field_embedder.model.h.2.mlp.c_fc.w
+   _text_field_embedder.model.h.2.mlp.c_proj.b
+   _text_field_embedder.model.h.2.mlp.c_proj.w
+   _text_field_embedder.model.h.3.attn.c_attn.b
+   _text_field_embedder.model.h.3.attn.c_attn.w
+   _text_field_embedder.model.h.3.attn.c_proj.b
+   _text_field_embedder.model.h.3.attn.c_proj.w
+   _text_field_embedder.model.h.3.ln_1.b
+   _text_field_embedder.model.h.3.ln_1.g
+   _text_field_embedder.model.h.3.ln_2.b
+   _text_field_embedder.model.h.3.ln_2.g
+   _text_field_embedder.model.h.3.mlp.c_fc.b
+   _text_field_embedder.model.h.3.mlp.c_fc.w
+   _text_field_embedder.model.h.3.mlp.c_proj.b
+   _text_field_embedder.model.h.3.mlp.c_proj.w
+   _text_field_embedder.model.h.4.attn.c_attn.b
+   _text_field_embedder.model.h.4.attn.c_attn.w
+   _text_field_embedder.model.h.4.attn.c_proj.b
+   _text_field_embedder.model.h.4.attn.c_proj.w
+   _text_field_embedder.model.h.4.ln_1.b
+   _text_field_embedder.model.h.4.ln_1.g
+   _text_field_embedder.model.h.4.ln_2.b
+   _text_field_embedder.model.h.4.ln_2.g
+   _text_field_embedder.model.h.4.mlp.c_fc.b
+   _text_field_embedder.model.h.4.mlp.c_fc.w
+   _text_field_embedder.model.h.4.mlp.c_proj.b
+   _text_field_embedder.model.h.4.mlp.c_proj.w
+   _text_field_embedder.model.h.5.attn.c_attn.b
+   _text_field_embedder.model.h.5.attn.c_attn.w
+   _text_field_embedder.model.h.5.attn.c_proj.b
+   _text_field_embedder.model.h.5.attn.c_proj.w
+   _text_field_embedder.model.h.5.ln_1.b
+   _text_field_embedder.model.h.5.ln_1.g
+   _text_field_embedder.model.h.5.ln_2.b
+   _text_field_embedder.model.h.5.ln_2.g
+   _text_field_embedder.model.h.5.mlp.c_fc.b
+   _text_field_embedder.model.h.5.mlp.c_fc.w
+   _text_field_embedder.model.h.5.mlp.c_proj.b
+   _text_field_embedder.model.h.5.mlp.c_proj.w
+   _text_field_embedder.model.h.6.attn.c_attn.b
+   _text_field_embedder.model.h.6.attn.c_attn.w
+   _text_field_embedder.model.h.6.attn.c_proj.b
+   _text_field_embedder.model.h.6.attn.c_proj.w
+   _text_field_embedder.model.h.6.ln_1.b
+   _text_field_embedder.model.h.6.ln_1.g
+   _text_field_embedder.model.h.6.ln_2.b
+   _text_field_embedder.model.h.6.ln_2.g
+   _text_field_embedder.model.h.6.mlp.c_fc.b
+   _text_field_embedder.model.h.6.mlp.c_fc.w
+   _text_field_embedder.model.h.6.mlp.c_proj.b
+   _text_field_embedder.model.h.6.mlp.c_proj.w
+   _text_field_embedder.model.h.7.attn.c_attn.b
+   _text_field_embedder.model.h.7.attn.c_attn.w
+   _text_field_embedder.model.h.7.attn.c_proj.b
+   _text_field_embedder.model.h.7.attn.c_proj.w
+   _text_field_embedder.model.h.7.ln_1.b
+   _text_field_embedder.model.h.7.ln_1.g
+   _text_field_embedder.model.h.7.ln_2.b
+   _text_field_embedder.model.h.7.ln_2.g
+   _text_field_embedder.model.h.7.mlp.c_fc.b
+   _text_field_embedder.model.h.7.mlp.c_fc.w
+   _text_field_embedder.model.h.7.mlp.c_proj.b
+   _text_field_embedder.model.h.7.mlp.c_proj.w
+   _text_field_embedder.model.h.8.attn.c_attn.b
+   _text_field_embedder.model.h.8.attn.c_attn.w
+   _text_field_embedder.model.h.8.attn.c_proj.b
+   _text_field_embedder.model.h.8.attn.c_proj.w
+   _text_field_embedder.model.h.8.ln_1.b
+   _text_field_embedder.model.h.8.ln_1.g
+   _text_field_embedder.model.h.8.ln_2.b
+   _text_field_embedder.model.h.8.ln_2.g
+   _text_field_embedder.model.h.8.mlp.c_fc.b
+   _text_field_embedder.model.h.8.mlp.c_fc.w
+   _text_field_embedder.model.h.8.mlp.c_proj.b
+   _text_field_embedder.model.h.8.mlp.c_proj.w
+   _text_field_embedder.model.h.9.attn.c_attn.b
+   _text_field_embedder.model.h.9.attn.c_attn.w
+   _text_field_embedder.model.h.9.attn.c_proj.b
+   _text_field_embedder.model.h.9.attn.c_proj.w
+   _text_field_embedder.model.h.9.ln_1.b
+   _text_field_embedder.model.h.9.ln_1.g
+   _text_field_embedder.model.h.9.ln_2.b
+   _text_field_embedder.model.h.9.ln_2.g
+   _text_field_embedder.model.h.9.mlp.c_fc.b
+   _text_field_embedder.model.h.9.mlp.c_fc.w
+   _text_field_embedder.model.h.9.mlp.c_proj.b
+   _text_field_embedder.model.h.9.mlp.c_proj.w
+No shared encoder (just using word embeddings)!
+Converting Params object to dict; logging of default values will not occur when dictionary parameters are used subsequently.
+CURRENTLY DEFINED PARAMETERS: 
+cls_type = log_reg
+d_hid = 256
+d_proj = 768
+shared_pair_attn = 0
+attn = 0
+d_hid_attn = 512
+dropout = 0.1
+cls_loss_fn = 
+cls_span_pooling = x,y
+edgeprobe_cnn_context = 0
+use_classifier = cola
+	Task 'cola' params: {
+  "cls_type": "log_reg",
+  "d_hid": 256,
+  "d_proj": 768,
+  "shared_pair_attn": 0,
+  "attn": 0,
+  "d_hid_attn": 512,
+  "dropout": 0.1,
+  "cls_loss_fn": "",
+  "cls_span_pooling": "x,y",
+  "edgeprobe_cnn_context": 0,
+  "use_classifier": "cola"
+}
+Using pool type final
+MultiTaskModel(
+  (sent_encoder): SentenceEncoder(
+    (_text_field_embedder): OpenAIEmbedderModule(
+      (model): TransformerModel(
+        (embed): Embedding(40993, 768)
+        (drop): Dropout(p=0.1)
+        (h): ModuleList(
+          (0): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (1): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (2): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (3): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (4): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (5): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (6): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (7): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (8): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (9): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (10): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+          (11): Block(
+            (attn): Attention(
+              (c_attn): Conv1D()
+              (c_proj): Conv1D()
+              (attn_dropout): Dropout(p=0.1)
+              (resid_dropout): Dropout(p=0.1)
+            )
+            (ln_1): LayerNorm()
+            (mlp): MLP(
+              (c_fc): Conv1D()
+              (c_proj): Conv1D()
+              (dropout): Dropout(p=0.1)
+            )
+            (ln_2): LayerNorm()
+          )
+        )
+      )
+    )
+    (_highway_layer): TimeDistributed(
+      (_module): Highway(
+        (_layers): ModuleList()
+      )
+    )
+    (_phrase_layer): NullPhraseLayer()
+    (_dropout): Dropout(p=0.1)
+  )
+  (cola_mdl): SingleClassifier(
+    (pooler): Pooler()
+    (classifier): Classifier(
+      (classifier): Linear(in_features=768, out_features=2, bias=True)
+    )
+  )
+)
+>> Trainable param sent_encoder._text_field_embedder.model.embed.weight: torch.Size([40993, 768]) = 31482624
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.0.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.1.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.2.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.3.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.4.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.5.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.6.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.7.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.8.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.9.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.10.ln_2.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.attn.c_attn.w: torch.Size([768, 2304]) = 1769472
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.attn.c_attn.b: torch.Size([2304]) = 2304
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.attn.c_proj.w: torch.Size([768, 768]) = 589824
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.attn.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.ln_1.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.ln_1.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.mlp.c_fc.w: torch.Size([768, 3072]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.mlp.c_fc.b: torch.Size([3072]) = 3072
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.mlp.c_proj.w: torch.Size([3072, 768]) = 2359296
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.mlp.c_proj.b: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.ln_2.g: torch.Size([768]) = 768
+>> Trainable param sent_encoder._text_field_embedder.model.h.11.ln_2.b: torch.Size([768]) = 768
+>> Trainable param cola_mdl.classifier.classifier.weight: torch.Size([2, 768]) = 1536
+>> Trainable param cola_mdl.classifier.classifier.bias: torch.Size([2]) = 2
+Total number of parameters: 116538626 (1.16539e+08)
+Number of trainable parameters: 116538626 (1.16539e+08)
+	Finished building model in 4.723s
+Will run the following steps:
+Evaluating model on tasks: cola
+In strict mode because train_for_eval is off. Will crash if any tasks are missing from the checkpoint.
+Loaded model state from /scratch/tjf324/jiant/repretrain/cola47/model_state_main_epoch_0.best_macro.th
+Evaluating...
+Evaluating on: cola, split: val
+Task 'cola': sorting predictions by 'idx'
+Finished evaluating on: cola
+Wrote predictions for task: cola
+Task 'cola': Wrote predictions to /scratch/tjf324/jiant/repretrain/cola47
+Wrote all preds for split 'val' to /scratch/tjf324/jiant/repretrain/cola47
+Evaluating on: cola, split: test
+Task 'cola': sorting predictions by 'idx'
+Finished evaluating on: cola
+Wrote predictions for task: cola
+Task 'cola': Wrote predictions to /scratch/tjf324/jiant/repretrain/cola47
+Wrote all preds for split 'test' to /scratch/tjf324/jiant/repretrain/cola47
+Writing results for split 'val' to /scratch/tjf324/jiant/repretrain/results.tsv
+micro_avg: 0.530, macro_avg: 0.530, cola_mcc: 0.530, cola_accuracy: 0.810
+Done!

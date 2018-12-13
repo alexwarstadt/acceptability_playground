@@ -1,0 +1,1044 @@
+index	prediction	sentence_1	sentence_2	true_label
+0	1	the</w> sailors</w> rode</w> the</w> breeze</w> clear</w> of</w> the</w> rocks</w> .</w>		1
+1	1	the</w> weights</w> made</w> the</w> rope</w> stretch</w> over</w> the</w> pul ley</w> .</w>		1
+2	0	the</w> mechanical</w> doll</w> wriggled</w> itself</w> loose</w> .</w>		1
+3	1	if</w> you</w> had</w> eaten</w> more</w> ,</w> you</w> would</w> want</w> less</w> .</w>		1
+4	1	as</w> you</w> eat</w> the</w> most</w> ,</w> you</w> want</w> the</w> least</w> .</w>		0
+5	1	the</w> more</w> you</w> would</w> want</w> ,</w> the</w> less</w> you</w> would</w> eat</w> .</w>		0
+6	0	i</w> demand</w> that</w> the</w> more</w> john</w> eat</w> ,</w> the</w> more</w> he</w> pays</w> .</w>		0
+7	1	mary</w> listens</w> to</w> the</w> grateful</w> dead</w> ,</w> she</w> gets</w> depressed</w> .</w>		1
+8	1	the</w> angrier</w> mary</w> got</w> ,</w> the</w> more</w> she</w> looked</w> at</w> pictures</w> .</w>		1
+9	1	the</w> higher</w> the</w> stakes</w> ,</w> the</w> lower</w> his</w> expectations</w> are</w> .</w>		1
+10	1	the</w> more</w> fred</w> is</w> obnoxious</w> ,</w> the</w> less</w> attention</w> you</w> should</w> pay</w> to</w> him</w> .</w>		1
+11	1	john</w> was</w> lots</w> more</w> obnoxious</w> than</w> fred</w> .</w>		1
+12	1	the</w> more</w> people</w> you</w> give</w> beer</w> to</w> ,</w> the</w> more</w> people</w> get</w> sick</w> .</w>		1
+13	0	the</w> more</w> does</w> bill</w> smoke</w> ,</w> the</w> more</w> susan</w> hates</w> him</w> .</w>		0
+14	1	the</w> more</w> pictures</w> of</w> him</w> that</w> appear</w> in</w> the</w> news</w> ,</w> the</w> more</w> embarrassed</w> john</w> becomes</w> .</w>		1
+15	1	every</w> senator</w> seems</w> to</w> become</w> more</w> corrupt</w> ,</w> as</w> he</w> talks</w> to</w> more</w> lobb yi sts</w> .</w>		1
+16	0	who</w> does</w> john</w> visit</w> sally</w> because</w> he</w> likes</w> ?</w>		0
+17	1	marianne</w> did</w> not</w> leave</w> .</w>		1
+18	1	he</w> could</w> not</w> ]</w> have</w> been</w> working</w> .</w>		1
+19	1	he</w> can</w> not</w> have</w> been</w> working</w> .</w>		1
+20	1	you</w> will</w> believe</w> bob</w> .</w>		1
+21	1	john</w> has</w> not</w> kissed</w> mary</w> .</w>		1
+22	1	i</w> said</w> that</w> never</w> in</w> my</w> life</w> had</w> i</w> seen</w> a</w> place</w> like</w> bangor</w> .</w>		1
+23	0	mickey</w> looked</w> up</w> it</w> .</w>		0
+24	1	there</w> tended</w> to</w> be</w> a</w> lot</w> of</w> discussion</w> .</w>		1
+25	1	john</w> tried</w> to</w> be</w> a</w> good</w> boy</w> .</w>		1
+26	1	john</w> is</w> eager</w> .</w>		1
+27	1	we</w> want</w> john</w> to</w> win</w> .</w>		1
+28	1	the</w> box</w> contained</w> the</w> ball</w> from</w> the</w> tree</w> .</w>		0
+29	1	the</w> tube</w> was</w> escaped</w> by</w> gas</w> .</w>		0
+30	1	water</w> bubbled</w> up</w> out</w> of</w> the</w> kettle</w> .</w>		1
+31	1	the</w> tub</w> leaked</w> water</w> .</w>		1
+32	1	what</w> the</w> water</w> did</w> to</w> the</w> bottle</w> was</w> fill</w> it</w> .</w>		0
+33	1	what</w> the</w> water</w> did</w> to</w> the</w> whole</w> bottle</w> was</w> fill</w> it</w> .</w>		0
+34	1	the</w> tank</w> leaked</w> the</w> fluid</w> free</w> .</w>		1
+35	1	john</w> lay</w> the</w> ball</w> in</w> the</w> box</w> .</w>		1
+36	1	john</w> owns</w> the</w> book</w> .</w>		1
+37	1	we</w> persuaded</w> mary</w> to</w> leave</w> and</w> sue</w> to</w> stay</w> .</w>		1
+38	0	most</w> people</w> probably</w> consider</w> ,</w> even</w> though</w> the</w> courts</w> did</w> n't</w> actually</w> find</w> ,</w> klaus</w> guilty</w> of</w> murder</w> .</w>		1
+39	0	mary</w> beautifully</w> plays</w> the</w> violin</w> .</w>		0
+40	1	clearly</w> ,</w> john</w> probably</w> will</w> immediately</w> learn</w> french</w> perfectly</w> .</w>		1
+41	1	sue</w> gave</w> to</w> bill</w> a</w> book</w> .</w>		0
+42	1	the</w> men</w> will</w> all</w> leave</w> .</w>		1
+43	1	john</w> went</w> home</w> .</w>		1
+44	0	they</w> represented</w> seriously</w> to</w> the</w> dean</w> mary</w> as</w> a</w> genuine</w> lingu ist</w> .</w>		0
+45	0	us</w> love</w> they</w> .</w>		0
+46	1	it</w> is</w> nice</w> to</w> go</w> abroad</w> .</w>		1
+47	1	mary</w> intended</w> john</w> to</w> go</w> abroad</w> .</w>		0
+48	1	i</w> remembered</w> having</w> kissed</w> mary</w> .</w>		1
+49	1	i</w> ca</w> n't</w> believe</w> fred</w> wo</w> n't</w> ,</w> either</w> .</w>		1
+50	1	john</w> wants</w> to</w> read</w> fred</w> 's</w> story</w> ,</w> and</w> i</w> also</w> want</w> to</w> .</w>		1
+51	0	we</w> wanted</w> to</w> invite</w> someone</w> ,</w> but</w> we</w> could</w> n't</w> decide</w> who</w> to</w> .</w>		0
+52	1	mary</w> will</w> read</w> fred</w> 's</w> story</w> ,</w> and</w> joe</w> will</w> read</w> holly</w> 's</w> .</w>		1
+53	1	mary</w> claimed</w> that</w> eating</w> cabbage</w> ,</w> holly</w> should</w> n't</w> .</w>		1
+54	0	mary</w> came</w> to</w> be</w> introduced</w> by</w> the</w> bartender</w> and</w> i</w> also</w> came</w> to</w> be</w> .</w>		0
+55	1	if</w> i</w> can</w> ,</w> i</w> will</w> work</w> on</w> it</w> .</w>		1
+56	1	joe</w> 's</w> neu roses</w> bother</w> his</w> patrons</w> ,</w> and</w> sally</w> does</w> too</w> .</w>		1
+57	0	i</w> know</w> which</w> book</w> jo s é</w> did</w> n't</w> read</w> for</w> class</w> ,</w> and</w> which</w> book</w> lilly</w> did</w> it</w> for</w> him</w> .</w>		0
+58	1	this</w> is</w> the</w> book</w> which</w> bob</w> reviewed</w> ,</w> and</w> this</w> is</w> the</w> one</w> which</w> fred</w> wo</w> n't</w> do</w> it</w> .</w>		0
+59	1	i</w> know</w> which</w> book</w> mag</w> read</w> ,</w> and</w> which</w> book</w> bob</w> said</w> that</w> you</w> had</w> n't</w> .</w>		1
+60	0	i</w> know</w> which</w> book</w> mag</w> read</w> ,</w> and</w> which</w> book</w> bob</w> read</w> my</w> report</w> that</w> you</w> had</w> n't</w> .</w>		0
+61	1	i</w> 'm</w> sure</w> i</w> would</w> like</w> him</w> to</w> eat</w> fruit</w> more</w> than</w> i</w> would</w> cookies</w> .</w>		1
+62	0	rusty</w> talked</w> about</w> himself</w> only</w> after</w> mary</w> did</w> talk</w> about</w> him</w> .</w>		1
+63	0	fred</w> talked</w> about</w> everything</w> before</w> rusty</w> did</w> talk</w> about</w> something</w> .</w>		1
+64	1	john</w> often</w> meets</w> mary</w> .</w>		1
+65	0	the</w> problem</w> percei ves</w> easily</w> .</w>		0
+66	1	a</w> hundred</w> men</w> surrounded</w> the</w> fort</w> .</w>		1
+67	0	we</w> elected</w> me</w> .</w>		1
+68	1	which</w> report</w> that</w> john</w> was</w> incompetent</w> did</w> he</w> submit</w> ?</w>		0
+69	1	mary</w> has</w> always</w> preferred</w> lemons</w> to</w> li mes</w> .</w>		1
+70	0	he</w> let</w> the</w> cats</w> which</w> were</w> whining</w> out</w> .</w>		1
+71	1	what</w> did</w> bill</w> buy</w> ?</w>		1
+72	1	mary</w> saw</w> the</w> boy</w> walking</w> toward</w> the</w> railroad</w> station</w> .</w>		1
+73	0	a</w> proof</w> that</w> the</w> claim</w> had</w> been</w> .</w> made</w> was</w> giver</w> that</w> john</w> had</w> lied</w> .</w>		0
+74	1	he</w> attributed</w> to</w> a</w> short</w> circuit</w> which</w> was</w> caused</w> by</w> an</w> overloaded</w> trans du cer</w> the</w> fire</w> which</w> destroyed</w> most</w> of</w> my</w> factory</w> .</w>		1
+75	0	the</w> mayor</w> regarded</w> as</w> being</w> absurd</w> the</w> proposal</w> to</w> build</w> a</w> sidewalk</w> from</w> dart mouth</w> to</w> smith</w> .</w>		0
+76	1	i</w> want</w> that</w> bill</w> left</w> to</w> remain</w> a</w> secret</w> .</w>		0
+77	1	i</w> know</w> a</w> man</w> who</w> tom</w> drives</w> as</w> drives</w> .</w>		0
+78	1	drowning</w> cats</w> ,</w> which</w> is</w> against</w> the</w> law</w> ,</w> are</w> hard</w> to</w> rescue</w> .</w>		0
+79	1	muriel</w> said</w> nothing</w> else</w> than</w> that</w> she</w> had</w> been</w> insulted</w> .</w>		1
+80	0	himself</w> is</w> understood</w> by</w> rutherford</w> .</w>		0
+81	1	i</w> feel</w> that</w> arch</w> will</w> show</w> up</w> .</w>		1
+82	1	the</w> proof</w> this</w> set</w> is</w> recur sive</w> is</w> difficult</w> .</w>		0
+83	0	the</w> madri gals</w> which</w> henry</w> plays</w> the</w> lute</w> and</w> sings</w> sound</w> lousy</w> .</w>		0
+84	1	tom</w> picked</w> these</w> grapes</w> ,</w> and</w> i</w> washed</w> some</w> tur nips</w> ,</w> and</w> suzie</w> will</w> prepare</w> these</w> grapes</w> .</w>		1
+85	1	where</w> did</w> you</w> go</w> and</w> who</w> ate</w> what</w> ?</w>		1
+86	0	which</w> boy</w> 's</w> did</w> we</w> elect</w> guardian</w> 's</w> employer</w> president</w> ?</w>		0
+87	1	how</w> sane</w> is</w> peter</w> ?</w>		1
+88	1	i</w> live</w> at</w> the</w> place</w> where</w> route</w> 150</w> crosses</w> the</w> river</w> and</w> my</w> dad</w> lives</w> at</w> the</w> place</w> where</w> route</w> 150</w> crosses</w> the</w> hudson</w> river</w> too</w> .</w>		1
+89	1	i</w> live</w> at</w> the</w> place</w> where</w> route</w> 150</w> crosses</w> the</w> hudson</w> river</w> and</w> my</w> dad</w> lives</w> at</w> it</w> too</w> .</w>		0
+90	0	who</w> is</w> she</w> trying</w> to</w> make</w> up</w> to</w> now</w> ?</w>		1
+91	1	wind</w> was</w> gotten</w> of</w> a</w> plot</w> to</w> negotiate</w> an</w> honorable</w> end</w> to</w> the</w> war</w> in</w> vietnam</w> .</w>		0
+92	1	mike</w> talked</w> about</w> politics</w> yesterday</w> to</w> my</w> friends</w> .</w>		1
+93	1	it</w> was</w> expected</w> by</w> the</w> reporters</w> that</w> the</w> principal</w> would</w> fire</w> some</w> teacher</w> .</w>		1
+94	1	which</w> hat</w> did</w> mike</w> quip</w> that</w> she</w> never</w> wore</w> ?</w>		0
+95	1	which</w> girl</w> did</w> mike</w> quip</w> never</w> wore</w> this</w> hat</w> ?</w>		0
+96	1	we</w> donated</w> wire</w> for</w> the</w> convicts</w> to</w> build</w> cages</w> with</w> .</w>		1
+97	1	i</w> wo</w> n't</w> have</w> some</w> money</w> .</w>		0
+98	1	do</w> you</w> believe</w> the</w> claim</w> that</w> somebody</w> was</w> looking</w> for</w> something</w> ?</w>		1
+99	1	i</w> wo</w> n't</w> ask</w> you</w> to</w> believe</w> that</w> he</w> tried</w> to</w> force</w> me</w> to</w> give</w> her</w> any</w> money</w> .</w>		1
+100	1	that</w> sam</w> sometimes</w> did</w> n't</w> sleep</w> must</w> have</w> pleased</w> somebody</w> .</w>		1
+101	1	i</w> talked</w> to</w> winston</w> about</w> himself</w> .</w>		1
+102	1	that</w> the</w> fuzz</w> wanted</w> him</w> worried</w> john</w> ,</w> but</w> that</w> the</w> fuzz</w> wanted</w> her</w> did</w> n't</w> worry</w> mary</w> .</w>		1
+103	1	i</w> 'll</w> work</w> on</w> it</w> if</w> sam</w> will</w> be</w> working</w> on</w> it</w> .</w>		1
+104	1	i</w> 'll</w> work</w> on</w> it</w> if</w> i</w> can</w> .</w>		1
+105	1	here</w> 's</w> a</w> knife</w> with</w> which</w> for</w> you</w> to</w> cut</w> up</w> the</w> onions</w> .</w>		0
+106	1	fluffy</w> is</w> sick</w> ,</w> which</w> not</w> everybody</w> knows</w> .</w>		1
+107	1	maxwell</w> is</w> quite</w> a</w> doctor</w> .</w>		1
+108	0	the</w> younger</w> woman</w> might</w> have</w> been</w> tall</w> and</w> ,</w> and</w> the</w> older</w> one</w> definitely</w> was</w> ,</w> blond</w> .</w>		0
+109	0	sally</w> is</w> tall</w> ,</w> and</w> may</w> be</w> blond</w> ,</w> and</w> sheila</w> is</w> short</w> ,</w> and</w> definitely</w> is</w> ,</w> blond</w> .</w>		1
+110	1	i</w> have</w> to</w> try</w> to</w> finish</w> gra ding</w> some</w> papers</w> .</w>		1
+111	0	the</w> socks</w> are</w> ready</w> for</w> for</w> you</w> to</w> put</w> on</w> to</w> be</w> planned</w> .</w>		0
+112	1	it</w> is</w> easy</w> to</w> play</w> son at as</w> on</w> this</w> violin</w> .</w>		1
+113	1	this</w> violin</w> is</w> difficult</w> to</w> play</w> son at as</w> on</w> .</w>		1
+114	0	my</w> mother</w> is</w> easy</w> to</w> please</w> my</w> father</w> and</w> .</w>		0
+115	1	poor</w> bill</w> ,</w> it</w> had</w> started</w> to</w> rain</w> and</w> he</w> had</w> no</w> umbrella</w> .</w>		1
+116	1	that</w> the</w> cops</w> spoke</w> to</w> the</w> janitor</w> about</w> it</w> yesterday</w> is</w> terrible</w> ,</w> that</w> robbery</w> .</w>		0
+117	0	every</w> student</w> ,</w> and</w> he</w> wears</w> socks</w> ,</w> is</w> a</w> sw inger</w> .</w>		0
+118	1	that</w> girl</w> was</w> given</w> my</w> binoculars</w> by</w> him</w> .</w>		1
+119	1	bill</w> did</w> n't</w> alle ge</w> that</w> roger</w> had</w> eaten</w> anything</w> .</w>		1
+120	1	nobody</w> who</w> hates</w> to</w> eat</w> anything</w> should</w> work</w> in</w> a</w> delic ate ssen</w> .</w>		1
+121	1	everybody</w> around</w> here</w> who</w> ever</w> buys</w> anything</w> on</w> credit</w> talks</w> in</w> his</w> sleep</w> .</w>		1
+122	0	i</w> ca</w> n't</w> remember</w> the</w> name</w> of</w> somebody</w> who</w> had</w> misgivings</w> .</w>		0
+123	0	no</w> writer</w> ,</w> and</w> no</w> play wright</w> ,</w> meets</w> in</w> vienna</w> .</w>		0
+124	0	no</w> writer</w> ,</w> nor</w> any</w> play wright</w> ,</w> meets</w> in</w> vienna</w> .</w>		0
+125	1	that</w> you</w> will</w> marry</w> any</w> student</w> is</w> not</w> certain</w> .</w>		1
+126	1	felicia</w> kicked</w> the</w> ball</w> off</w> the</w> bench</w> .</w>		1
+127	1	i</w> sent</w> the</w> package</w> halfway</w> around</w> the</w> world</w> .</w>		1
+128	0	sam</w> gave</w> the</w> ball</w> out</w> of</w> the</w> basket</w> .</w>		0
+129	0	sam</w> offered</w> the</w> ball</w> out</w> of</w> the</w> basket</w> .</w>		0
+130	1	park</w> square</w> has</w> a</w> festive</w> air</w> .</w>		1
+131	1	the</w> worker</w> will</w> have</w> a</w> job</w> .</w>		1
+132	1	no</w> one</w> can</w> forgive</w> that</w> comment</w> to</w> you</w> .</w>		0
+133	1	we</w> launched</w> the</w> rocket</w> to</w> the</w> moon</w> ,</w> but</w> it</w> blew</w> up</w> before</w> it</w> got</w> there</w> .</w>		1
+134	1	sarah</w> promised</w> catherine</w> her</w> old</w> car</w> ,</w> but</w> then</w> gave</w> it</w> to</w> her</w> son</w> instead</w> .</w>		1
+135	0	i</w> lent</w> the</w> book</w> partway</w> to</w> tony</w> .</w>		0
+136	1	the</w> farmer</w> loaded</w> the</w> cart</w> with</w> apples</w> .</w>		1
+137	0	the</w> farmer</w> dumped</w> the</w> cart</w> with</w> apples</w> .</w>		0
+138	1	martha</w> carved</w> the</w> baby</w> a</w> toy</w> out</w> of</w> wood</w> .</w>		1
+139	1	the</w> bread</w> cuts</w> easily</w> .</w>		1
+140	1	janet</w> broke</w> bill</w> on</w> the</w> finger</w> .</w>		0
+141	1	janet</w> broke</w> the</w> cup</w> .</w>		1
+142	1	the</w> visitor</w> rang</w> the</w> bell</w> .</w>		1
+143	1	we</w> pulled</w> free</w> .</w>		1
+144	1	that</w> movie</w> always</w> shocks</w> people</w> .</w>		1
+145	1	that</w> movie</w> always</w> shocks</w> .</w>		1
+146	0	sharon</w> came</w> the</w> room</w> .</w>		0
+147	1	bill</w> sent</w> a</w> package</w> to</w> tom</w> .</w>		1
+148	1	that</w> acorn</w> will</w> grow</w> into</w> an</w> oak</w> tree</w> .</w>		1
+149	1	he</w> turned</w> into</w> a</w> frog</w> .</w>		1
+150	1	i</w> mixed</w> the</w> sugar</w> into</w> the</w> butter</w> .</w>		1
+151	0	brian</w> threw</w> the</w> fence</w> with</w> the</w> stick</w> .</w>		0
+152	1	mira</w> condemned</w> terry</w> for</w> the</w> accident</w> .</w>		1
+153	0	we</w> investigated</w> the</w> area</w> for</w> bombs</w> .</w>		1
+154	1	i</w> sensed</w> his</w> eagerness</w> .</w>		1
+155	0	they</w> praised</w> the</w> dedication</w> in</w> the</w> volunteers</w> .</w>		0
+156	1	the</w> earth</w> was</w> believed</w> to</w> be</w> round</w> .</w>		1
+157	1	sarah</w> smiled</w> a</w> charming</w> smile</w> .</w>		1
+158	1	sandra</w> beamed</w> a</w> cheerful</w> welcome</w> .</w>		1
+159	1	you</w> 've</w> really</w> lived</w> it</w> up</w> .</w>		1
+160	0	paperback</w> books</w> lift</w> onto</w> the</w> table</w> easily</w> .</w>		0
+161	0	the</w> books</w> lifted</w> onto</w> the</w> table</w> .</w>		0
+162	1	jessica</w> loaded</w> boxes</w> under</w> the</w> wagon</w> .</w>		1
+163	1	jessica</w> loaded</w> boxes</w> on</w> the</w> wagon</w> .</w>		1
+164	0	jessica</w> crammed</w> boxes</w> at</w> the</w> truck</w> .</w>		0
+165	0	lora</w> buttered</w> at</w> the</w> toast</w> .</w>		0
+166	1	carla</w> shoveled</w> the</w> walk</w> .</w>		1
+167	1	nora</w> sent</w> the</w> book</w> .</w>		1
+168	1	nora</w> sent</w> peter</w> the</w> book</w> .</w>		1
+169	1	carla</w> slid</w> the</w> book</w> .</w>		1
+170	0	carla</w> slid</w> at</w> the</w> book</w> .</w>		0
+171	1	amanda</w> carried</w> the</w> package</w> to</w> pamela</w> .</w>		1
+172	0	packages</w> drive</w> easily</w> to</w> new</w> york</w> .</w>		0
+173	0	the</w> chair</w> pushed</w> .</w>		0
+174	1	we</w> offered</w> a</w> job</w> to</w> her</w> .</w>		1
+175	0	a</w> job</w> offered</w> .</w>		0
+176	1	brown</w> presented</w> a</w> plaque</w> to</w> jones</w> .</w>		1
+177	1	carmen</w> bought</w> mary</w> a</w> dress</w> .</w>		1
+178	1	carmen</w> obtained</w> the</w> spare</w> part</w> at</w> the</w> hardware</w> store</w> .</w>		1
+179	0	michelle</w> kept</w> the</w> desk</w> with</w> the</w> papers</w> .</w>		0
+180	1	frances</w> hid</w> the</w> presents</w> in</w> the</w> drawer</w> .</w>		1
+181	1	the</w> needle</w> poked</w> the</w> cloth</w> .</w>		1
+182	1	carrie</w> touched</w> that</w> cat</w> .</w>		1
+183	1	herman</w> whipped</w> the</w> sugar</w> and</w> the</w> cream</w> .</w>		0
+184	1	linda</w> taped</w> the</w> picture</w> to</w> the</w> wall</w> .</w>		1
+185	1	linda</w> taped</w> the</w> picture</w> onto</w> the</w> wall</w> .</w>		1
+186	1	the</w> child</w> and</w> her</w> mother</w> clung</w> together</w> .</w>		1
+187	1	this</w> flyer</w> and</w> that</w> flyer</w> differ</w> .</w>		1
+188	1	this</w> flyer</w> and</w> that</w> flyer</w> differ</w> apart</w> .</w>		0
+189	1	the</w> jewel ler</w> scribbled</w> the</w> contract</w> with</w> his</w> name</w> .</w>		0
+190	1	the</w> gardener</w> grew</w> that</w> acorn</w> into</w> an</w> oak</w> tree</w> .</w>		1
+191	1	i</w> shaped</w> a</w> loaf</w> .</w>		0
+192	0	the</w> children</w> amused</w> .</w>		0
+193	1	susan</w> whispered</w> the</w> news</w> .</w>		1
+194	1	susan</w> whispered</w> at</w> rachel</w> .</w>		1
+195	1	ellen</w> said</w> that</w> mel ons</w> were</w> selling</w> well</w> .</w>		1
+196	1	ellen</w> said</w> about</w> the</w> present</w> conditions</w> .</w>		0
+197	1	ellen</w> warned</w> helen</w> against</w> skating</w> on</w> thin</w> ice</w> .</w>		1
+198	1	cynthia</w> nibbled</w> on</w> the</w> carrot</w> .</w>		1
+199	1	cynthia</w> chewed</w> .</w>		0
+200	1	paul</w> laughed</w> at</w> mary</w> .</w>		1
+201	0	linda</w> winked</w> her</w> lip</w> .</w>		0
+202	1	my</w> heart</w> is</w> pounding</w> me</w> .</w>		0
+203	1	sharon</w> fainted</w> from</w> hunger</w> .</w>		1
+204	1	the</w> witch</w> poisoned</w> the</w> children</w> .</w>		1
+205	1	a</w> grandfather</w> clock</w> ticked</w> in</w> the</w> hallway</w> .</w>		1
+206	1	i</w> squeaked</w> the</w> door</w> .</w>		0
+207	1	over</w> the</w> fire</w> there</w> bubbled</w> a</w> fragrant</w> stew</w> .</w>		1
+208	1	soaring</w> temperatures</w> are</w> predicted</w> for</w> this</w> weekend</w> .</w>		1
+209	1	the</w> fort</w> fluttered</w> with</w> many</w> flags</w> .</w>		0
+210	1	the</w> voices</w> echoed</w> in</w> the</w> hall</w> .</w>		1
+211	1	the</w> stream</w> twists</w> through</w> the</w> valley</w> .</w>		1
+212	1	there</w> presented</w> itself</w> a</w> wonderful</w> opportunity</w> yesterday</w> .</w>		0
+213	1	a</w> wonderful</w> opportunity</w> presented</w> itself</w> to</w> him</w> yesterday</w> .</w>		1
+214	1	out</w> of</w> the</w> box</w> jumped</w> a</w> little</w> white</w> rabbit</w> .</w>		1
+215	1	penny</w> skated</w> around</w> the</w> rink</w> .</w>		1
+216	1	jackie</w> accompanied</w> rose</w> .</w>		1
+217	0	many</w> information</w> was</w> provided</w> .</w>		0
+218	0	john</w> offers</w> many</w> advice</w> .</w>		0
+219	1	the</w> cake</w> that</w> jones</w> got</w> was</w> more</w> delicious</w> than</w> the</w> one</w> that</w> smith</w> got</w> .</w>		1
+220	0	we</w> recommend</w> to</w> eat</w> less</w> cake</w> and</w> pastry</w> .</w>		1
+221	1	i</w> saw</w> that</w> gas</w> can</w> explode</w> .</w>		1
+222	1	he</w> washed</w> her</w> .</w>		1
+223	0	wash</w> you</w> !</w>		0
+224	0	they</w> have</w> no</w> in</w> .</w>		0
+225	1	some</w> my</w> jobs</w> are</w> in</w> jeopardy</w> .</w>		0
+226	0	it</w> was</w> the</w> policeman</w> met</w> that</w> several</w> young</w> students</w> in</w> the</w> park</w> last</w> night</w> .</w>		0
+227	1	did</w> the</w> policeman</w> meet</w> in</w> the</w> park</w> ?</w>		1
+228	1	john</w> put</w> old</w> books</w> in</w> the</w> box</w> .</w>		1
+229	0	the</w> monkeys</w> proud</w> of</w> their</w> leader</w> .</w>		0
+230	0	john</w> sounded</w> very</w> .</w>		0
+231	1	i</w> do</w> n't</w> know</w> if</w> i</w> should</w> agree</w> .</w>		1
+232	1	john</w> bought</w> a</w> book</w> on</w> the</w> table</w> .</w>		1
+233	1	john</w> called</w> the</w> president</w> a</w> fool</w> .</w>		1
+234	1	i</w> forgot</w> how</w> good</w> beer</w> tastes</w> .</w>		1
+235	1	this</w> teacher</w> is</w> a</w> genius</w> .</w>		1
+236	0	a</w> good</w> friend</w> is</w> remained</w> to</w> me</w> by</w> him</w> .</w>		0
+237	1	john</w> ate</w> his</w> noodle</w> quietly</w> .</w>		1
+238	1	a</w> smith</w> hammered</w> the</w> metal</w> .</w>		1
+239	1	sandy</w> removed</w> her</w> ballet</w> shoes</w> .</w>		1
+240	1	this</w> week</w> will</w> be</w> a</w> difficult</w> one</w> for</w> us</w> .</w>		1
+241	1	benny</w> worked</w> in</w> a</w> shoe</w> factory</w> when</w> he</w> was</w> a</w> student</w> .</w>		1
+242	1	everyone</w> hoped</w> that</w> she</w> would</w> sing</w> .</w>		1
+243	1	this</w> proved</w> a</w> decisive</w> factor</w> .</w>		1
+244	1	the</w> crocodile</w> devoured</w> the</w> doughnut</w> .</w>		1
+245	1	john</w> is</w> afraid</w> of</w> bill</w> .</w>		1
+246	0	john</w> put</w> under</w> the</w> bathtub</w> .</w>		0
+247	1	john</w> placed</w> kim</w> behind</w> the</w> garage</w> .</w>		1
+248	1	kim</w> depends</w> for</w> sandy</w> .</w>		0
+249	1	john</w> put</w> the</w> book</w> in</w> the</w> box</w> .</w>		1
+250	1	john</w> taught</w> english</w> syn tax</w> to</w> new</w> students</w> .</w>		1
+251	1	john</w> regards</w> bill</w> as</w> a</w> good</w> friend</w> .</w>		1
+252	0	kim</w> put</w> in</w> the</w> box</w> .</w>		0
+253	1	the</w> chickens</w> seem</w> fond</w> of</w> the</w> farmer</w> .</w>		1
+254	1	the</w> rules</w> require</w> that</w> the</w> executives</w> be</w> polite</w> .</w>		1
+255	0	that</w> fred</w> was</w> un popular</w> nominated</w> bill</w> .</w>		0
+256	1	they</w> were</w> taking</w> a</w> hard</w> look</w> at</w> possible</w> f ta</w> .</w>		1
+257	1	john</w> paid</w> me</w> against</w> the</w> book</w> .</w>		0
+258	1	the</w> committee</w> will</w> study</w> the</w> feasi bility</w> of</w> setting</w> up</w> a</w> national</w> computer</w> network</w> .</w>		1
+259	1	we</w> made</w> them</w> be</w> rude</w> .</w>		1
+260	1	after</w> reading</w> the</w> pamphlet</w> ,</w> judy</w> threw</w> it</w> into</w> the</w> garbage</w> can</w> .</w>		1
+261	1	students</w> studying</w> english</w> reads</w> conrad</w> 's</w> heart</w> of</w> darkness</w> while</w> at</w> university</w> .</w>		0
+262	1	i</w> read</w> some</w> of</w> the</w> book</w> .</w>		1
+263	1	most</w> of</w> the</w> fruit</w> is</w> rotten</w> .</w>		1
+264	1	neither</w> of</w> students</w> failed</w> .</w>		0
+265	1	i</w> drank</w> some</w> of</w> water</w> .</w>		0
+266	1	it</w> is</w> a</w> golden</w> hair</w> .</w>		1
+267	1	the</w> boy</w> in</w> the</w> doorway</w> waved</w> to</w> his</w> father</w> .</w>		1
+268	0	that</w> dog</w> is</w> so</w> ferocious</w> ,</w> it</w> even</w> tried</w> to</w> bite</w> itself</w> .</w>		1
+269	0	he</w> washed</w> yourself</w> .</w>		0
+270	0	john</w> is</w> easy</w> to</w> please</w> kim</w> .</w>		0
+271	0	there</w> seemed</w> to</w> be</w> intelligent</w> .</w>		0
+272	1	john</w> tried</w> to</w> please</w> stephen</w> .</w>		1
+273	0	we</w> believed</w> john</w> to</w> be</w> a</w> fountain</w> in</w> the</w> park</w> .</w>		0
+274	0	it</w> tries</w> to</w> leave</w> the</w> country</w> .</w>		0
+275	1	john</w> tries</w> to</w> leave</w> the</w> country</w> .</w>		1
+276	1	under</w> the</w> bed</w> seems</w> to</w> be</w> a</w> fun</w> place</w> to</w> hide</w> .</w>		1
+277	1	there</w> is</w> believed</w> to</w> be</w> sheep</w> in</w> the</w> park</w> .</w>		0
+278	0	i</w> hope</w> to</w> would</w> study</w> in</w> france</w> .</w>		0
+279	1	john</w> can</w> kick</w> the</w> ball</w> .</w>		1
+280	0	john</w> will</w> rain</w> tomorrow</w> .</w>		0
+281	0	we</w> expect</w> there</w> to</w> will</w> rain</w> .</w>		0
+282	1	john</w> was</w> found</w> in</w> the</w> office</w> .</w>		1
+283	1	did</w> the</w> child</w> be</w> in</w> the</w> school</w> ?</w>		0
+284	1	it</w> did</w> not</w> rain</w> .</w>		1
+285	1	john</w> wants</w> not</w> to</w> leave</w> the</w> town</w> .</w>		1
+286	1	mary</w> likes</w> to</w> tour</w> art</w> galleries</w> ,</w> but</w> bill</w> hates</w> to</w> .</w>		1
+287	1	they</w> need</w> n't</w> take</w> this</w> exam</w> .</w>		1
+288	1	ann</w> may</w> spend</w> her</w> vacation</w> in</w> italy</w> .</w>		1
+289	1	they</w> love</w> to</w> play</w> golf</w> ,</w> but</w> i</w> do</w> not</w> .</w>		1
+290	1	george</w> has</w> spent</w> a</w> lot</w> of</w> money</w> ,</w> has</w> n't</w> he</w> ?</w>		1
+291	1	as</w> a</w> stat esman</w> ,</w> scarcely</w> could</w> he</w> do</w> anything</w> worth</w> mentioning</w> .</w>		1
+292	1	we</w> never</w> found</w> any</w> of</w> the</w> unicorns</w> .</w>		1
+293	1	one</w> of</w> korea</w> 's</w> most</w> famous</w> poets</w> wrote</w> these</w> lines</w> .</w>		1
+294	1	somebody</w> apparently</w> struck</w> the</w> unidentified</w> victim</w> during</w> the</w> early</w> morning</w> hours</w> .</w>		1
+295	1	the</w> car</w> was</w> driven</w> .</w>		1
+296	1	ricky</w> can</w> be</w> relied</w> on</w> .</w>		1
+297	1	the</w> bed</w> was</w> slept</w> in</w> .</w>		1
+298	0	a</w> pound</w> was</w> weighed</w> by</w> the</w> book</w> .</w>		0
+299	1	who</w> do</w> you</w> think</w> tom</w> saw</w> ?</w>		1
+300	1	he</w> had</w> spent</w> five</w> thousand</w> dollars</w> .</w>		1
+301	0	fed</w> knows</w> which</w> politician</w> her</w> to</w> vote</w> for</w> .</w>		0
+302	1	how</w> did</w> you</w> guess</w> that</w> he</w> fixed</w> the</w> computer</w> ?</w>		1
+303	1	the</w> committee</w> knows</w> whose</w> efforts</w> to</w> achieve</w> peace</w> the</w> world</w> should</w> honor</w> .</w>		1
+304	1	which</w> house</w> does</w> your</w> friend</w> live</w> ?</w>		0
+305	1	the</w> baker</w> from</w> whom</w> i</w> bought</w> these</w> bagels</w> left</w> .</w>		1
+306	1	i</w> found</w> the</w> place</w> where</w> we</w> can</w> relax</w> .</w>		1
+307	1	jack</w> is</w> the</w> person</w> with</w> whom</w> jenny</w> fell</w> in</w> love</w> with</w> .</w>		0
+308	1	there</w> is</w> a</w> bench</w> to</w> sit</w> on</w> .</w>		1
+309	1	i</w> met</w> the</w> man</w> who</w> grows</w> peaches</w> .</w>		1
+310	1	which</w> topic</w> did</w> you</w> choose</w> without</w> getting</w> his</w> approval</w> ?</w>		1
+311	1	which</w> topic</w> did</w> you</w> get</w> bored</w> because</w> mary</w> talked</w> about</w> ?</w>		0
+312	1	that</w> is</w> the</w> reason</w> why</w> he</w> resigned</w> .</w>		1
+313	1	it</w> bothers</w> me</w> that</w> john</w> coughs</w> .</w>		1
+314	1	to</w> please</w> john</w> is</w> easy</w> .</w>		1
+315	1	kim</w> is</w> eager</w> to</w> please</w> tom</w> .</w>		1
+316	1	that</w> we</w> invaded</w> iraq</w> really</w> bites</w> .</w>		1
+317	1	it</w> anno ys</w> me</w> that</w> fido</w> barks</w> .</w>		1
+318	0	who</w> achieved</w> the</w> best</w> result</w> was</w> angela</w> .</w>		0
+319	1	it</w> was</w> the</w> peasant</w> girl</w> who</w> got</w> it</w> .</w>		1
+320	1	that</w> kind</w> of</w> person</w> is</w> hard</w> to</w> find</w> anyone</w> to</w> look</w> after</w> .</w>		1
+321	1	a</w> sick</w> owl</w> does</w> n't</w> hunt</w> mice</w> .</w>		1
+322	1	each</w> candidate</w> who</w> has</w> interest</w> in</w> se man tics</w> will</w> be</w> admitted</w> to</w> the</w> department</w> .</w>		1
+323	1	each</w> author</w> whose</w> contribution</w> is</w> written</w> in</w> any</w> language</w> other</w> than</w> english</w> will</w> provide</w> a</w> summary</w> in</w> english</w> .</w>		1
+324	1	i</w> 'm</w> sure</w> we</w> even</w> got</w> these</w> tickets</w> !</w>		1
+325	1	i</w> 'm</w> even</w> sure</w> we</w> got</w> these</w> tickets</w> !</w>		1
+326	1	it</w> 's</w> not</w> because</w> i</w> have</w> any</w> sympathy</w> for</w> urban</w> guer illas</w> that</w> i</w> helped</w> him</w> .</w>		1
+327	0	it</w> is</w> n't</w> because</w> sue</w> said</w> anything</w> bad</w> about</w> me</w> that</w> i</w> 'm</w> angry</w> .</w>		1
+328	1	that</w> he</w> was</w> hungry</w> ,</w> john</w> whined</w> .</w>		0
+329	0	1</w> gave</w> mary</w> after</w> the</w> party</w> a</w> book</w> .</w>		0
+330	1	because</w> she</w> 's</w> so</w> pleasant</w> ,</w> as</w> for</w> mary</w> i</w> really</w> like</w> her</w> .</w>		0
+331	1	though</w> he</w> may</w> hate</w> those</w> that</w> criticize</w> carter</w> ,</w> it</w> does</w> n't</w> matter</w> .</w>		1
+332	1	with</w> no</w> job</w> would</w> john</w> be</w> happy</w> .</w>		1
+333	1	i</w> have</w> much</w> of</w> the</w> manuscript</w> left</w> to</w> type</w> .</w>		1
+334	1	he</w> 's</w> a</w> more</w> reliable</w> man</w> .</w>		1
+335	1	any</w> trouble</w> is</w> what</w> i</w> do</w> n't</w> want</w> .</w>		0
+336	1	they</w> may</w> grow</w> as</w> high</w> as</w> bamboo</w> .</w>		1
+337	1	some</w> of</w> them</w> made</w> as</w> many</w> errors</w> as</w> 20</w> .</w>		1
+338	0	sally</w> kissed</w> himself</w> .</w>		0
+339	1	drew</w> believes</w> i</w> think</w> rosie</w> loves</w> magazine</w> ads</w> .</w>		1
+340	1	dave</w> ,</w> dan</w> ,</w> erin</w> ,</w> jaime</w> ,</w> and</w> alina</w> left</w> .</w>		1
+341	1	hopefully</w> ,</w> we</w> 'll</w> make</w> it</w> through</w> the</w> winter</w> without</w> snow</w> .</w>		1
+342	0	blue</w> leather</w> shows</w> herself</w> that</w> betsy</w> is</w> pretty</w> .</w>		0
+343	1	gwen</w> hit</w> the</w> baseball</w> .</w>		1
+344	0	i</w> hit</w> that</w> you</w> knew</w> the</w> answer</w> .</w>		0
+345	1	i</w> 've</w> lost</w> my</w> wallet</w> or</w> i</w> 've</w> lost</w> my</w> mind</w> .</w>		1
+346	1	it</w> was</w> a</w> brand</w> new</w> car</w> that</w> he</w> bought</w> .</w>		1
+347	1	he</w> likes</w> cookies</w> and</w> he</w> hates</w> crumb</w> cake</w> .</w>		1
+348	1	they</w> chased</w> the</w> man</w> with</w> the</w> car</w> .</w>		1
+349	1	i</w> did</w> n't</w> have</w> a</w> red</w> cent</w> .</w>		1
+350	1	the</w> book</w> of</w> poems</w> and</w> from</w> blackwell</w> takes</w> a</w> very</w> long</w> time</w> to</w> read</w> .</w>		0
+351	1	the</w> one</w> with</w> a</w> red</w> cover</w> takes</w> a</w> very</w> long</w> time</w> to</w> read</w> .</w>		1
+352	1	john</w> has</w> a</w> fear</w> of</w> dogs</w> .</w>		1
+353	0	the</w> building</w> 's</w> the</w> roof</w> is</w> leaking</w> .</w>		0
+354	0	the</w> panther</w> 's</w> the</w> coat</w> is</w> dark</w> black</w> .</w>		0
+355	1	colin</w> asked</w> if</w> they</w> could</w> get</w> a</w> mortgage</w> .</w>		1
+356	1	the</w> man</w> i</w> saw</w> get</w> into</w> the</w> cab</w> robbed</w> the</w> bank</w> .</w>		1
+357	1	i</w> know</w> you</w> eat</w> asparagus</w> .</w>		1
+358	1	john</w> 's</w> drum</w> will</w> always</w> bother</w> me</w> .</w>		1
+359	1	an</w> evil</w> thought</w> struck</w> dave</w> .</w>		1
+360	1	in</w> the</w> classroom</w> john</w> put</w> the</w> book</w> on</w> the</w> table</w> .</w>		1
+361	1	phillip</w> gave</w> the</w> medal</w> to</w> the</w> soldier</w> .</w>		1
+362	0	heidi</w> thinks</w> that</w> andy</w> to</w> eat</w> salmon</w> flavored</w> candy</w> bars</w> .</w>		0
+363	1	heidi</w> thinks</w> that</w> andy</w> should</w> eat</w> salmon</w> flavored</w> candy</w> bars</w> .</w>		1
+364	1	he</w> danced</w> .</w>		1
+365	0	did</w> calvin</w> his</w> homework</w> ?</w>		0
+366	1	sylvia</w> was</w> slapping</w> jeff</w> upside</w> the</w> head</w> in</w> martial</w> arts</w> class</w> .</w>		1
+367	0	if</w> i</w> am</w> a</w> rich</w> man</w> ,</w> i</w> 'd</w> buy</w> a</w> diamond</w> ring</w> .</w>		0
+368	1	if</w> he</w> were</w> a</w> rich</w> man</w> ,</w> he</w> 'd</w> buy</w> a</w> diamond</w> ring</w> .</w>		1
+369	1	john</w> is</w> likely</w> to</w> leave</w> .</w>		1
+370	1	the</w> manager</w> laughed</w> .</w>		1
+371	0	was</w> sunk</w> .</w>		0
+372	1	who</w> did</w> you</w> think</w> kissed</w> the</w> gorilla</w> ?</w>		1
+373	1	have</w> you</w> seen</w> my</w> model</w> airplane</w> collection</w> ?</w>		1
+374	1	it</w> seems</w> that</w> lucy</w> was</w> mugged</w> .</w>		1
+375	1	i</w> ate</w> a</w> salad</w> that</w> was</w> filled</w> with</w> li ma</w> beans</w> .</w>		1
+376	1	there</w> were</w> four</w> men</w> arriving</w> at</w> the</w> station</w> when</w> i</w> pulled</w> up</w> .</w>		1
+377	1	jean</w> is</w> reluctant</w> to</w> dance</w> .</w>		1
+378	1	i</w> want</w> her</w> to</w> dance</w> .</w>		1
+379	1	jean</w> persuaded</w> robert</w> .</w>		1
+380	1	jean</w> wants</w> bill</w> to</w> do</w> the</w> mac arena</w> .</w>		1
+381	1	the</w> children</w> admire</w> their</w> mother</w> .</w>		1
+382	1	who</w> has</w> peter</w> talked</w> with</w> ?</w>		1
+383	1	heidi</w> likes</w> her</w> violin</w> .</w>		1
+384	0	john</w> thinks</w> that</w> mary</w> loves</w> himself</w> .</w>		0
+385	1	which</w> pictures</w> of</w> himself</w> does</w> john</w> like</w> ?</w>		1
+386	1	any</w> owl</w> hunts</w> mice</w> .</w>		1
+387	1	any</w> man</w> did</w> n't</w> eat</w> dinner</w> .</w>		0
+388	1	a</w> pilot</w> could</w> be</w> flying</w> this</w> plane</w> .</w>		1
+389	1	everybody</w> who</w> attended</w> last</w> week</w> 's</w> huge</w> rally</w> ,</w> whoever</w> they</w> were</w> ,</w> signed</w> the</w> petition</w> .</w>		1
+390	1	anybody</w> who</w> attended</w> last</w> week</w> 's</w> huge</w> rally</w> signed</w> the</w> petition</w> .</w>		1
+391	1	any</w> tiger</w> has</w> orange</w> fur</w> ,</w> marked</w> with</w> black</w> stripes</w> .</w>		1
+392	1	any</w> albino</w> tiger</w> has</w> orange</w> fur</w> ,</w> marked</w> with</w> black</w> stripes</w> .</w>		1
+393	0	you</w> must</w> pick</w> any</w> flower</w> you</w> see</w> .</w>		1
+394	1	any</w> pilot</w> on</w> duty</w> today</w> could</w> be</w> flying</w> this</w> plane</w> .</w>		1
+395	1	you</w> may</w> pick</w> every</w> flower</w> ,</w> but</w> leave</w> a</w> few</w> for</w> mary</w> .</w>		0
+396	1	the</w> do dgers</w> beat</w> the</w> red</w> sox</w> and</w> were</w> beaten</w> by</w> the</w> giants</w> .</w>		1
+397	1	in</w> which</w> car</w> was</w> the</w> man</w> seen</w> ?</w>		1
+398	0	the</w> man</w> who</w> mary</w> loves</w> and</w> sally</w> hates</w> compu ted</w> my</w> tax</w> .</w>		1
+399	1	the</w> kennel</w> which</w> mary</w> made</w> and</w> fido</w> sleeps</w> has</w> been</w> stolen</w> .</w>		0
+400	1	tom</w> said</w> he</w> would</w> and</w> bill</w> actually</w> did</w> eat</w> a</w> raw</w> egg plant</w> .</w>		1
+401	1	the</w> wealthy</w> young</w> man</w> bought</w> that</w> piano</w> for</w> his</w> secret</w> fiancée</w> .</w>		1
+402	1	the</w> dog</w> stole</w> the</w> turkey</w> .</w>		1
+403	1	a</w> tall</w> building</w> .</w>		1
+404	1	this</w> building</w> is</w> tall</w> .</w>		1
+405	1	i</w> like</w> the</w> book</w> which</w> you</w> gave</w> me</w> .</w>		1
+406	1	captain</w> wentworth</w> wrote</w> a</w> letter</w> to</w> anne</w> elliott</w> .</w>		1
+407	1	she</w> asked</w> was</w> alison</w> coming</w> to</w> the</w> party</w> .</w>		1
+408	1	they</w> realised</w> that</w> never</w> had</w> sir</w> thomas</w> been</w> so</w> offended</w> .</w>		1
+409	1	fanny</w> regretted</w> having</w> to</w> talk</w> to</w> aunt</w> norris</w> .</w>		1
+410	1	knowing</w> the</w> country</w> well</w> ,</w> he</w> took</w> a</w> short</w> cut</w> .</w>		1
+411	1	he</w> left</w> the</w> train</w> with</w> somebody</w> else</w> 's</w> wallet</w> in</w> his</w> pocket</w> .</w>		1
+412	1	magnus</w> went</w> to</w> ireland</w> .</w>		1
+413	1	who</w> did</w> john</w> send</w> the</w> book</w> ?</w>		1
+414	1	the</w> idea</w> dismayed</w> the</w> prime</w> minister</w> that</w> the</w> dome</w> was</w> dull</w> .</w>		1
+415	0	came</w> right</w> in</w> he</w> did</w> without</w> so</w> much</w> as</w> a</w> knock</w> .</w>		1
+416	1	harriet</w> admired</w> mr</w> kni ght ley</w> .</w>		1
+417	1	the</w> book</w> is</w> boring</w> .</w>		1
+418	1	ethel</w> wishes</w> to</w> ask</w> you</w> some</w> awkward</w> questions</w> .</w>		1
+419	1	emma</w> made</w> harriet</w> some</w> food</w> .</w>		1
+420	1	the</w> window</w> was</w> broken</w> with</w> a</w> hammer</w> .</w>		1
+421	1	the</w> fugitive</w> lay</w> motionless</w> in</w> order</w> to</w> avoid</w> discovery</w> .</w>		1
+422	1	the</w> guard</w> marched</w> the</w> prisoners</w> round</w> the</w> yard</w> .</w>		1
+423	1	frank</w> chur chill</w> crossed</w> the</w> street</w> .</w>		1
+424	1	emma</w> and</w> harriet</w> were</w> attacked</w> yesterday</w> .</w>		1
+425	1	fiona</w> might</w> be</w> here</w> by</w> 5</w> o'clock</w> .</w>		1
+426	0	i</w> am</w> both</w> expecting</w> to</w> get</w> the</w> job</w> and</w> of</w> the</w> opinion</w> that</w> it</w> is</w> a</w> desirable</w> one</w> .</w>		1
+427	1	pat</w> was</w> awarded</w> the</w> golden</w> fleece</w> award</w> and</w> very</w> upset</w> about</w> it</w> .</w>		1
+428	0	kim</w> alien ated</w> cats</w> and</w> beating</w> his</w> dog</w> .</w>		0
+429	1	they</w> knew</w> that</w> pictures</w> of</w> each</w> other</w> would</w> be</w> on</w> sale</w> .</w>		1
+430	1	which</w> article</w> did</w> terry</w> file</w> papers</w> without</w> reading</w> ?</w>		0
+431	1	i</w> want</w> to</w> try</w> and</w> buy</w> some</w> whiskey</w> .</w>		1
+432	0	she</w> goes</w> and</w> buying</w> some</w> whiskey</w> .</w>		0
+433	1	kim</w> and</w> terry</w> is</w> happy</w> .</w>		0
+434	1	kim</w> gave</w> a</w> dollar</w> to</w> bobbie</w> and</w> a</w> dime</w> to</w> jean</w> .</w>		1
+435	1	this</w> girl</w> in</w> the</w> red</w> coat</w> will</w> put</w> a</w> picture</w> of</w> bill</w> in</w> the</w> mailbox</w> and</w> on</w> your</w> desk</w> before</w> tomorrow</w> .</w>		1
+436	0	put</w> a</w> picture</w> of</w> bill</w> on</w> your</w> desk</w> before</w> tomorrow</w> ,</w> this</w> girl</w> in</w> the</w> red</w> coat</w> will</w> put</w> a</w> picture</w> of</w> bill</w> on</w> your</w> desk</w> before</w> tomorrow</w> .</w>		0
+437	0	picture</w> of</w> bill</w> ,</w> this</w> girl</w> in</w> the</w> red</w> coat</w> will</w> put</w> a</w> picture</w> of</w> bill</w> on</w> your</w> desk</w> before</w> tomorrow</w> .</w>		0
+438	1	ann</w> bought</w> a</w> first</w> edition</w> of</w> richard</w> iii</w> for</w> $</w> 1000</w> .</w>		1
+439	1	john</w> became</w> deadly</w> afraid</w> of</w> flying</w> .</w>		1
+440	1	what</w> john</w> promised</w> is</w> to</w> be</w> gentle</w> .</w>		1
+441	1	henri</w> wants</w> to</w> buy</w> which</w> books</w> about</w> cooking</w> ?</w>		1
+442	1	i</w> will</w> fix</w> the</w> computer</w> for</w> carol</w> .</w>		1
+443	1	smith</w> loaned</w> a</w> valuable</w> collection</w> of</w> manuscripts</w> to</w> the</w> library</w> .</w>		1
+444	1	the</w> paper</w> is</w> cut</w> by</w> mary</w> .</w>		1
+445	1	it</w> was</w> from</w> six</w> to</w> nine</w> or</w> it</w> took</w> place</w> from</w> six</w> to</w> nine</w> .</w>		1
+446	1	suddenly</w> ,</w> there</w> arrived</w> two</w> inspec tors</w> from</w> the</w> ins</w> .</w>		1
+447	1	the</w> soup</w> cooks</w> ,</w> thick ens</w> .</w>		1
+448	1	i</w> gave</w> money</w> to</w> the</w> charity</w> .</w>		1
+449	1	john</w> asked</w> .</w>		1
+450	1	i</w> saw</w> even</w> the</w> student</w> .</w>		1
+451	0	john</w> whispered</w> mary</w> left</w> .</w>		0
+452	0	mary</w> wonders</w> that</w> bill</w> will</w> come</w> .</w>		0
+453	0	sophie</w> will</w> theater</w> .</w>		0
+454	1	john</w> finished</w> the</w> cake</w> and</w> drank</w> the</w> lemonade</w> .</w>		1
+455	0	herself</w> likes</w> mary</w> 's</w> mother</w> .</w>		0
+456	1	each</w> of</w> the</w> boys</w> fought</w> with</w> some</w> of</w> the</w> other</w> boys</w> .</w>		1
+457	1	john</w> 's</w> mother</w> likes</w> himself</w> .</w>		0
+458	0	mary</w> revealed</w> himself</w> to</w> john</w> .</w>		0
+459	1	mary</w> believes</w> that</w> bill</w> saw</w> himself</w> .</w>		1
+460	0	john</w> heard</w> that</w> they</w> critici zed</w> themselves</w> .</w>		0
+461	1	mary</w> thinks</w> that</w> she</w> is</w> smart</w> .</w>		1
+462	1	henry</w> found</w> that</w> bill</w> is</w> sad</w> .</w>		1
+463	1	john</w> considers</w> himself</w> proud</w> of</w> mary</w> .</w>		1
+464	0	you</w> should</w> sit</w> before</w> there</w> .</w>		0
+465	1	there</w> is</w> a</w> nurse</w> available</w> .</w>		1
+466	0	everyone</w> hopes</w> everyone</w> to</w> sleep</w> .</w>		0
+467	1	everyone</w> hopes</w> that</w> he</w> will</w> sleep</w> .</w>		1
+468	1	only</w> chur chill</w> remembered</w> chur chill</w> giving</w> the</w> blood</w> ,</w> sweat</w> and</w> tears</w> speech</w> .</w>		0
+469	0	john</w> promise</w> mary</w> to</w> shave</w> himself</w> .</w>		1
+470	1	john</w> convinced</w> bill</w> that</w> mary</w> should</w> sleep</w> .</w>		1
+471	0	i</w> saw</w> bill</w> while</w> you</w> did</w> so</w> mary</w> .</w>		0
+472	0	what</w> mary</w> did</w> bill</w> was</w> give</w> a</w> book</w> .</w>		0
+473	1	the</w> bears</w> sniffed</w>		1
+474	1	to</w> steal</w> tali sm ans</w> from</w> witches</w> is</w> dangerous</w>		1
+475	0	anson</w> demon ized</w>		0
+476	1	you</w> kicked</w> yourselves</w>		1
+477	1	the</w> book</w> that</w> i</w> said</w> that</w> i</w> 'd</w> never</w> read</w> .</w>		1
+478	0	anson</w> demon ized</w> up</w> the</w> k hy ber</w>		0
+479	1	it</w> is</w> not</w> true</w> that</w> i</w> might</w> be</w> going</w> to</w> the</w> party</w> .</w>		1
+480	1	kick</w> you</w> !</w>		0
+481	1	jason</w> persuaded</w> the</w> doctor</w> to</w> treat</w> medea</w>		1
+482	1	who</w> did</w> you</w> get</w> an</w> accurate</w> description</w> of</w> ?</w>		1
+483	1	the</w> peter</w> we</w> all</w> like</w> was</w> at</w> the</w> party</w>		1
+484	0	the</w> government</w> 's</w> im position</w> of</w> a</w> fine</w> .</w>		1
+485	1	did</w> athena</w> help</w> us</w> ?</w>		1
+486	1	you</w> wanted</w> to</w> meet</w> the</w> man</w> i</w> saw</w> .</w>		1
+487	1	anson</w> demon ized</w> david</w> every</w> day</w>		1
+488	1	there</w> is</w> a</w> programme</w> about</w> euri pi des</w> on</w> a</w> radio</w> 4</w> tonight</w> ?</w>		1
+489	1	medea</w> denied</w> poisoning</w> the</w> phoenix</w> .</w>		1
+490	1	the</w> elixir</w> was</w> hidden</w> in</w> a</w> hole</w> in</w> the</w> ground</w>		1
+491	1	extremely</w> frantically</w> ,</w> anson</w> danced</w> at</w> trade</w>		1
+492	0	what</w> did</w> you</w> ask</w> who</w> medea</w> gave</w> ?</w>		0
+493	1	it</w> 's</w> anson</w> that</w> i</w> like</w>		1
+494	0	medea</w> tried</w> the</w> nurse</w> to</w> poison</w> her</w> children</w> .</w>		0
+495	1	i</w> felt</w> that</w> i</w> know</w> you</w> .</w>		1
+496	0	will</w> he</w> can</w> do</w> it</w> ?</w>		1
+497	0	i</w> ate</w> that</w> she</w> was</w> happy</w>		0
+498	1	anson</w> believed</w> himself</w> to</w> be</w> handsome</w> .</w>		1
+499	1	we</w> arrived</w> about</w> six</w> o'clock</w>		1
+500	0	gil ga mesh</w> is</w> having</w> fought</w> the</w> dragon</w> .</w>		0
+501	0	anson</w> thought</w> that</w> himself</w> was</w> happy</w> .</w>		0
+502	1	fortunately</w> her mi one</w> passed</w> biology</w>		1
+503	1	i</w> might</w> be</w> not</w> going</w> to</w> the</w> party</w> but</w> washing</w> my</w> hair</w>		1
+504	0	i</w> thought</w> he</w> liked</w> myself</w>		0
+505	1	the</w> butler</w> sent</w> the</w> poison</w> to</w> dinah</w> .</w>		1
+506	1	jason</w> happens</w> to</w> appear</w> to</w> seem</w> to</w> be</w> sick</w> .</w>		1
+507	0	what</w> did</w> you</w> ask</w> who</w> saw</w> ?</w>		0
+508	1	we</w> lingui sts</w> love</w> to</w> argue</w>		1
+509	0	he</w> can</w> will</w> go</w>		0
+510	1	how</w> fierce</w> the</w> battle</w> ?</w>		0
+511	1	which</w> king</w> did</w> you</w> ask</w> which</w> city</w> invaded</w> ?</w>		0
+512	0	it</w> is</w> some</w> disgruntled</w> old</w> pigs</w> in</w> those</w> ditches</w> that</w> humans</w> love</w> to</w> eat</w> .</w>		1
+513	1	that</w> banana</w> is</w> eating</w> the</w> monkey</w> .</w>		1
+514	1	burn</w> them</w> !</w>		1
+515	1	it</w> stinks</w> that</w> aphrodite</w> is</w> omni potent</w> .</w>		1
+516	1	aga mem non</w> seems</w> to</w> be</w> a</w> maniac</w>		1
+517	1	will</w> anson</w> come</w> to</w> the</w> party</w> ?</w>		1
+518	1	i</w> wondered</w> who</w> medea</w> had</w> poisoned</w> .</w>		1
+519	1	i</w> inquired</w> when</w> could</w> we</w> leave</w> .</w>		0
+520	1	they</w> kicked</w> them</w>		1
+521	1	the</w> monkey</w> is</w> ate</w> the</w> banana</w>		0
+522	0	i</w> would</w> like</w> to</w> could</w> swim</w>		1
+523	1	i</w> kicked</w> myself</w>		1
+524	1	the</w> bookcase</w> ran</w>		0
+525	0	i</w> shaved</w> myself</w> .</w>		1
+526	1	anson</w> became</w> a</w> muscle</w> bound</w> .</w>		1
+527	1	somebody</w> just</w> left</w> -</w> guess</w> who</w> .</w>		1
+528	1	they</w> claimed</w> they</w> had</w> settled</w> on</w> something</w> ,</w> but</w> it</w> was</w> n't</w> clear</w> what</w> they</w> had</w> settled</w> on</w> .</w>		1
+529	1	if</w> sam</w> was</w> going</w> ,</w> sally</w> would</w> know</w> where</w> .</w>		1
+530	1	they</w> 're</w> going</w> to</w> serve</w> the</w> guests</w> something</w> ,</w> but</w> it</w> 's</w> unclear</w> what</w> .</w>		1
+531	1	she</w> 's</w> reading</w> .</w> i</w> ca</w> n't</w> imagine</w> what</w> .</w>		1
+532	1	john</w> said</w> joan</w> saw</w> someone</w> from</w> her</w> graduating</w> class</w> .</w>		1
+533	0	john</w> ate</w> dinner</w> but</w> i</w> do</w> n't</w> know</w> who</w> .</w>		0
+534	0	she</w> mailed</w> john</w> a</w> letter</w> ,</w> but</w> i</w> do</w> n't</w> know</w> to</w> whom</w> .</w>		0
+535	1	i</w> served</w> le ek</w> soup</w> to</w> my</w> guests</w> .</w>		1
+536	1	i</w> served</w> my</w> guests</w> .</w>		1
+537	1	she</w> was</w> bathing</w> ,</w> but</w> i</w> could</w> n't</w> make</w> out</w> who</w> .</w>		0
+538	1	she</w> knew</w> french</w> for</w> tom</w> .</w>		0
+539	1	john</w> is</w> tall</w> on</w> several</w> occasions</w> .</w>		0
+540	1	the</w> ship</w> sank</w> ,</w> but</w> i</w> do</w> n't</w> know</w> with</w> what</w> .</w>		0
+541	1	they</w> noticed</w> the</w> painting</w> ,</w> but</w> i</w> do</w> n't</w> know</w> for</w> how</w> long</w> .</w>		0
+542	1	john</w> was</w> tall</w> ,</w> but</w> i</w> do</w> n't</w> know</w> on</w> what</w> occasions</w> .</w>		0
+543	1	joan</w> ate</w> dinner</w> with</w> someone</w> but</w> i</w> do</w> n't</w> know</w> who</w> .</w>		1
+544	0	joan</w> ate</w> dinner</w> with</w> someone</w> but</w> i</w> do</w> n't</w> know</w> who</w> with</w> .</w>		1
+545	1	i</w> know</w> that</w> meg</w> 's</w> attracted</w> to</w> harry</w> ,</w> but</w> they</w> do</w> n't</w> know</w> who</w> .</w>		0
+546	1	since</w> jill</w> said</w> joe</w> had</w> invited</w> sue</w> ,</w> we</w> did</w> n't</w> have</w> to</w> ask</w> who</w> .</w>		0
+547	1	i</w> know</w> that</w> meg</w> 's</w> attracted</w> to</w> harry</w> ,</w> but</w> they</w> do</w> n't</w> know</w> who</w> .</w>		1
+548	1	she</w> said</w> she</w> had</w> spoken</w> to</w> everybody</w> ,</w> but</w> he</w> was</w> n't</w> sure</w> who</w> .</w>		0
+549	1	each</w> of</w> the</w> performers</w> came</w> in</w> ,</w> but</w> were</w> sitting</w> so</w> far</w> back</w> that</w> we</w> could</w> n't</w> see</w> who</w> .</w>		0
+550	1	she</w> did</w> n't</w> talk</w> to</w> one</w> student</w> .</w>		1
+551	1	she</w> does</w> n't</w> meet</w> anyone</w> for</w> dinner</w> ,</w> but</w> they</w> ca</w> n't</w> figure</w> out</w> who</w> .</w>		0
+552	1	everyone</w> reli es</w> on</w> someone</w> .</w> it</w> 's</w> unclear</w> who</w> .</w>		1
+553	1	each</w> student</w> wrote</w> a</w> paper</w> on</w> a</w> mayan</w> language</w> ,</w> but</w> i</w> do</w> n't</w> remember</w> which</w> one</w> .</w>		1
+554	0	the</w> newspaper</w> has</w> reported</w> that</w> they</w> are</w> about</w> to</w> appoint</w> someone</w> ,</w> but</w> i</w> ca</w> n't</w> remember</w> who</w> the</w> newspaper</w> has</w> reported</w> that</w> they</w> are</w> about</w> to</w> appoint</w> .</w>		1
+555	1	the</w> newspaper</w> has</w> reported</w> that</w> they</w> are</w> about</w> to</w> appoint</w> someone</w> ,</w> but</w> i</w> ca</w> n't</w> remember</w> who</w> they</w> are</w> about</w> to</w> appoint</w> .</w>		1
+556	1	most</w> colum ni sts</w> claim</w> that</w> a</w> senior</w> white</w> house</w> official</w> has</w> been</w> briefing</w> them</w> ,</w> and</w> the</w> newspaper</w> today</w> reveals</w> which</w> one</w> .</w>		1
+557	1	most</w> colum ni sts</w> claim</w> that</w> a</w> senior</w> white</w> house</w> official</w> has</w> been</w> briefing</w> them</w> ,</w> but</w> none</w> will</w> reveal</w> which</w> one</w> .</w>		1
+558	1	bill</w> wondered</w> how</w> many</w> papers</w> sandy</w> had</w> read</w> ,</w> but</w> he</w> did</w> n't</w> care</w> which</w> ones</w> .</w>		1
+559	1	i</w> never</w> know</w> which</w> papers</w> sandy</w> has</w> read</w> ,</w> but</w> i</w> usually</w> know</w> how</w> many</w> .</w>		1
+560	1	sandy</w> had</w> read</w> how</w> many</w> papers</w> ?</w> !</w>		1
+561	1	everybody</w> gets</w> on</w> well</w> with</w> a</w> certain</w> relative</w> ,</w> but</w> often</w> only</w> his</w> therapist</w> knows</w> which</w> one</w> .</w>		1
+562	1	which</w> book</w> did</w> each</w> author</w> recommend</w> ?</w>		1
+563	0	his</w> or</w> her</w> least</w> known</w> work</w> .</w>		1
+564	1	they</w> were</w> going</w> to</w> meet</w> sometime</w> on</w> sunday</w> ,</w> but</w> the</w> faculty</w> did</w> n't</w> know</w> when</w> .</w>		1
+565	0	john</w> likes</w> some</w> students</w> ,</w> but</w> i</w> do</w> n't</w> know</w> who</w> .</w>		1
+566	1	i</w> do</w> n't</w> know</w> who</w> john</w> likes</w> .</w>		1
+567	0	john</w> likes</w> some</w> students</w> ,</w> but</w> i</w> do</w> n't</w> know</w> who</w> john</w> likes</w> some</w> students</w> .</w>		0
+568	1	joan</w> said</w> she</w> talked</w> to</w> the</w> students</w> ,</w> but</w> fred</w> could</w> n't</w> figure</w> out</w> who</w> .</w>		0
+569	1	he</w> announced</w> he</w> had</w> eaten</w> the</w> asparagus</w> ,</w> but</w> we</w> did</w> n't</w> know</w> what</w> .</w>		0
+570	0	she</w> was</w> reading</w> the</w> books</w> under</w> the</w> table</w> ,</w> but</w> fred</w> did</w> n't</w> know</w> what</w> books</w> .</w>		1
+571	1	he</w> announced</w> he</w> would</w> marry</w> the</w> woman</w> he</w> loved</w> most</w> ,</w> but</w> none</w> of</w> his</w> relatives</w> could</w> figure</w> out</w> who</w> .</w>		1
+572	1	she</w> talked</w> to</w> john</w> or</w> mary</w> but</w> i</w> do</w> n't</w> know</w> which</w> .</w>		1
+573	1	she</w> talked</w> to</w> john</w> or</w> mary</w> but</w> i</w> do</w> n't</w> know</w> which</w> one</w> .</w>		1
+574	1	she</w> talked</w> to</w> harry</w> ,</w> but</w> i</w> do</w> n't</w> know</w> who</w> else</w> .</w>		1
+575	1	i</w> will</w> see</w> them</w> ,</w> but</w> i</w> do</w> n't</w> know</w> how</w> many</w> of</w> them</w> .</w>		1
+576	1	everyone</w> who</w> knows</w> either</w> susan</w> or</w> laura</w> likes</w> her</w> .</w>		1
+577	1	she</w> said</w> she</w> talked</w> to</w> three</w> students</w> but</w> i</w> do</w> n't</w> know</w> how</w> many</w> .</w>		0
+578	1	she</w> said</w> she</w> talked</w> to</w> those</w> students</w> but</w> i</w> do</w> n't</w> know</w> how</w> many</w> .</w>		0
+579	0	he</w> shouted</w> again</w> ,</w> but</w> i</w> do</w> n't</w> know</w> who</w> to</w> .</w>		1
+580	0	she</w> was</w> dancing</w> with</w> somebody</w> ,</w> but</w> i</w> do</w> n't</w> know</w> who</w> with</w> .</w>		1
+581	1	several</w> firefighters</w> were</w> injured</w> ,</w> but</w> it</w> 's</w> not</w> known</w> .</w>		1
+582	1	meg</w> is</w> attracted</w> to</w> harry</w> ,</w> but</w> they</w> do</w> n't</w> know</w> who</w> she</w> is</w> attracted</w> to</w> .</w>		1
+583	1	sandy</w> was</w> trying</w> to</w> work</w> out</w> which</w> students</w> would</w> be</w> able</w> to</w> solve</w> a</w> certain</w> problem</w> ,</w> but</w> she</w> would</w> n't</w> tell</w> us</w> which</w> one</w> .</w>		1
+584	1	sandy</w> was</w> trying</w> to</w> work</w> out</w> which</w> students</w> would</w> be</w> able</w> to</w> solve</w> a</w> certain</w> problem</w> ,</w> but</w> she</w> would</w> n't</w> tell</w> us</w> which</w> one</w> .</w>		0
+585	1	john</w> and</w> someone</w> were</w> dancing</w> together</w> ,</w> but</w> i</w> do</w> n't</w> know</w> who</w> .</w>		0
+586	1	the</w> ta</w> 's</w> have</w> been</w> arguing</w> about</w> whether</w> some</w> student</w> or</w> other</w> should</w> pass</w> ,</w> but</w> i</w> ca</w> n't</w> now</w> remember</w> which</w> one</w> .</w>		1
+587	1	it</w> has</w> been</w> determined</w> that</w> somebody</w> will</w> be</w> appointed</w> ;</w> it</w> 's</w> just</w> not</w> clear</w> yet</w> who</w> .</w>		0
+588	1	sally</w> asked</w> if</w> somebody</w> was</w> going</w> to</w> fail</w> math</w> class</w> ,</w> but</w> i</w> ca</w> n't</w> remember</w> who</w> .</w>		0
+589	1	the</w> ta</w> 's</w> have</w> been</w> arguing</w> about</w> whether</w> some</w> student</w> or</w> other</w> should</w> pass</w> ,</w> but</w> i</w> ca</w> n't</w> now</w> remember</w> which</w> one</w> .</w>		0
+590	1	sandy</w> is</w> very</w> anxious</w> to</w> see</w> if</w> the</w> students</w> will</w> be</w> able</w> to</w> solve</w> the</w> homework</w> problem</w> in</w> a</w> particular</w> way</w> ,</w> but</w> she</w> wo</w> n't</w> tell</w> us</w> which</w> .</w>		1
+591	1	sandy</w> is</w> very</w> anxious</w> to</w> see</w> if</w> the</w> students</w> will</w> be</w> able</w> to</w> solve</w> the</w> homework</w> problem</w> in</w> a</w> particular</w> way</w> ,</w> but</w> she</w> wo</w> n't</w> tell</w> us</w> in</w> which</w> way</w> .</w>		1
+592	1	clinton</w> is</w> anxious</w> to</w> find</w> out</w> which</w> budget</w> dile mm as</w> pan etta</w> would</w> be</w> willing</w> to</w> tackle</w> in</w> a</w> certain</w> way</w> ,</w> but</w> he</w> wo</w> n't</w> say</w> in</w> which</w> .</w>		1
+593	1	sandy</w> is</w> wondering</w> whether</w> there</w> will</w> be</w> students</w> who</w> have</w> to</w> drop</w> the</w> class</w> for</w> a</w> certain</w> reason</w> ,</w> but</w> she</w> wo</w> n't</w> reveal</w> what</w> .</w>		1
+594	1	in</w> which</w> way</w> is</w> sandy</w> very</w> anxious</w> to</w> see</w> if</w> the</w> students</w> will</w> be</w> able</w> to</w> solve</w> the</w> homework</w> problem</w> ?</w>		0
+595	1	in</w> which</w> way</w> is</w> clinton</w> anxious</w> to</w> find</w> out</w> which</w> budget</w> dile mm as</w> pan etta</w> would</w> be</w> willing</w> to</w> solve</w> ?</w>		0
+596	1	i</w> know</w> how</w> many</w> assignments</w> i</w> 've</w> graded</w> ,</w> but</w> i</w> do</w> n't</w> know</w> how</w> many</w> bill</w> has</w> .</w>		1
+597	1	what</w> did</w> you</w> leave</w> before</w> they</w> did</w> ?</w>		0
+598	1	what</w> did</w> you</w> leave</w> before</w> they</w> started</w> playing</w> ?</w>		0
+599	1	sandy</w> was</w> trying</w> to</w> work</w> out</w> which</w> students</w> would</w> be</w> able</w> to</w> solve</w> a</w> certain</w> problem</w> .</w>		1
+600	1	the</w> administration</w> has</w> issued</w> a</w> statement</w> that</w> it</w> is</w> willing</w> to</w> meet</w> with</w> one</w> of</w> the</w> student</w> groups</w> .</w>		1
+601	1	sandy</w> was</w> trying</w> to</w> work</w> out</w> which</w> students</w> would</w> be</w> able</w> to</w> solve</w> a</w> problem</w> .</w>		1
+602	1	the</w> administration</w> has</w> issued</w> a</w> statement</w> that</w> it</w> is</w> willing</w> to</w> meet</w> a</w> student</w> group</w> .</w>		1
+603	1	the</w> administration</w> has</w> issued</w> a</w> statement</w> that</w> it</w> is</w> willing</w> to</w> meet</w> a</w> student</w> group</w> ,</w> but</w> i</w> 'm</w> not</w> sure</w> which</w> one</w> .</w>		1
+604	1	i</w> think</w> agnes</w> said</w> that</w> bill</w> would</w> speak</w> ,</w> but</w> i</w> do</w> n't</w> remember</w> what</w> about</w> .</w>		1
+605	0	agnes</w> wondered</w> how</w> john</w> could</w> eat</w> but</w> it</w> 's</w> not</w> clear</w> what</w> .</w>		0
+606	1	tony</w> sent</w> mo</w> a</w> picture</w> that</w> he</w> painted</w> ,</w> but</w> it</w> 's</w> not</w> clear</w> with</w> what</w> .</w>		0
+607	1	she</w> 's</w> been</w> dancing</w> but</w> we</w> do</w> n't</w> know</w> with</w> whom</w> .</w>		1
+608	0	who</w> did</w> they</w> see</w> someone</w> ?</w>		0
+609	1	it</w> was</w> believed</w> by</w> everybody</w> that</w> mary</w> was</w> a</w> thief</w> .</w>		1
+610	1	that</w> professor</w> is</w> feared</w> by</w> all</w> students</w> .</w>		1
+611	1	mary</w> was</w> respected</w> by</w> john</w> .</w>		1
+612	1	ted</w> was</w> bitten</w> by</w> the</w> spider</w> .</w>		1
+613	0	the</w> book</w> was</w> by</w> john</w> written</w> .</w>		0
+614	0	the</w> argument</w> was</w> summed</w> by</w> the</w> coach</w> up</w> .</w>		0
+615	1	the</w> paper</w> was</w> written</w> up</w> by</w> john</w> .</w>		1
+616	0	the</w> paper</w> was</w> written</w> by</w> john</w> up</w> .</w>		0
+617	1	john</w> was</w> spoken</w> to</w> by</w> mary</w> .</w>		1
+618	0	john</w> was</w> spoken</w> by</w> mary</w> to</w> .</w>		0
+619	1	the</w> book</w> was</w> seen</w> by</w> mary</w> .</w>		1
+620	0	john</w> was</w> seen</w> the</w> book</w> .</w>		0
+621	1	the</w> book</w> was</w> written</w> .</w>		1
+622	0	john</w> was</w> spoke</w> by</w> mary</w> to</w> .</w>		0
+623	1	the</w> table</w> was</w> wiped</w> clean</w> by</w> john</w> .</w>		1
+624	0	the</w> table</w> was</w> wiped</w> by</w> john</w> clean</w> .</w>		0
+625	0	mary</w> was</w> given</w> by</w> john</w> the</w> book</w> .</w>		0
+626	1	john</w> was</w> believed</w> to</w> be</w> telling</w> the</w> truth</w> by</w> mary</w> .</w>		1
+627	1	john</w> was</w> believed</w> by</w> mary</w> to</w> be</w> telling</w> the</w> truth</w> .</w>		1
+628	1	the</w> car</w> was</w> driven</w> by</w> john</w> to</w> maine</w> .</w>		1
+629	1	it</w> was</w> believed</w> by</w> the</w> students</w> that</w> they</w> would</w> have</w> an</w> exam</w> .</w>		1
+630	1	the</w> magazines</w> were</w> sent</w> to</w> herself</w> by</w> mary</w> .</w>		0
+631	1	chocolate</w> eggs</w> were</w> hidden</w> from</w> each</w> other</w> by</w> the</w> children</w> .</w>		0
+632	1	the</w> magazines</w> were</w> sent</w> by</w> mary</w> to</w> herself</w> .</w>		1
+633	1	chocolate</w> eggs</w> were</w> hidden</w> from</w> no</w> child</w> by</w> any</w> adult</w> .</w>		1
+634	1	tabs</w> were</w> kept</w> on</w> each</w> agent</w> by</w> the</w> other</w> .</w>		1
+635	1	chocolate</w> eggs</w> were</w> hidden</w> from</w> every</w> child</w> by</w> his</w> mother</w> .</w>		1
+636	1	books</w> were</w> taken</w> from</w> no</w> student</w> and</w> given</w> to</w> mary</w> .</w>		1
+637	1	books</w> were</w> taken</w> from</w> no</w> student</w> and</w> given</w> to</w> mary</w> by</w> any</w> professor</w> .</w>		0
+638	1	books</w> were</w> taken</w> from</w> each</w> student</w> by</w> the</w> other</w> .</w>		1
+639	1	books</w> were</w> taken</w> from</w> each</w> student</w> and</w> given</w> to</w> mary</w> .</w>		1
+640	1	books</w> were</w> taken</w> from</w> each</w> student</w> and</w> given</w> to</w> mary</w> by</w> the</w> other</w> .</w>		0
+641	1	jack</w> hates</w> sue</w> and</w> is</w> loved</w> by</w> mary</w> .</w>		1
+642	1	vera</w> sent</w> a</w> baby</w> alligator</w> to</w> max</w> and</w> a</w> leather</w> dinosaur</w> to</w> phyllis</w> .</w>		1
+643	1	either</w> sam</w> plays</w> the</w> bas soon</w> or</w> je ky ll</w> the</w> o bo e</w> .</w>		1
+644	1	sam</w> does</w> n't</w> play</w> bas soon</w> ,</w> nor</w> medusa</w> o bo e</w> .</w>		1
+645	0	bill</w> ate</w> the</w> peaches</w> ,</w> but</w> harry</w> the</w> grapes</w> .</w>		0
+646	0	i</w> no</w> more</w> could</w> have</w> stolen</w> that</w> steak</w> than</w> jack</w> the</w> diamonds</w> .</w>		1
+647	1	bill</w> ate</w> more</w> peaches</w> than</w> harry</w> did</w> grapes</w> .</w>		1
+648	1	bill</w> ate</w> the</w> peaches</w> and</w> harry</w> did</w> the</w> grapes</w> .</w>		0
+649	1	tom</w> will</w> smoke</w> the</w> grass</w> ,</w> and</w> reuben</w> has</w> the</w> hash</w> .</w>		0
+650	1	if</w> the</w> ants</w> were</w> called</w> elephants</w> and</w> elephants</w> ants</w> ,</w> i</w> 'd</w> be</w> able</w> to</w> squash</w> an</w> elephant</w> .</w>		1
+651	1	simon</w> quickly</w> dropped</w> the</w> gold</w> ,</w> and</w> jack</w> the</w> diamonds</w> .</w>		1
+652	1	bob</w> tried</w> to</w> wash</w> himself</w> ,</w> and</w> mary</w> to</w> read</w> the</w> fun nies</w> .</w>		1
+653	1	harry</w> told</w> sue</w> that</w> al bani a</w> is</w> a</w> lovely</w> place</w> for</w> a</w> vacation</w> ,</w> and</w> tom</w> told</w> sally</w> that</w> al bani a</w> is</w> a</w> lovely</w> place</w> for</w> a</w> vacation</w> .</w>		1
+654	0	harry</w> told</w> sue</w> that</w> al bani a</w> is</w> a</w> lovely</w> place</w> for</w> a</w> vacation</w> ,</w> and</w> tom</w> .</w>		1
+655	1	max</w> seemed</w> to</w> be</w> trying</w> to</w> begin</w> to</w> love</w> harriet</w> ,</w> and</w> fred</w> to</w> be</w> trying</w> to</w> begin</w> to</w> love</w> sue</w> .</w>		1
+656	1	max</w> seemed</w> to</w> be</w> trying</w> to</w> force</w> ted</w> to</w> leave</w> the</w> room</w> ,</w> and</w> walt</w> ,</w> ira</w> .</w>		1
+657	1	max</w> seemed</w> to</w> be</w> trying</w> to</w> force</w> ted</w> to</w> leave</w> the</w> room</w> ,</w> and</w> walt</w> to</w> stay</w> a</w> little</w> longer</w> .</w>		0
+658	1	arizona</w> elected</w> gold water</w> senator</w> ,</w> and</w> massachusetts</w> ,</w> mccor mack</w> .</w>		0
+659	0	millie</w> will</w> send</w> the</w> president</w> an</w> obscene</w> telegram</w> ,</w> and</w> paul</w> ,</w> the</w> secretary</w> a</w> rude</w> letter</w> .</w>		0
+660	1	may tag</w> will</w> give</w> a</w> brand</w> -</w> new</w> dryer</w> to</w> the</w> winner</w> of</w> the</w> mrs.</w>		0
+661	1	bill</w> did</w> n't</w> eat</w> the</w> peaches</w> ,</w> nor</w> harry</w> .</w>		0
+662	1	bill</w> ate</w> the</w> peaches</w> ,</w> and</w> harry</w> did</w> ,</w> too</w> .</w>		1
+663	0	bill</w> must</w> quickly</w> eat</w> the</w> peaches</w> ,</w> and</w> harry</w> must</w> slowly</w> .</w>		0
+664	1	whenever</w> russia</w> has</w> made</w> a</w> major</w> political</w> blunder</w> ,</w> the</w> u.s.</w> has</w> too</w> .</w>		1
+665	1	bill</w> 's</w> story</w> about</w> sue</w> and</w> max</w> 's</w> about</w> kathy</w> both</w> amazed</w> me</w> .</w>		1
+666	1	i</w> bought</w> three</w> quar ts</w> of</w> wine</w> and</w> two</w> of</w> cl or ox</w> .</w>		1
+667	1	scientists</w> at</w> the</w> south</w> han oi</w> institute</w> of</w> technology</w> have</w> succeeded</w> in</w> raising</w> one</w> dog</w> with</w> five</w> legs</w> ,</w> another</w> with</w> a</w> cow</w> 's</w> liver</w> ,</w> and</w> a</w> third</w> with</w> no</w> head</w> .</w>		1
+668	1	bill</w> 's</w> story</w> about</w> sue</w> may</w> be</w> amazing</w> ,</w> but</w> max</w> 's</w> is</w> virtually</w> incredible</w> .</w>		1
+669	1	i</w> like</w> bill</w> 's</w> yellow</w> shirt</w> ,</w> but</w> not</w> max</w> 's</w> .</w>		1
+670	1	bill</w> 's</w> funny</w> story</w> about</w> sue</w> and</w> max</w> 's</w> boring</w> one</w> about</w> kathy</w> both</w> amazed</w> me</w> .</w>		1
+671	1	bill</w> 's</w> wine</w> from</w> france</w> and</w> ted</w> 's</w> from</w> california</w> can</w> not</w> be</w> compared</w> .</w>		1
+672	1	as</w> a</w> teacher</w> ,</w> you</w> have</w> to</w> deal</w> simultaneously</w> with</w> the</w> administration</w> 's</w> pressure</w> on</w> you</w> to</w> succeed</w> ,</w> and</w> the</w> children</w> 's</w> to</w> be</w> a</w> nice</w> guy</w> .</w>		0
+673	1	neither</w> von</w> kar a jan</w> 's</w> recording</w> of</w> beethoven</w> 's</w> 6th</w> on</w> columbia</w> nor</w> kle mper er</w> 's</w> on</w> angel</w> has</w> the</w> right</w> tempo</w> .</w>		1
+674	1	g ould</w> 's</w> performance</w> of</w> bach</w> on</w> the</w> piano</w> does</w> n't</w> please</w> me</w> anywhere</w> as</w> much</w> as</w> ross</w> 's</w> on</w> the</w> har p si chord</w> .</w>		0
+675	1	tom</w> 's</w> dog</w> with</w> one</w> eye</w> attacked</w> frank</w> 's</w> with</w> three</w> legs</w> .</w>		0
+676	1	because</w> steve</w> 's</w> of</w> a</w> spider</w> 's</w> eye</w> had</w> been</w> stolen</w> ,</w> i</w> borrowed</w> fred</w> 's</w> diagram</w> of</w> a</w> snake</w> 's</w> fang</w> .</w>		0
+677	1	neither</w> von</w> kar a jan</w> 's</w> recording</w> of</w> beethoven</w> 's</w> 6th</w> on</w> columbia</w> nor</w> kle mper er</w> 's</w> has</w> the</w> right</w> tempo</w> .</w>		1
+678	1	tom</w> 's</w> dog</w> with</w> one</w> eye</w> attacked</w> fred</w> 's</w> .</w>		1
+679	1	i</w> borrowed</w> fred</w> 's</w> diagram</w> of</w> a</w> snake</w> 's</w> eye</w> because</w> steve</w> 's</w> had</w> been</w> stolen</w> .</w>		1
+680	1	jerry</w> attempted</w> to</w> blow</w> up</w> the</w> pentagon</w> .</w>		1
+681	1	so</w> fast</w> did</w> he</w> run</w> that</w> nobody</w> could</w> catch</w> him</w> .</w>		1
+682	1	bill</w> bought</w> a</w> red</w> house</w> ,</w> and</w> max</w> bought</w> one</w> too</w> .</w>		1
+683	1	who</w> always</w> drinks</w> milk</w> ?</w>		1
+684	1	the</w> book</w> which</w> inspired</w> them</w> was</w> very</w> long</w> .</w>		1
+685	0	the</w> book</w> what</w> inspired</w> them</w> was</w> very</w> long</w> .</w>		0
+686	1	i</w> know</w> the</w> person</w> whose</w> mother</w> died</w> .</w>		1
+687	1	the</w> person</w> whose</w> mother</w> 's</w> dog</w> we</w> were</w> all</w> fond</w> of</w> .</w>		1
+688	1	i</w> wonder</w> whose</w> mother</w> died</w> .</w>		1
+689	1	i</w> wonder</w> whose</w> mother</w> 's</w> dog</w> died</w> .</w>		1
+690	1	i</w> wonder</w> to</w> whom</w> they</w> dedicated</w> the</w> building</w> .</w>		1
+691	1	give</w> me</w> the</w> phone</w> number</w> of</w> the</w> person</w> whose</w> mother</w> 's</w> dog</w> died</w> .</w>		1
+692	1	this</w> is</w> the</w> senator</w> to</w> whose</w> mother</w> 's</w> friend</w> 's</w> sister</w> 's</w> i</w> sent</w> the</w> letter</w> .</w>		1
+693	0	i</w> want</w> goes</w> to</w> the</w> store</w> .</w>		0
+694	0	i</w> wonder</w> what</w> to</w> be</w> a</w> clown</w> on</w> the</w> cover</w> of</w> .</w>		0
+695	0	bother</w> you</w> that</w> kim</w> left</w> !</w>		0
+696	0	a</w> student</w> who</w> to</w> talk</w> to</w> us</w> just</w> walked</w> in</w> .</w>		0
+697	1	whose</w> bagels</w> do</w> you</w> like</w> ?</w>		1
+698	1	i</w> wonder</w> in</w> whom</w> to</w> place</w> my</w> trust</w> .</w>		1
+699	1	there</w> were</w> several</w> old</w> rocks</w> songs</w> that</w> she</w> and</w> i</w> were</w> the</w> only</w> two</w> who</w> knew</w> .</w>		1
+700	0	it</w> was</w> to</w> to</w> amuse</w> us</w> that</w> kim</w> was</w> singing</w> that</w> they</w> wanted</w> .</w>		0
+701	1	what</w> they</w> feared</w> most</w> was</w> to</w> be</w> no</w> one</w> available</w> to</w> help</w> them</w> .</w>		0
+702	1	we</w> tried</w> to</w> amuse</w> them</w> that</w> kim</w> was</w> singing</w> .</w>		0
+703	1	mary</w> asked</w> me</w> if</w> ,</w> in</w> st.</w> louis</w> ,</w> john</w> could</w> rent</w> a</w> house</w> cheap</w> .</w>		1
+704	0	mary</w> arranged</w> for</w> ,</w> in</w> st.</w> louis</w> ,</w> john</w> to</w> rent</w> a</w> house</w> cheap</w> .</w>		0
+705	1	it</w> would</w> be</w> unwise</w> for</w> there</w> to</w> be</w> no</w> fire</w> exit</w> .</w>		1
+706	1	i</w> believe</w> there</w> to</w> be</w> no</w> way</w> out</w> .</w>		1
+707	0	i</w> wonder</w> in</w> whom</w> them</w> to</w> place</w> their</w> trust</w> .</w>		0
+708	0	i</w> wonder</w> whom</w> us</w> to</w> trust</w> .</w>		0
+709	0	i</w> wonder</w> who</w> for</w> us</w> to</w> trust</w> .</w>		0
+710	1	i</w> wonder</w> who</w> to</w> place</w> my</w> trust</w> in</w> .</w>		1
+711	1	i</w> know</w> the</w> people</w> that</w> voted</w> in</w> the</w> election</w> .</w>		1
+712	1	i</w> threw</w> away</w> a</w> book</w> that</w> sandy</w> thought</w> we</w> had</w> read</w> .</w>		1
+713	1	i</w> thought</w> that</w> you</w> were</w> sick</w> .</w>		1
+714	0	i</w> dislike</w> the</w> people</w> in</w> who</w> we</w> placed</w> our</w> trust</w> .</w>		0
+715	1	i</w> dislike</w> the</w> company</w> in</w> which</w> we</w> placed</w> our</w> trust</w> .</w>		1
+716	1	i</w> dislike</w> the</w> people</w> in</w> whose</w> house</w> we</w> stayed</w> .</w>		1
+717	1	i</w> dislike</w> the</w> person</w> with</w> whom</w> we</w> were</w> talking</w> .</w>		1
+718	1	jones</w> ,</w> that</w> we</w> were</w> talking</w> to</w> last</w> night</w> ,</w> always</w> watches</w> football</w> games</w> alone</w> .</w>		0
+719	1	a</w> letter</w> was</w> received</w> that</w> jones</w> would</w> be</w> upset</w> by</w> .</w>		1
+720	0	a</w> letter</w> was</w> received</w> jones</w> would</w> be</w> upset</w> by</w> .</w>		0
+721	1	i</w> saw</w> someone</w> yesterday</w> i</w> had</w> n't</w> seen</w> for</w> years</w> .</w>		1
+722	1	something</w> happened</w> i</w> could</w> n't</w> really</w> talk</w> about</w> .</w>		1
+723	1	the</w> only</w> person</w> that</w> i</w> like</w> whose</w> kids</w> dana</w> is</w> willing</w> to</w> put</w> up</w> with</w> is</w> pat</w> .</w>		1
+724	1	the</w> book</w> that</w> i</w> like</w> which</w> everyone</w> else</w> in</w> the</w> class</w> hates</w> was</w> written</w> by</w> john</w> .</w>		1
+725	1	the</w> only</w> person</w> whose</w> kids</w> dana</w> is</w> willing</w> to</w> put</w> up</w> with</w> was</w> written</w> by</w> john</w> .</w>		0
+726	1	the</w> book</w> that</w> i</w> like</w> -</w> everyone</w> else</w> in</w> the</w> class</w> hates</w> .</w>		0
+727	1	the</w> only</w> person</w> whose</w> kids</w> dana</w> is</w> willing</w> to</w> put</w> up</w> with</w> is</w> pat</w> .</w>		1
+728	0	which</w> book</w> 's</w> ,</w> author</w> did</w> you</w> meet</w> ?</w>		1
+729	0	which</w> boy</w> 's</w> ,</w> mother</w> ,</w> did</w> you</w> meet</w> who</w> you</w> liked</w> ?</w>		0
+730	1	which</w> book</w> 's</w> ,</w> author</w> did</w> you</w> meet</w> who</w> you</w> liked</w> ?</w>		0
+731	0	which</w> boy</w> 's</w> ,</w> mother</w> ,</w> did</w> you</w> meet</w> ?</w>		1
+732	1	all</w> who</w> lost</w> money</w> in</w> the</w> scam</w> are</w> eligible</w> for</w> the</w> program</w> .</w>		1
+733	0	who</w> for</w> sandy</w> to</w> talk</w> to</w> is</w> still</w> enrolled</w> in</w> the</w> class</w> ?</w>		0
+734	1	who</w> who</w> you</w> like</w> does</w> sandy</w> also</w> like</w> ?</w>		1
+735	1	everything</w> you</w> like</w> is</w> on</w> the</w> table</w> .</w>		1
+736	1	the</w> bills</w> passed</w> by</w> the</w> house</w> yesterday</w> that</w> we</w> objected</w> to</w> were</w> ve toed</w> .</w>		1
+737	1	the</w> only</w> people</w> being</w> added</w> to</w> our</w> group</w> who</w> were</w> at</w> harvard</w> were</w> students</w> .</w>		1
+738	1	we</w> like</w> ourselves</w> .</w>		1
+739	1	nobody</w> likes</w> us</w> .</w>		1
+740	0	leslie</w> likes</w> ourselves</w> .</w>		0
+741	0	ourselves</w> like</w> ourselves</w> .</w>		0
+742	1	she</w> voted</w> for</w> herself</w> .</w>		1
+743	1	we</w> gave</w> us</w> presents</w> .</w>		0
+744	1	we</w> gave</w> ourselves</w> presents</w> .</w>		1
+745	1	we</w> gave</w> presents</w> to</w> ourselves</w> .</w>		1
+746	0	we</w> gave</w> us</w> to</w> the</w> cause</w> .</w>		0
+747	1	we</w> gave</w> ourselves</w> to</w> the</w> cause</w> .</w>		1
+748	1	leslie</w> told</w> us</w> about</w> us</w> .</w>		0
+749	0	leslie</w> told</w> ourselves</w> about</w> us</w> .</w>		0
+750	1	we</w> think</w> that</w> leslie</w> likes</w> us</w> .</w>		1
+751	0	we</w> think</w> that</w> leslie</w> likes</w> ourselves</w> .</w>		0
+752	1	our</w> friends</w> like</w> us</w> .</w>		1
+753	1	those</w> pictures</w> of</w> us</w> offended</w> us</w> .</w>		1
+754	0	we</w> found</w> your</w> letter</w> to</w> ourselves</w> in</w> the</w> trash</w> .</w>		0
+755	1	vote</w> for</w> you</w> !</w>		0
+756	1	vote</w> for</w> yourself</w> !</w>		1
+757	1	we</w> appeared</w> to</w> them</w> to</w> vote</w> for</w> themselves</w> .</w>		0
+758	1	we</w> admired</w> the</w> pictures</w> of</w> us</w> in</w> the</w> album</w> .</w>		1
+759	1	we</w> admired</w> the</w> pictures</w> of</w> ourselves</w> in</w> the</w> album</w> .</w>		1
+760	1	leslie</w> used</w> a</w> pen</w> .</w>		1
+761	1	we</w> put</w> the</w> pigs</w> in</w> a</w> pen</w> .</w>		1
+762	1	we</w> need</w> to</w> pen</w> the</w> pigs</w> to</w> keep</w> them</w> from</w> getting</w> into</w> the</w> corn</w> .</w>		1
+763	1	they</w> should</w> pen</w> the</w> letter</w> quickly</w> .</w>		1
+764	1	the</w> car</w> wo</w> n't</w> run</w> .</w>		1
+765	1	this</w> dye</w> will</w> run</w> .</w>		1
+766	1	she</w> can</w> run</w> an</w> accelerator</w> .</w>		1
+767	1	these</w> stockings</w> will</w> run</w> .</w>		1
+768	1	we</w> need</w> another</w> run</w> to</w> win</w> .</w>		1
+769	1	lee</w> saw</w> the</w> student</w> with</w> a</w> telescope</w> .</w>		1
+770	1	i</w> forgot</w> how</w> good</w> beer</w> tastes</w> .</w>		1
+771	1	visiting</w> relatives</w> can</w> be</w> boring</w> .</w>		1
+772	1	if</w> only</w> superman</w> would</w> stop</w> flying</w> planes</w> !</w>		1
+773	1	that</w> 's</w> a</w> new</w> car</w> dealership</w> .</w>		1
+774	1	i</w> know</w> you</w> like</w> the</w> back</w> of</w> my</w> hand</w> .</w>		1
+775	1	max</w> is</w> on</w> the</w> phone</w> now</w> .</w>		1
+776	1	i</w> saw</w> her</w> duck</w> .</w>		1
+777	1	i</w> 'm</w> creating</w> a</w> committee</w> .</w> kim</w> -</w> you</w> 're</w> in</w> charge</w> .</w>		1
+778	1	lights</w> go</w> out</w> at</w> ten</w> .</w> there</w> will</w> be</w> no</w> talking</w> afterwards</w> .</w>		1
+779	1	they</w> found</w> the</w> book</w> on</w> the</w> atom</w> .</w>		1
+780	1	which</w> experts</w> testified</w> against</w> defendants</w> who</w> exposed</w> them</w> ?</w>		1
+781	1	list</w> all</w> experts</w> for</w> the</w> defendant</w> who</w> represented</w> himself</w> .</w>		1
+782	1	list</w> associates</w> of</w> each</w> defendant</w> who</w> speaks</w> spanish</w> .</w>		1
+783	0	they</w> lost</w> themselves</w> '</w> books</w> .</w>		0
+784	1	some</w> sentences</w> go</w> on</w> and</w> on</w> and</w> on</w> .</w>		1
+785	0	sentences</w> some</w> go</w> on</w> and</w> on</w> and</w> on</w> and</w> on</w> .</w>		0
+786	1	that</w> surprised</w> me</w> .</w>		1
+787	0	i</w> noticed</w> the</w> .</w>		0
+788	1	they</w> were</w> interested</w> in</w> his</w> .</w>		1
+789	1	this</w> is</w> my</w> favorite</w> .</w>		1
+790	1	a</w> large</w> dog</w> chased</w> a</w> small</w> cat</w> .</w>		1
+791	1	some</w> people</w> yell</w> at</w> noisy</w> dogs</w> in</w> my</w> neighborhood</w> .</w>		1
+792	1	some</w> people</w> yell</w> at</w> the</w> dogs</w> in</w> my</w> neighborhood</w> .</w>		1
+793	1	some</w> people</w> yell</w> at</w> the</w> dogs</w> .</w>		1
+794	1	some</w> people</w> yell</w> at</w> noisy</w> dogs</w> .</w>		1
+795	1	some</w> people</w> yell</w> at</w> dogs</w> .</w>		1
+796	1	some</w> people</w> consider</w> the</w> noisy</w> dogs</w> dangerous</w> .</w>		1
+797	1	some</w> people</w> consider</w> the</w> dogs</w> in</w> my</w> neighborhood</w> dangerous</w> .</w>		1
+798	1	some</w> people</w> consider</w> noisy</w> dogs</w> in</w> my</w> neighborhood</w> dangerous</w> .</w>		1
+799	1	some</w> people</w> consider</w> the</w> dogs</w> dangerous</w> .</w>		1
+800	1	some</w> people</w> consider</w> noisy</w> dogs</w> dangerous</w> .</w>		1
+801	1	some</w> people</w> consider</w> dogs</w> in</w> my</w> neighborhood</w> dangerous</w> .</w>		1
+802	1	some</w> people</w> consider</w> dogs</w> dangerous</w> .</w>		1
+803	1	people</w> with</w> children</w> who</w> use</w> drugs</w> should</w> be</w> locked</w> up</w> .</w>		1
+804	1	this</w> disease</w> gave</w> leslie</w> a</w> fever</w> in</w> rome</w> .</w>		1
+805	1	the</w> love</w> of</w> my</w> life</w> and</w> mother</w> of</w> my</w> children</w> would</w> never</w> do</w> such</w> a</w> thing</w> .</w>		1
+806	1	most</w> elections</w> are</w> quickly</w> forgotten</w> ,</w> but</w> the</w> election</w> of</w> 2000</w> ,</w> everyone</w> will</w> remember</w> for</w> a</w> long</w> time</w> .</w>		1
+807	1	it</w> is</w> painting</w> by</w> k lee</w> or</w> drawing</w> by</w> mir o</w> that</w> the</w> museum</w> displays</w> no</w> .</w>		0
+808	1	the</w> defendant</w> denied</w> the</w> accusation</w> .</w>		1
+809	0	the</w> teacher</w> disappeared</w> the</w> problem</w> .</w>		0
+810	0	the</w> teacher</w> handed</w> the</w> student</w> .</w>		0
+811	1	the</w> bird</w> sings</w> .</w>		1
+812	0	the</w> bird</w> sing</w> .</w>		0
+813	1	birds</w> sings</w> .</w>		0
+814	1	the</w> birds</w> give</w> the</w> worm</w> a</w> tug</w> .</w>		1
+815	0	the</w> bird</w> give</w> the</w> worm</w> a</w> tug</w> .</w>		0
+816	1	the</w> birds</w> gives</w> the</w> worm</w> a</w> tug</w> .</w>		0
+817	1	terry</w> delighted</w> in</w> my</w> pain</w> .</w>		1
+818	0	terry</w> delighted</w> .</w>		0
+819	0	terry</w> delighted</w> my</w> pain</w> .</w>		0
+820	1	kerry</w> remarked</w> it</w> was</w> late</w> .</w>		1
+821	1	what</w> additional</w> categories</w> and</w> rules</w> would</w> be</w> required</w> to</w> handle</w> these</w> ver bs</w> ?</w>		1
+822	1	we</w> created</w> a</w> monster</w> .</w>		1
+823	0	i</w> was</w> already</w> aware</w> of</w> fact</w> .</w>		0
+824	1	the</w> defendant</w> deny</w> the</w> alleg ation</w> .</w>		0
+825	1	the</w> defendants</w> den ies</w> the</w> alleg ation</w> .</w>		0
+826	1	the</w> defendant</w> walks</w> .</w>		1
+827	0	the</w> defendant</w> walk</w> .</w>		0
+828	1	the</w> defendants</w> walks</w> .</w>		0
+829	1	how</w> many</w> feature</w> structures</w> categories</w> can</w> label</w> the</w> first</w> daughter</w> ?</w>		1
+830	1	the</w> child</w> put</w> the</w> toy</w> on</w> the</w> table</w> .</w>		1
+831	1	the</w> teacher</w> became</w> angry</w> with</w> the</w> students</w> .</w>		1
+832	0	the</w> teacher</w> became</w> .</w>		0
+833	1	the</w> jury</w> believed</w> the</w> defendant</w> lied</w> .</w>		1
+834	1	the</w> guests</w> dined</w> .</w>		1
+835	1	we</w> relied</w> on</w> leslie</w> .</w>		1
+836	0	we</w> relied</w> above</w> leslie</w> .</w>		0
+837	1	we</w> celebrated</w> in</w> the</w> streets</w> .</w>		1
+838	1	we</w> celebrated</w> in</w> the</w> streets</w> in</w> the</w> rain</w> on</w> tuesday</w> in</w> the</w> morning</w> .</w>		1
+839	1	the</w> children</w> are</w> happy</w> of</w> ice</w> cream</w> .</w>		0
+840	0	the</w> children</w> are</w> fond</w> with</w> the</w> ice</w> cream</w> .</w>		0
+841	1	the</w> children</w> are</w> fond</w> that</w> they</w> have</w> ice</w> cream</w> .</w>		0
+842	1	a</w> magazine</w> appeared</w> on</w> the</w> news stands</w> .</w>		1
+843	1	a</w> magazine</w> about</w> crime</w> appeared</w> on</w> the</w> news stands</w> .</w>		1
+844	1	new swee k</w> appeared</w> on</w> the</w> news stands</w> .</w>		1
+845	1	new swee k</w> about</w> crime</w> appeared</w> on</w> the</w> news stands</w> .</w>		0
+846	1	the</w> report</w> that</w> crime</w> was</w> declining</w> surprised</w> many</w> people</w> .</w>		1
+847	1	the</w> book</w> surprised</w> many</w> people</w> .</w>		1
+848	1	the</w> book</w> that</w> crime</w> was</w> declining</w> surprised</w> many</w> people</w> .</w>		0
+849	1	the</w> storm</w> arrived</w> after</w> the</w> picnic</w> .</w>		1
+850	0	the</w> storm</w> arrived</w> while</w> the</w> picnic</w> .</w>		0
+851	1	the</w> storm</w> arrived</w> while</w> we</w> ate</w> lunch</w> .</w>		1
+852	0	this</w> dogs</w> barked</w> .</w>		0
+853	1	these</w> dogs</w> barked</w> .</w>		1
+854	1	a</w> chair</w> was</w> broken</w> .</w>		1
+855	1	they</w> want</w> them</w> arrested</w> .</w>		1
+856	1	they</w> preferred</w> them</w> arrested</w> .</w>		1
+857	1	we</w> preferred</w> them</w> on</w> our</w> team</w> .</w>		1
+858	1	with</w> my</w> parents</w> as</w> supportive</w> as</w> they</w> are</w> ,</w> i</w> 'll</w> be</w> in</w> fine</w> shape</w> .</w>		1
+859	1	we</w> walks</w> .</w>		0
+860	0	few</w> dog</w> barked</w> .</w>		0
+861	1	the</w> dogs</w> barked</w> .</w>		1
+862	1	i</w> walk</w> and</w> dana</w> runs</w> .</w>		1
+863	1	they</w> like</w> us</w> .</w>		1
+864	0	us</w> like</w> them</w> .</w>		0
+865	1	kim</w> likes</w> dogs</w> .</w>		1
+866	1	dogs</w> like</w> kim</w> .</w>		1
+867	1	the</w> person</w> responsible</w> confessed</w> .</w>		1
+868	0	the</w> person</w> confessed</w> responsible</w> .</w>		0
+869	0	the</w> cat</w> slept</w> soundly</w> and</w> furry</w> .</w>		0
+870	0	the</w> soundly</w> and</w> furry</w> cat</w> slept</w> .</w>		0
+871	1	chris</w> walks</w> ,</w> pat</w> eats</w> broccoli</w> ,</w> and</w> sandy</w> plays</w> squash</w> .</w>		1
+872	1	there</w> was</w> some</w> particular</w> dog</w> who</w> saved</w> every</w> family</w> .</w>		1
+873	1	susan</w> frightens</w> her</w> .</w>		1
+874	1	susan</w> told</w> her</w> a</w> story</w> .</w>		1
+875	1	susan</w> told</w> a</w> story</w> to</w> her</w> .</w>		1
+876	1	susan</w> devoted</w> herself</w> to</w> lingui stics</w> .</w>		1
+877	1	nobody</w> told</w> susan</w> about</w> herself</w> .</w>		1
+878	1	that</w> picture</w> of</w> susan</w> offended</w> her</w> .</w>		1
+879	1	he</w> offended</w> sandy</w> .</w>		1
+880	1	i</w> enjoy</w> yourself</w> .</w>		0
+881	1	they</w> talk</w> to</w> themselves</w> .</w>		1
+882	1	nobody</w> told</w> susan</w> .</w>		1
+883	1	protect</w> yourself</w> !</w>		1
+884	1	protect</w> you</w> !</w>		0
+885	1	i</w> met</w> the</w> person</w> who</w> left</w> .</w>		1
+886	1	leslie</w> slept</w> .</w>		1
+887	0	chris</w> handed</w> bo</w> .</w>		0
+888	1	dana</w> walked</w> and</w> leslie</w> ran</w> .</w>		1
+889	1	dana</w> walking</w> and</w> leslie</w> ran</w> .</w>		0
+890	1	dana</w> walking</w> and</w> leslie</w> running</w> .</w>		0
+891	0	the</w> pu tter</w> of</w> books</w> left</w> .</w>		0
+892	1	kris</w> donated</w> a</w> book</w> to</w> the</w> library</w> .</w>		1
+893	1	the</w> police</w> sprayed</w> the</w> protesters</w> with</w> water</w> .</w>		1
+894	1	the</w> police</w> sprayed</w> water</w> on</w> the</w> protesters</w> .</w>		1
+895	1	the</w> students</w> drove</w> cars</w> .</w>		1
+896	0	these</w> cars</w> drive</w> easily</w> .</w>		1
+897	1	the</w> horse</w> kicked</w> me</w> black</w> and</w> blue</w> .</w>		1
+898	1	they</w> yelled</w> .</w>		1
+899	0	the</w> horse</w> raced</w> past</w> the</w> barn</w> fell</w> .</w>		1
+900	1	the</w> horse</w> that</w> was</w> raced</w> past</w> the</w> barn</w> fell</w> .</w>		1
+901	0	the</w> boat</w> seen</w> down</w> the</w> river</w> sank</w> .</w>		1
+902	0	the</w> evidence</w> assembled</w> by</w> the</w> prosecution</w> convinced</w> the</w> jury</w> .</w>		1
+903	1	lou</w> forgot</w> the</w> umbrella</w> .</w>		1
+904	1	lou</w> forgot</w> the</w> umbrella</w> in</w> the</w> closet</w> .</w>		1
+905	1	lou</w> hoped</w> the</w> umbrella</w> was</w> broken</w> .</w>		1
+906	0	lou</w> hoped</w> the</w> umbrella</w> in</w> the</w> closet</w> .</w>		0
+907	0	lou</w> put</w> the</w> umbrella</w> was</w> broken</w> .</w>		0
+908	1	lou</w> put</w> the</w> umbrella</w> in</w> the</w> closet</w> .</w>		1
+909	1	the</w> artist</w> drew</w> the</w> child</w> with</w> a</w> pencil</w> .</w>		1
+910	1	the</w> dog</w> bit</w> the</w> cat</w> .</w>		1
+911	0	the</w> cat</w> was</w> bitten</w> the</w> mouse</w> .</w>		0
+912	0	the</w> cat</w> was</w> bitten</w> the</w> mouse</w> by</w> the</w> dog</w> .</w>		0
+913	1	chris</w> was</w> handed</w> sandy</w> a</w> note</w> by</w> pat</w> .</w>		0
+914	1	chris</w> was</w> handed</w> a</w> note</w> .</w>		1
+915	1	chris</w> was</w> handed</w> sandy</w> a</w> note</w> .</w>		0
+916	1	tv</w> puts</w> dumb</w> ideas</w> in</w> children</w> 's</w> heads</w> .</w>		1
+917	1	dumb</w> ideas</w> are</w> put</w> in</w> children</w> 's</w> heads</w> by</w> tv</w> .</w>		1
+918	1	dumb</w> ideas</w> are</w> put</w> in</w> children</w> 's</w> heads</w> .</w>		1
+919	1	dumb</w> ideas</w> are</w> put</w> notions</w> in</w> children</w> 's</w> heads</w> by</w> tv</w> .</w>		0
+920	1	the</w> patient</w> died</w> .</w>		1
+921	1	the</w> patient</w> was</w> died</w> .</w>		0
+922	0	chris</w> was</w> handed</w> .</w>		0
+923	0	tv</w> puts</w> dumb</w> ideas</w> .</w>		0
+924	1	he</w> was</w> arrested</w> by</w> the</w> police</w> .</w>		1
+925	1	the</w> cat</w> got</w> bitten</w> .</w>		1
+926	0	the</w> cat</w> were</w> bitten</w> by</w> the</w> dog</w> .</w>		0
+927	1	there</w> is</w> a</w> monster</w> in</w> loch</w> ness</w> .</w>		1
+928	1	it</w> is</w> obvious</w> that</w> pat</w> is</w> lying</w> .</w>		1
+929	1	pat</w> is</w> the</w> captain</w> of</w> the</w> team</w> .</w>		1
+930	0	pat</w> is</w> hate</w> chris</w> .</w>		0
+931	1	there</w> is</w> a</w> unicorn</w> in</w> the</w> garden</w> .</w>		1
+932	1	there</w> was</w> a</w> felon</w> elected</w> to</w> the</w> city</w> council</w> .</w>		1
+933	1	there</w> is</w> a</w> seat</w> available</w> .</w>		1
+934	1	a</w> seat</w> available</w> was</w> in</w> the</w> last</w> row</w> .</w>		0
+935	1	many</w> people</w> were</w> fond</w> of</w> pat</w> .</w>		1
+936	1	people</w> are</w> looking</w> through</w> the</w> window</w> .</w>		1
+937	1	a</w> felon</w> was</w> elected</w> to</w> the</w> city</w> council</w> .</w>		1
+938	0	there</w> loved</w> sandy</w> .</w>		0
+939	0	we</w> talked</w> to</w> them</w> about</w> there</w> .</w>		0
+940	1	it</w> mattered</w> that</w> the</w> giants</w> had</w> lost</w> .</w>		1
+941	1	that</w> dogs</w> bark</w> anno ys</w> people</w> .</w>		1
+942	1	it</w> anno ys</w> people</w> that</w> dogs</w> bark</w> .</w>		1
+943	1	that</w> chris</w> knew</w> the</w> answer</w> occurred</w> to</w> pat</w> .</w>		1
+944	1	it</w> never</w> occurred</w> to</w> pat</w> that</w> chris</w> knew</w> the</w> answer</w> .</w>		1
+945	1	that</w> the</w> cardinal</w> won</w> the</w> game</w> gave</w> sandy</w> a</w> thrill</w> .</w>		1
+946	1	it</w> gave</w> sandy</w> a</w> thrill</w> that</w> the</w> cardinal</w> won</w> the</w> game</w> .</w>		1
+947	0	that</w> sandy</w> had</w> lied</w> suggested</w> .</w>		0
+948	0	it</w> loved</w> sandy</w> .</w>		0
+949	1	cohen</w> proved</w> the</w> independence</w> of</w> the</w> continuum</w> hypothesis</w> .</w>		1
+950	1	cohen</w> proved</w> that</w> the</w> continuum</w> hypothesis</w> was</w> independent</w> .</w>		1
+951	1	we</w> forgot</w> our</w> invitations</w> .</w>		1
+952	1	nobody</w> saw</w> pat</w> .</w>		1
+953	1	that</w> fido</w> barks</w> anno ys</w> me</w> .</w>		1
+954	1	fido</w> barks</w> .</w>		1
+955	1	chris</w> dreads</w> the</w> bucket</w> .</w>		1
+956	1	the</w> candidates</w> bring</w> advantage</w> to</w> the</w> voters</w> .</w>		1
+957	1	tabs</w> are</w> kept</w> on</w> suspected</w> drug</w> dealers</w> by</w> the</w> fbi</w> .</w>		1
+958	1	advantage</w> is</w> taken</w> of</w> every</w> opportunity</w> for</w> improvement</w> .</w>		1
+959	1	the</w> bucket</w> was</w> kicked</w> by</w> pat</w> .</w>		1
+960	1	john</w> is</w> sad</w> .</w>		1
+961	1	john</w> loaded</w> the</w> wagon</w> full</w> with</w> hay</w> .</w>		1
+962	1	john</w> loaded</w> the</w> wagon</w> with</w> hay</w> green</w> .</w>		0
+963	0	i</w> presented</w> john</w> with</w> it</w> dead</w> .</w>		0
+964	0	of</w> whom</w> are</w> you</w> thinking</w> ?</w>		1
+965	1	john</w> became</w> rich</w> .</w>		1
+966	1	i</w> gave</w> john</w> gold</w> apples</w> .</w>		1
+967	1	how</w> silly</w> is</w> bill</w> considered</w> ?</w>		1
+968	1	how</w> mad</w> was</w> bill</w> made</w> ?</w>		1
+969	1	john</w> is</w> sick</w> .</w>		1
+970	1	john</w> left</w> singing</w> .</w>		1
+971	1	john</w> is</w> near</w> larry</w> .</w>		1
+972	0	john</w> gave</w> bill</w> the</w> dog</w> dead</w> .</w>		1
+973	0	bill</w> was</w> struck</w> by</w> john</w> as</w> stupid</w> .</w>		0
+974	1	john</w> was</w> struck</w> as</w> sick</w> .</w>		0
+975	1	john</w> was</w> struck</w> by</w> bill</w> 's</w> idiocy</w> .</w>		1
+976	1	john</w> promised</w> bill</w> to</w> leave</w> .</w>		1
+977	1	john</w> tried</w> to</w> leave</w> .</w>		1
+978	1	to</w> leave</w> would</w> be</w> a</w> pleasure</w> .</w>		1
+979	0	john</w> was</w> struck</w> by</w> bill</w> as</w> pompous</w> .</w>		0
+980	1	john</w> was</w> promised</w> by</w> bill</w> to</w> leave</w> .</w>		0
+981	1	they</w> make</w> good</w> cooks</w> .</w>		1
+982	1	there</w> is</w> nothing</w> to</w> do</w> .</w>		1
+983	1	john</w> has</w> something</w> for</w> bill</w> to</w> do</w> .</w>		1
+984	1	i</w> am</w> counting</w> on</w> bill</w> to</w> incrimin ate</w> himself</w> .</w>		1
+985	1	on</w> whom</w> are</w> you</w> counting</w> to</w> incrimin ate</w> himself</w> ?</w>		1
+986	1	i</w> am</w> counting</w> on</w> bill</w> to</w> get</w> there</w> on</w> time</w> .</w>		1
+987	1	i</w> would</w> prefer</w> to</w> leave</w> .</w>		1
+988	1	i</w> would</w> hate</w> for</w> john</w> to</w> leave</w> .</w>		1
+989	1	i</w> would</w> prefer</w> for</w> john</w> to</w> leave</w> .</w>		1
+990	0	it</w> was</w> hated</w> for</w> john</w> to</w> leave</w> .</w>		0
+991	0	john</w> decided</w> for</w> bill</w> to</w> get</w> the</w> prize</w> .</w>		0
+992	0	john</w> decided</w> bill</w> to</w> get</w> the</w> prize</w> .</w>		0
+993	1	to</w> die</w> is</w> no</w> fun</w> .</w>		1
+994	1	john</w> wants</w> to</w> leave</w> .</w>		1
+995	1	john</w> counted</w> on</w> bill</w> to</w> get</w> there</w> on</w> time</w> .</w>		1
+996	1	i</w> bought</w> bill</w> a</w> book</w> to</w> read</w> .</w>		1
+997	1	john</w> told</w> mary</w> that</w> it</w> would</w> be</w> important</w> to</w> leave</w> early</w> .</w>		1
+998	1	john</w> told</w> mary</w> that</w> it</w> was</w> important</w> to</w> fred</w> to</w> leave</w> early</w> .</w>		1
+999	1	john</w> ,</w> told</w> mary</w> that</w> it</w> would</w> be</w> appropriate</w> to</w> leave</w> together</w> .</w>		1
+1000	1	the</w> election</w> of</w> john</w> president</w> surprised</w> me</w> .</w>		0
+1001	1	john</w> 's</w> arriving</w> dead</w> surprised</w> me</w> .</w>		1
+1002	1	the</w> attempt</w> by</w> john</w> to</w> leave</w> surprised</w> me</w> .</w>		1
+1003	1	john</w> left</w> orders</w> to</w> follow</w> pete</w> .</w>		1
+1004	1	john</w> left</w> us</w> orders</w> to</w> follow</w> pete</w> .</w>		1
+1005	1	john</w> left</w> orders</w> not</w> to</w> be</w> disturbed</w> .</w>		1
+1006	1	that</w> he</w> is</w> here</w> is</w> clear</w> .</w>		1
+1007	1	it</w> is</w> a</w> problem</w> that</w> he</w> is</w> here</w> .</w>		1
+1008	1	it</w> bothers</w> me</w> that</w> he</w> is</w> here</w> .</w>		1
+1009	1	john</w> regretted</w> it</w> that</w> bill</w> had</w> a</w> good</w> time</w> .</w>		1
+1010	0	john</w> believes</w> it</w> that</w> bill</w> is</w> here</w> .</w>		0
+1011	1	john</w> believes</w> it</w> sincerely</w> that</w> bill</w> is</w> here</w> .</w>		0
+1012	0	john</w> is</w> aware</w> of</w> it</w> that</w> bill</w> is</w> here</w> .</w>		0
+1013	0	john</w> felt</w> it</w> that</w> bill</w> was</w> tardy</w> .</w>		0
+1014	0	john</w> believed</w> it</w> that</w> bill</w> was</w> tardy</w> .</w>		0
+1015	1	it</w> was</w> believed</w> that</w> bill</w> was</w> tardy</w> .</w>		1
+1016	0	that</w> john</w> is</w> reluctant</w> seems</w> .</w>		0
+1017	1	it</w> is</w> the</w> problem</w> that</w> he</w> is</w> here</w> .</w>		0
+1018	1	that</w> he</w> is</w> here</w> is</w> the</w> problem</w> .</w>		1
+1019	1	the</w> problem</w> we</w> are</w> discussing</w> is</w> george</w> .</w>		1
+1020	0	it</w> is</w> to</w> give</w> up</w> to</w> leave</w> .</w>		0
+1021	1	it</w> would</w> prove</w> our</w> theory</w> to</w> be</w> un ten able</w> for</w> carrots</w> to</w> be</w> vegetables</w> .</w>		1
+1022	1	it</w> was</w> believed</w> to</w> be</w> illegal</w> by</w> them</w> to</w> do</w> that</w> .</w>		0
+1023	1	john</w> grudgingly</w> accepted</w> judgments</w> of</w> his</w> incompetence</w> as</w> an</w> auto</w> mechanic</w> .</w>		1
+1024	1	it</w> was</w> to</w> john</w> that</w> i</w> gave</w> the</w> book</w> .</w>		1
+1025	1	i</w> bought</w> it</w> to</w> read</w> .</w>		1
+1026	1	i</w> bought</w> it</w> to</w> give</w> to</w> pete</w> .</w>		1
+1027	0	i</w> gave</w> it</w> to</w> pete</w> to</w> take</w> to</w> the</w> fair</w> .</w>		1
+1028	1	i</w> gave</w> pete</w> the</w> book</w> to</w> impress</w> .</w>		0
+1029	1	i</w> wrote</w> to</w> bill</w> .</w>		1
+1030	0	i</w> presented</w> it</w> to</w> bill</w> to</w> read</w> .</w>		1
+1031	0	i</w> presented</w> bill</w> with</w> it</w> to</w> read</w> .</w>		0
+1032	0	i</w> gave</w> a</w> book</w> to</w> bill</w> to</w> read</w> .</w>		1
+1033	1	john</w> thinks</w> it</w> would</w> upset</w> himself</w> to</w> die</w> .</w>		1
+1034	1	john</w> made</w> bill</w> mad</w> at</w> himself</w> .</w>		1
+1035	1	john</w> made</w> bill</w> master</w> of</w> himself</w> .</w>		1
+1036	1	the</w> correspondence</w> school</w> made</w> bill</w> a</w> good</w> ty pist</w> .</w>		1
+1037	1	the</w> correspondence</w> school</w> sent</w> bill</w> a</w> good</w> ty pist</w> .</w>		1
+1038	1	john</w> considers</w> bill</w> silly</w> .</w>		1
+1039	1	john</w> considers</w> bill</w> to</w> be</w> silly</w> .</w>		1
+1040	1	john</w> bought</w> a</w> dog</w> for</w> himself</w> to</w> play</w> with</w> .</w>		0
+1041	1	john</w> arranged</w> for</w> himself</w> to</w> get</w> the</w> prize</w> .</w>		1
+1042	1	john</w> talked</w> to</w> bill</w> about</w> himself</w> .</w>		1

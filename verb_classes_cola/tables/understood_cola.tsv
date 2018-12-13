@@ -1,0 +1,321 @@
+test MCC		0.46781,	0.57201,	0.48700,	0.51089,	0.56428,	0.40967,	0.55046,	0.63804,	0.59919,	0.52104,	0.47349,	0.59919,	0.59337,	0.58133,	0.60418,	0.49349,	0.57750,	0.52232,	0.54508,	0.50055,
+test Accuracy		73.58491,	77.67296,	74.52830,	75.47170,	78.30189,	70.75472,	77.04403,	81.76101,	79.87421,	75.78616,	73.89937,	79.87421,	79.55975,	78.61635,	80.18868,	74.52830,	78.93082,	75.78616,	77.04403,	75.15723,
+dev MCC	gold	0.62361,	0.72577,	0.62361,	0.69510,	0.76026,	0.60059,	0.69510,	0.80498,	0.73994,	0.69510,	0.64508,	0.78478,	0.73994,	0.71987,	0.78478,	0.67488,	0.73994,	0.69510,	0.69510,	0.60238,
+michael blinked his eyes .	1	0	0	0	0	1	1	0	1	1	0	1	1	1	0	1	0	1	0	0	1
+michael blinked .	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+kelly squinted her eyes .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+kelly squinted .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+david winked his eyes .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+david winked .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+elizabeth clapped her hands .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+elizabeth clapped .	1	1	0	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1
+michael waved his hands .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+michael waved .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+jessica flexed her muscles .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jessica flexed .	1	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+jessica brushed her teeth .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jessica brushed .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+kelly brushed her molars .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+kelly brushed .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+david flossed his teeth .	1	0	0	1	0	1	1	0	1	0	0	1	0	0	0	1	0	1	0	0	0
+david flossed .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+elizabeth flossed her molars .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+elizabeth flossed .	1	1	0	1	1	0	1	1	0	0	1	1	0	0	0	0	1	0	1	1	1
+michael crossed his eyes .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+michael crossed .	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+david rolled his eyes .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+david rolled .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+james rubbed his eyes .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+james rubbed .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rebecca opened her eyes .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+rebecca opened .	0	1	0	0	0	1	1	0	0	1	1	1	1	1	0	1	1	1	0	1	0
+rebecca shuffled her feet .	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+rebecca shuffled .	0	1	0	1	0	1	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1
+kelly trimmed her beard .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+kelly trimmed .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+kelly trimmed her bangs .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+kelly trimmed .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+michael arched his neck .	1	1	0	1	1	1	1	0	1	1	0	1	1	1	1	1	1	1	0	1	1
+michael arched .	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+michael craned his neck .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+michael craned .	0	1	0	1	1	1	1	0	0	0	0	1	1	0	0	1	1	1	1	0	1
+jessica flexed her neck .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jessica flexed .	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+rebecca rubbed her neck .	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+rebecca rubbed .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+michael crooked his finger .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+michael crooked .	0	1	0	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	0	1
+elizabeth wagged her finger .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+elizabeth wagged .	0	1	0	1	1	0	1	1	0	0	1	1	0	0	0	0	1	0	1	1	1
+james rubbed his finger .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+james rubbed .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+jason hung his head .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jason hung .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rebecca raised her head .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+rebecca raised .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+nicole rubbed her head .	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1
+nicole rubbed .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+elizabeth shook her head .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+elizabeth shook .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+kelly cocked her head .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+kelly cocked .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rebecca twitched her ears .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+rebecca twitched .	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+elizabeth twitched her wings .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+elizabeth twitched .	0	1	0	1	1	0	1	1	0	0	1	1	0	0	0	0	1	0	1	1	1
+james wiggled his ears .	1	1	0	1	0	1	1	0	1	1	0	1	1	1	1	1	0	1	0	0	1
+james wiggled .	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+rebecca wiggled her wings .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+rebecca wiggled .	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+kelly raised her eyebrows .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+kelly raised .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+christopher clicked his heels .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+christopher clicked .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+michael clicked his tongue .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+michael clicked .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+nicole bobbed her hair .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+nicole bobbed .	0	0	0	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1
+james braided his hair .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+james braided .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+elizabeth combed her hair .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+elizabeth combed .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+elizabeth conditioned her hair .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+elizabeth conditioned .	0	1	0	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1
+jason crimped his hair .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jason crimped .	0	1	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+elizabeth cropped her hair .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+elizabeth cropped .	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+elizabeth curled her hair .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+elizabeth curled .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+elizabeth cut her hair .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+elizabeth cut .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+kelly dyed her hair .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+kelly dyed .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+christopher lathered his hair .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+christopher lathered .	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jason permed his hair .	1	0	0	0	0	1	0	0	1	0	0	0	1	0	0	1	0	1	0	0	0
+jason permed .	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+christopher plaited his hair .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+christopher plaited .	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+james rinsed his hair .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+james rinsed .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+christopher set his hair .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+christopher set .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+jason waved his hair .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jason waved .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+nicole plucked her hair .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+nicole plucked .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rebecca manicured her nails .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rebecca manicured .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+kelly manicured her toenails .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+kelly manicured .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+jason trimmed his nails .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+jason trimmed .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+jessica trimmed her toenails .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jessica trimmed .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+kelly filed her nails .	1	1	0	1	1	1	1	0	1	1	0	1	1	1	0	1	0	1	0	1	1
+kelly filed .	0	1	0	1	1	0	1	0	0	0	0	1	0	0	0	0	1	0	0	1	1
+nicole filed her toenails .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+nicole filed .	0	1	0	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1
+elizabeth coldcreamed her face .	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+elizabeth coldcreamed .	0	1	0	1	1	0	1	1	0	0	1	1	0	0	0	0	1	0	1	1	1
+nicole coldcreamed her cheeks .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+nicole coldcreamed .	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+nicole powdered her face .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+nicole powdered .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+christopher powdered his cheeks .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+christopher powdered .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+jason rinsed his face .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jason rinsed .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+james rinsed his cheeks .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+james rinsed .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+christopher rouged his face .	1	0	0	1	0	1	1	0	1	1	0	1	1	0	0	1	0	1	0	0	0
+christopher rouged .	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+james rouged his cheeks .	1	1	0	1	1	1	1	0	1	1	1	1	1	1	0	1	1	0	0	1	1
+james rouged .	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+rebecca bumped her hand .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+rebecca bumped .	0	1	0	1	0	1	1	0	0	0	0	1	0	0	0	0	0	1	0	0	1
+christopher bumped his foot .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+christopher bumped .	0	1	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+michael bumped his leg .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+michael bumped .	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+david bumped his arm .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+david bumped .	0	1	0	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1
+david bumped his shoulder .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+david bumped .	0	1	0	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1
+jessica bumped her finger .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jessica bumped .	0	1	0	0	0	1	1	0	0	0	0	1	0	0	0	0	0	1	0	0	0
+james broke his hand .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+james broke .	0	1	0	1	1	1	1	0	1	1	1	1	1	1	0	1	1	1	1	1	1
+jason broke his foot .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jason broke .	0	1	0	1	1	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+kelly broke her leg .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+kelly broke .	0	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	0	0	1
+rebecca broke her arm .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+rebecca broke .	0	1	0	1	1	0	1	0	0	0	0	1	0	0	0	0	1	0	0	0	0
+christopher broke his shoulder .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+christopher broke .	0	1	0	1	1	1	1	0	0	1	0	1	0	0	0	0	1	0	0	0	1
+jessica broke her finger .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jessica broke .	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+james bruised his hand .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+james bruised .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+jessica bruised her foot .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jessica bruised .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rebecca bruised her leg .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rebecca bruised .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+jessica bruised her arm .	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jessica bruised .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+jason bruised his shoulder .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jason bruised .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+jason bruised his finger .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jason bruised .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+nicole cut her hand .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+nicole cut .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+james cut his foot .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+james cut .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+james cut his leg .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+james cut .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+jessica cut her arm .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jessica cut .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+david cut his shoulder .	1	1	0	1	0	1	1	0	1	1	0	1	1	1	0	1	0	1	0	0	1
+david cut .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+james cut his finger .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+james cut .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+david fractured his hand .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+david fractured .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rebecca fractured her foot .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+rebecca fractured .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+nicole fractured her leg .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+nicole fractured .	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+elizabeth fractured her arm .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+elizabeth fractured .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+michael fractured his shoulder .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+michael fractured .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+nicole fractured her finger .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+nicole fractured .	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+james hurt his hand .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+james hurt .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+kelly hurt her foot .	1	1	0	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	1
+kelly hurt .	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0
+elizabeth hurt her leg .	1	1	0	0	0	1	1	0	1	1	0	0	1	1	1	1	0	1	0	0	0
+elizabeth hurt .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+michael hurt his arm .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+michael hurt .	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+michael hurt his shoulder .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+michael hurt .	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+james hurt his finger .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+james hurt .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+michael strained his hand .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+michael strained .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+david strained his foot .	1	1	0	1	1	1	1	0	1	1	0	1	1	1	1	1	1	1	1	1	1
+david strained .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+james strained his leg .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+james strained .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+nicole strained her arm .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+nicole strained .	0	1	0	1	1	1	1	1	0	0	1	1	0	1	0	1	1	0	1	1	1
+jessica strained her shoulder .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jessica strained .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+michael strained his finger .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+michael strained .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+james chipped his tooth .	1	0	0	1	0	0	1	0	0	0	0	1	0	1	0	1	0	1	0	0	0
+james chipped .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+elizabeth broke her tooth .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+elizabeth broke .	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+nicole pulled her tooth .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+nicole pulled .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+james pricked his finger .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+james pricked .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rebecca bathed herself .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rebecca bathed .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+kelly undressed herself .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+kelly undressed .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+elizabeth stripped herself .	1	1	0	1	1	1	1	0	1	1	0	1	1	1	0	1	0	1	0	1	1
+elizabeth stripped .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+christopher rinsed himself .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+christopher rinsed .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+jessica powdered herself .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+jessica powdered .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+jessica bumped herself .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jessica bumped .	0	1	0	0	0	1	1	0	0	0	0	1	0	0	0	0	0	1	0	0	0
+rebecca hurt herself .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rebecca hurt .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+nicole injured herself .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+nicole injured .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+elizabeth scalded herself .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+elizabeth scalded .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+kelly disrobed herself .	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+kelly disrobed .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+david exercised himself .	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+david exercised .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+james preened himself .	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+james preened .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+michael primped himself .	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+michael primped .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jason brushed himself .	0	1	0	1	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1
+jason brushed .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rebecca bobbed herself .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rebecca bobbed .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+elizabeth crimped herself .	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+elizabeth crimped .	0	1	0	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1
+jessica dyed herself .	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+jessica dyed .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+david permed himself .	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+david permed .	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jessica plucked herself .	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jessica plucked .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+kelly rouged herself .	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+kelly rouged .	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+james divorced christopher .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+james and christopher divorced .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+christopher nuzzled jason .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+christopher and jason nuzzled .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+nicole battled michael .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+nicole and michael battled .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+elizabeth bargained michael .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+elizabeth and michael bargained .	1	0	0	0	0	1	1	0	1	1	0	1	1	1	0	1	0	1	0	0	0
+rebecca bickered kelly .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rebecca and kelly bickered .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+david argued james .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+david and james argued .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+nicole clashed jessica .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+nicole and jessica clashed .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+michael coexisted elizabeth .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+michael and elizabeth coexisted .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+michael competed kelly .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+michael and kelly competed .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+nicole consorted rebecca .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0
+nicole and rebecca consorted .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+kelly disagreed james .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+kelly and james disagreed .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+david duelled nicole .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+david and nicole duelled .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+david eloped james .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+david and james eloped .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+elizabeth haggled christopher .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+elizabeth and christopher haggled .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+kelly joked david .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+kelly and david joked .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jason jousted michael .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+jason and michael jousted .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+rebecca mated christopher .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rebecca and christopher mated .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+christopher necked michael .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+christopher and michael necked .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+james negotiated rebecca .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+james and rebecca negotiated .	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0
+kelly quibbled jessica .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+kelly and jessica quibbled .	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+david scuffled rebecca .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+david and rebecca scuffled .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+james squabbled jessica .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+james and jessica squabbled .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+michael wrangled jessica .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+michael and jessica wrangled .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+jessica spoke jason .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+jessica and jason spoke .	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+james argued michael .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+james and michael argued .	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+michael chitchatted kelly .	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+michael and kelly chitchatted .	1	0	1	0	0	1	0	0	1	1	0	0	1	1	1	1	0	1	0	0	0
+david conversed michael .	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+david and michael conversed .	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1

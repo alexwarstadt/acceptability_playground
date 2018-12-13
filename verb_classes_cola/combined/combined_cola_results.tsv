@@ -1,0 +1,81 @@
+
+Experiment Name: experiment_linear_classifier_h_109_l_2_lr_0.0000_e_217_do_0.2
+0/0: Matthews 0.23002, Accuracy: 60.80931, Loss: 0.001518476
+Best Matthews: 0.20215, Best Accuracy: 58.05785, Best Loss: 0.001474652 at epoch 5
+
+Experiment Name: experiment_linear_classifier_h_114_l_1_lr_0.0000_e_217_do_0.5
+0/0: Matthews 0.22102, Accuracy: 62.27827, Loss: 0.001458630
+Best Matthews: 0.18665, Best Accuracy: 59.09091, Best Loss: 0.001351735 at epoch 12
+
+Experiment Name: experiment_linear_classifier_h_115_l_1_lr_0.0000_e_217_do_0.2
+0/0: Matthews 0.22728, Accuracy: 60.78160, Loss: 0.001468432
+Best Matthews: 0.19869, Best Accuracy: 57.64463, Best Loss: 0.001368861 at epoch 18
+
+Experiment Name: experiment_linear_classifier_h_128_l_1_lr_0.0000_e_217_do_0.5
+0/0: Matthews 0.23205, Accuracy: 61.30820, Loss: 0.001480947
+Best Matthews: 0.20481, Best Accuracy: 58.26446, Best Loss: 0.001403969 at epoch 28
+
+Experiment Name: experiment_linear_classifier_h_131_l_3_lr_0.0002_e_217_do_0.2
+0/0: Matthews 0.36110, Accuracy: 68.70843, Loss: 0.001019341
+Best Matthews: 0.27648, Best Accuracy: 64.35950, Best Loss: 0.000474228 at epoch 127
+
+Experiment Name: experiment_linear_classifier_h_153_l_4_lr_0.0000_e_217_do_0.2
+0/0: Matthews 0.21796, Accuracy: 59.72838, Loss: 0.001500952
+Best Matthews: 0.19051, Best Accuracy: 56.71488, Best Loss: 0.001358569 at epoch 8
+
+Experiment Name: experiment_linear_classifier_h_158_l_2_lr_0.0000_e_217_do_0.2
+0/0: Matthews 0.23018, Accuracy: 61.41907, Loss: 0.001490736
+Best Matthews: 0.21066, Best Accuracy: 58.57438, Best Loss: 0.001363944 at epoch 10
+
+Experiment Name: experiment_linear_classifier_h_169_l_4_lr_0.0000_e_217_do_0.5
+0/0: Matthews 0.22767, Accuracy: 60.72616, Loss: 0.001457009
+Best Matthews: 0.19657, Best Accuracy: 57.33471, Best Loss: 0.001340922 at epoch 13
+
+Experiment Name: experiment_linear_classifier_h_179_l_2_lr_0.0001_e_217_do_0.2
+0/0: Matthews 0.25275, Accuracy: 62.77716, Loss: 0.001339467
+Best Matthews: 0.20052, Best Accuracy: 59.19421, Best Loss: 0.001038915 at epoch 35
+
+Experiment Name: experiment_linear_classifier_h_27_l_3_lr_0.0001_e_217_do_0.5
+0/0: Matthews 0.23842, Accuracy: 62.30599, Loss: 0.001360462
+Best Matthews: 0.19286, Best Accuracy: 58.88430, Best Loss: 0.001183235 at epoch 5
+
+Experiment Name: experiment_linear_classifier_h_31_l_2_lr_0.0000_e_217_do_0.5
+0/0: Matthews 0.21736, Accuracy: 61.00333, Loss: 0.001421619
+Best Matthews: 0.20380, Best Accuracy: 58.47107, Best Loss: 0.001272186 at epoch 16
+
+Experiment Name: experiment_linear_classifier_h_36_l_4_lr_0.0001_e_217_do_0.5
+0/0: Matthews 0.25693, Accuracy: 62.80488, Loss: 0.001509247
+Best Matthews: 0.19872, Best Accuracy: 58.78099, Best Loss: 0.001385320 at epoch 2
+
+Experiment Name: experiment_linear_classifier_h_39_l_3_lr_0.0001_e_217_do_0.2
+0/0: Matthews 0.22508, Accuracy: 61.16962, Loss: 0.001489742
+Best Matthews: 0.18844, Best Accuracy: 57.85124, Best Loss: 0.001390299 at epoch 9
+
+Experiment Name: experiment_linear_classifier_h_55_l_1_lr_0.0001_e_217_do_0.2
+0/0: Matthews 0.25129, Accuracy: 61.30820, Loss: 0.001232357
+Best Matthews: 0.21436, Best Accuracy: 58.57438, Best Loss: 0.000873444 at epoch 71
+
+Experiment Name: experiment_linear_classifier_h_60_l_2_lr_0.0001_e_217_do_0.2
+0/0: Matthews 0.22367, Accuracy: 61.77938, Loss: 0.001532367
+Best Matthews: 0.20007, Best Accuracy: 58.88430, Best Loss: 0.001466245 at epoch 6
+
+Experiment Name: experiment_linear_classifier_h_69_l_3_lr_0.0000_e_217_do_0.5
+0/0: Matthews 0.22819, Accuracy: 60.14412, Loss: 0.001442572
+Best Matthews: 0.20657, Best Accuracy: 57.23140, Best Loss: 0.001317041 at epoch 21
+
+Experiment Name: experiment_linear_classifier_h_80_l_3_lr_0.0001_e_217_do_0.5
+0/0: Matthews 0.23166, Accuracy: 61.28049, Loss: 0.001243245
+Best Matthews: 0.19381, Best Accuracy: 58.26446, Best Loss: 0.000808948 at epoch 18
+
+Experiment Name: experiment_linear_classifier_h_88_l_4_lr_0.0001_e_217_do_0.2
+0/0: Matthews 0.22888, Accuracy: 62.38914, Loss: 0.001506857
+Best Matthews: 0.19922, Best Accuracy: 59.50413, Best Loss: 0.001506109 at epoch 3
+
+Experiment Name: experiment_linear_classifier_h_98_l_2_lr_0.0000_e_217_do_0.2
+0/0: Matthews 0.22542, Accuracy: 61.05876, Loss: 0.001496142
+Best Matthews: 0.20113, Best Accuracy: 58.26446, Best Loss: 0.001439051 at epoch 33
+
+Experiment Name: experiment_linear_classifier_h_99_l_2_lr_0.0001_e_217_do_0.5
+0/0: Matthews 0.22787, Accuracy: 61.86253, Loss: 0.001453338
+Best Matthews: 0.19781, Best Accuracy: 58.98760, Best Loss: 0.001304635 at epoch 7
+

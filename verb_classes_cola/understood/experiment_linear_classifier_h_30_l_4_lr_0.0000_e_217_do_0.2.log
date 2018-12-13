@@ -1,0 +1,444 @@
+Namespace(batch_size=32, buffer_size=1, by_source=False, crop_pad_length=30, data='./acceptability_corpus/verb_classes_cola/understood', data_type='discriminator', dropout=0.2, embedding='glove.6B.300d', embedding_path='/scratch/asw462/models/elmo_encoder/elmo.emb', embedding_size=217, encoder_num_layers=2, encoder_path='/scratch/asw462/models/elmo_encoder/elmo.pth', encoding_size=528, encoding_type='lstm_pooling_classifier', epochs=1000, evaluate_train=False, experiment_name='experiment_linear_classifier_h_30_l_4_lr_0.0000_e_217_do_0.2', glove=False, gpu=True, hidden_size=30, imbalance=True, learning_rate=1e-05, lm_path=None, logs_dir='/scratch/asw462/logs/verb_classes_cola/understood', max_pool=False, model='linear_classifier', num_layers=4, output_dir='/scratch/asw462/logs/verb_classes_cola/outputs/understood', patience=20, preprocess_tokenizer='space', prints_per_stage=1, resume=True, resume_file=None, save_loc='/scratch/asw462/models/verb_classes_cola/understood', seed=1111, should_not_log=False, should_not_lowercase=False, should_not_preprocess_data=False, stages_per_epoch=2, train_embeddings=False, train_evaluate_interval=10, vocab_file='/scratch/asw462/data/vocab_100k.tsv')
+======== General =======
+Model: linear_classifier
+GPU: True
+Experiment Name: experiment_linear_classifier_h_30_l_4_lr_0.0000_e_217_do_0.2
+Save location: /scratch/asw462/models/verb_classes_cola/understood
+Logs dir: /scratch/asw462/logs/verb_classes_cola/understood
+Timestamp: 2018/08/01 20:42:21
+ 
+======== Data =======
+Training set: 10953 examples
+Validation set: 90 examples
+Test set: 318 examples
+ 
+======= Parameters =======
+Learning Rate: 0.000010
+Batch Size: 32
+Epochs: 1000
+Patience: 20
+Stages per Epoch: 2
+Embedding: 100004 x 217
+Number of layers: 4
+Hidden Size: 30
+Encoder Size: 528
+Resume: True
+ 
+======= Model =======
+LinearClassifierWithEncoder(
+  (model): LinearClassifier(
+    (dropout): Dropout(p=0.2)
+    (enc2h): Linear(in_features=1056, out_features=30, bias=True)
+    (h20): Linear(in_features=30, out_features=1, bias=True)
+    (sigmoid): Sigmoid()
+    (tanh): Tanh()
+    (softmax): Softmax()
+  )
+  (encoder): LSTMPoolingClassifierWithELMo(
+    (elmo): ELMOClassifier(
+      (lm): LSTMLanguageModel(
+        (dropout): Dropout(p=0.2)
+        (embedding): Embedding(100003, 217)
+        (lstm): LSTM(217, 891, num_layers=2, dropout=0.2)
+        (fc): Linear(in_features=891, out_features=100003, bias=True)
+      )
+      (lstms): ModuleList(
+        (0): LSTM(217, 891, batch_first=True)
+        (1): LSTM(891, 891, batch_first=True)
+      )
+      (dropout): Dropout(p=0.2)
+      (linear_comb): Linear(in_features=2, out_features=1, bias=True)
+      (fc1): Linear(in_features=891, out_features=528, bias=True)
+      (relu): ReLU()
+      (out): Linear(in_features=528, out_features=1, bias=True)
+      (sigmoid): Sigmoid()
+    )
+    (pooling_classifier): LSTMPoolingClassifier(
+      (ih2h): LSTM(891, 528, num_layers=3, batch_first=True, dropout=0.2, bidirectional=True)
+      (pool2o): Linear(in_features=1056, out_features=1, bias=True)
+      (sigmoid): Sigmoid()
+      (softmax): Softmax()
+      (dropout): Dropout(p=0.2)
+    )
+  )
+)
+ 
+========= Epoch 1 =========
+171/343: Matthews 0.43306, Accuracy: 68.88889, Loss: 0.091533640
+342/343: Matthews 0.33333, Accuracy: 63.33333, Loss: 0.087354130
+ 
+Best Matthews: 0.43306, Best Accuracy: 68.88889, Best Loss: 0.091533640 at epoch 1
+Time Elasped: 00:00:23
+========= Epoch 2 =========
+171/343: Matthews 0.32071, Accuracy: 63.33333, Loss: 0.083713086
+342/343: Matthews 0.34151, Accuracy: 64.44444, Loss: 0.081133291
+ 
+Best Matthews: 0.43306, Best Accuracy: 68.88889, Best Loss: 0.091533640 at epoch 1
+Time Elasped: 00:00:40
+========= Epoch 3 =========
+171/343: Matthews 0.32071, Accuracy: 63.33333, Loss: 0.079317421
+342/343: Matthews 0.34151, Accuracy: 64.44444, Loss: 0.077797847
+ 
+Best Matthews: 0.43306, Best Accuracy: 68.88889, Best Loss: 0.091533640 at epoch 1
+Time Elasped: 00:00:58
+========= Epoch 4 =========
+171/343: Matthews 0.34151, Accuracy: 64.44444, Loss: 0.076020257
+342/343: Matthews 0.34151, Accuracy: 64.44444, Loss: 0.075947274
+ 
+Best Matthews: 0.43306, Best Accuracy: 68.88889, Best Loss: 0.091533640 at epoch 1
+Time Elasped: 00:01:15
+========= Epoch 5 =========
+171/343: Matthews 0.34151, Accuracy: 64.44444, Loss: 0.075030157
+342/343: Matthews 0.31025, Accuracy: 63.33333, Loss: 0.074243901
+ 
+Best Matthews: 0.43306, Best Accuracy: 68.88889, Best Loss: 0.091533640 at epoch 1
+Time Elasped: 00:01:33
+========= Epoch 6 =========
+171/343: Matthews 0.34151, Accuracy: 64.44444, Loss: 0.074238099
+342/343: Matthews 0.32249, Accuracy: 64.44444, Loss: 0.072696177
+ 
+Best Matthews: 0.43306, Best Accuracy: 68.88889, Best Loss: 0.091533640 at epoch 1
+Time Elasped: 00:01:50
+========= Epoch 7 =========
+171/343: Matthews 0.32249, Accuracy: 64.44444, Loss: 0.072494486
+342/343: Matthews 0.28801, Accuracy: 63.33333, Loss: 0.071783871
+ 
+Best Matthews: 0.43306, Best Accuracy: 68.88889, Best Loss: 0.091533640 at epoch 1
+Time Elasped: 00:02:07
+========= Epoch 8 =========
+171/343: Matthews 0.28801, Accuracy: 63.33333, Loss: 0.071625635
+342/343: Matthews 0.35074, Accuracy: 66.66667, Loss: 0.070703814
+ 
+Best Matthews: 0.43306, Best Accuracy: 68.88889, Best Loss: 0.091533640 at epoch 1
+Time Elasped: 00:02:25
+========= Epoch 9 =========
+171/343: Matthews 0.35074, Accuracy: 66.66667, Loss: 0.070125654
+342/343: Matthews 0.32998, Accuracy: 65.55556, Loss: 0.070461210
+ 
+Best Matthews: 0.43306, Best Accuracy: 68.88889, Best Loss: 0.091533640 at epoch 1
+Time Elasped: 00:02:42
+========= Epoch 10 =========
+171/343: Matthews 0.35074, Accuracy: 66.66667, Loss: 0.070108175
+342/343: Matthews 0.35074, Accuracy: 66.66667, Loss: 0.069562753
+ 
+Best Matthews: 0.43306, Best Accuracy: 68.88889, Best Loss: 0.091533640 at epoch 1
+Time Elasped: 00:02:59
+========= Epoch 11 =========
+171/343: Matthews 0.34586, Accuracy: 66.66667, Loss: 0.069363806
+342/343: Matthews 0.34586, Accuracy: 66.66667, Loss: 0.068961080
+ 
+Best Matthews: 0.43306, Best Accuracy: 68.88889, Best Loss: 0.091533640 at epoch 1
+Time Elasped: 00:03:17
+========= Epoch 12 =========
+171/343: Matthews 0.38747, Accuracy: 68.88889, Loss: 0.068453095
+342/343: Matthews 0.41251, Accuracy: 70.00000, Loss: 0.068463548
+ 
+Best Matthews: 0.43306, Best Accuracy: 68.88889, Best Loss: 0.091533640 at epoch 1
+Time Elasped: 00:03:34
+========= Epoch 13 =========
+171/343: Matthews 0.41251, Accuracy: 70.00000, Loss: 0.068298721
+342/343: Matthews 0.41251, Accuracy: 70.00000, Loss: 0.067853965
+ 
+Best Matthews: 0.43306, Best Accuracy: 68.88889, Best Loss: 0.091533640 at epoch 1
+Time Elasped: 00:03:52
+========= Epoch 14 =========
+171/343: Matthews 0.41251, Accuracy: 70.00000, Loss: 0.067680269
+342/343: Matthews 0.42906, Accuracy: 71.11111, Loss: 0.067251677
+ 
+Best Matthews: 0.43306, Best Accuracy: 68.88889, Best Loss: 0.091533640 at epoch 1
+Time Elasped: 00:04:09
+========= Epoch 15 =========
+171/343: Matthews 0.42906, Accuracy: 71.11111, Loss: 0.066982841
+342/343: Matthews 0.40825, Accuracy: 70.00000, Loss: 0.067083126
+ 
+Best Matthews: 0.43306, Best Accuracy: 68.88889, Best Loss: 0.091533640 at epoch 1
+Time Elasped: 00:04:26
+========= Epoch 16 =========
+171/343: Matthews 0.42906, Accuracy: 71.11111, Loss: 0.066596752
+342/343: Matthews 0.40825, Accuracy: 70.00000, Loss: 0.066781272
+ 
+Best Matthews: 0.43306, Best Accuracy: 68.88889, Best Loss: 0.091533640 at epoch 1
+Time Elasped: 00:04:44
+========= Epoch 17 =========
+171/343: Matthews 0.42906, Accuracy: 71.11111, Loss: 0.066187742
+342/343: Matthews 0.49193, Accuracy: 74.44444, Loss: 0.065687762
+ 
+Best Matthews: 0.49193, Best Accuracy: 74.44444, Best Loss: 0.065687762 at epoch 17
+Time Elasped: 00:05:03
+========= Epoch 18 =========
+171/343: Matthews 0.51314, Accuracy: 75.55556, Loss: 0.065668138
+342/343: Matthews 0.47087, Accuracy: 73.33333, Loss: 0.065433221
+ 
+Best Matthews: 0.51314, Best Accuracy: 75.55556, Best Loss: 0.065668138 at epoch 18
+Time Elasped: 00:05:23
+========= Epoch 19 =========
+171/343: Matthews 0.47087, Accuracy: 73.33333, Loss: 0.065543535
+342/343: Matthews 0.51314, Accuracy: 75.55556, Loss: 0.064926359
+ 
+Best Matthews: 0.51314, Best Accuracy: 75.55556, Best Loss: 0.065668138 at epoch 18
+Time Elasped: 00:05:40
+========= Epoch 20 =========
+171/343: Matthews 0.55611, Accuracy: 77.77778, Loss: 0.064991585
+342/343: Matthews 0.51314, Accuracy: 75.55556, Loss: 0.064453374
+ 
+Best Matthews: 0.55611, Best Accuracy: 77.77778, Best Loss: 0.064991585 at epoch 20
+Time Elasped: 00:05:59
+========= Epoch 21 =========
+171/343: Matthews 0.53347, Accuracy: 76.66667, Loss: 0.063736513
+342/343: Matthews 0.53666, Accuracy: 76.66667, Loss: 0.064369191
+ 
+Best Matthews: 0.55611, Best Accuracy: 77.77778, Best Loss: 0.064991585 at epoch 20
+Time Elasped: 00:06:16
+========= Epoch 22 =========
+171/343: Matthews 0.53347, Accuracy: 76.66667, Loss: 0.063740418
+342/343: Matthews 0.57907, Accuracy: 78.88889, Loss: 0.063839663
+ 
+Best Matthews: 0.57907, Best Accuracy: 78.88889, Best Loss: 0.063839663 at epoch 22
+Time Elasped: 00:06:35
+========= Epoch 23 =========
+171/343: Matthews 0.57907, Accuracy: 78.88889, Loss: 0.063539664
+342/343: Matthews 0.57907, Accuracy: 78.88889, Loss: 0.063420529
+ 
+Best Matthews: 0.57907, Best Accuracy: 78.88889, Best Loss: 0.063839663 at epoch 22
+Time Elasped: 00:06:52
+========= Epoch 24 =========
+171/343: Matthews 0.57907, Accuracy: 78.88889, Loss: 0.063259957
+342/343: Matthews 0.55556, Accuracy: 77.77778, Loss: 0.063145500
+ 
+Best Matthews: 0.57907, Best Accuracy: 78.88889, Best Loss: 0.063839663 at epoch 22
+Time Elasped: 00:07:10
+========= Epoch 25 =========
+171/343: Matthews 0.55556, Accuracy: 77.77778, Loss: 0.062922234
+342/343: Matthews 0.55611, Accuracy: 77.77778, Loss: 0.062720776
+ 
+Best Matthews: 0.57907, Best Accuracy: 78.88889, Best Loss: 0.063839663 at epoch 22
+Time Elasped: 00:07:27
+========= Epoch 26 =========
+171/343: Matthews 0.55611, Accuracy: 77.77778, Loss: 0.062692891
+342/343: Matthews 0.55556, Accuracy: 77.77778, Loss: 0.062367927
+ 
+Best Matthews: 0.57907, Best Accuracy: 78.88889, Best Loss: 0.063839663 at epoch 22
+Time Elasped: 00:07:45
+========= Epoch 27 =========
+171/343: Matthews 0.57792, Accuracy: 78.88889, Loss: 0.062109084
+342/343: Matthews 0.57792, Accuracy: 78.88889, Loss: 0.062297302
+ 
+Best Matthews: 0.57907, Best Accuracy: 78.88889, Best Loss: 0.063839663 at epoch 22
+Time Elasped: 00:08:02
+========= Epoch 28 =========
+171/343: Matthews 0.55611, Accuracy: 77.77778, Loss: 0.062263181
+342/343: Matthews 0.57792, Accuracy: 78.88889, Loss: 0.062129847
+ 
+Best Matthews: 0.57907, Best Accuracy: 78.88889, Best Loss: 0.063839663 at epoch 22
+Time Elasped: 00:08:19
+========= Epoch 29 =========
+171/343: Matthews 0.57792, Accuracy: 78.88889, Loss: 0.062096559
+342/343: Matthews 0.60000, Accuracy: 80.00000, Loss: 0.061978759
+ 
+Best Matthews: 0.60000, Best Accuracy: 80.00000, Best Loss: 0.061978759 at epoch 29
+Time Elasped: 00:08:38
+========= Epoch 30 =========
+171/343: Matthews 0.60000, Accuracy: 80.00000, Loss: 0.061599620
+342/343: Matthews 0.57792, Accuracy: 78.88889, Loss: 0.061568705
+ 
+Best Matthews: 0.60000, Best Accuracy: 80.00000, Best Loss: 0.061978759 at epoch 29
+Time Elasped: 00:08:56
+========= Epoch 31 =========
+171/343: Matthews 0.57792, Accuracy: 78.88889, Loss: 0.061502186
+342/343: Matthews 0.57792, Accuracy: 78.88889, Loss: 0.061260684
+ 
+Best Matthews: 0.60000, Best Accuracy: 80.00000, Best Loss: 0.061978759 at epoch 29
+Time Elasped: 00:09:13
+========= Epoch 32 =========
+171/343: Matthews 0.60000, Accuracy: 80.00000, Loss: 0.060947222
+342/343: Matthews 0.60000, Accuracy: 80.00000, Loss: 0.061131022
+ 
+Best Matthews: 0.60000, Best Accuracy: 80.00000, Best Loss: 0.061978759 at epoch 29
+Time Elasped: 00:09:30
+========= Epoch 33 =========
+171/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.060689253
+342/343: Matthews 0.57792, Accuracy: 78.88889, Loss: 0.060817491
+ 
+Best Matthews: 0.60059, Best Accuracy: 80.00000, Best Loss: 0.060689253 at epoch 33
+Time Elasped: 00:09:49
+========= Epoch 34 =========
+171/343: Matthews 0.60000, Accuracy: 80.00000, Loss: 0.060889281
+342/343: Matthews 0.57907, Accuracy: 78.88889, Loss: 0.060343901
+ 
+Best Matthews: 0.60059, Best Accuracy: 80.00000, Best Loss: 0.060689253 at epoch 33
+Time Elasped: 00:10:06
+========= Epoch 35 =========
+171/343: Matthews 0.57907, Accuracy: 78.88889, Loss: 0.060208395
+342/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.060186921
+ 
+Best Matthews: 0.60059, Best Accuracy: 80.00000, Best Loss: 0.060689253 at epoch 33
+Time Elasped: 00:10:23
+========= Epoch 36 =========
+171/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.060300891
+342/343: Matthews 0.57907, Accuracy: 78.88889, Loss: 0.059957769
+ 
+Best Matthews: 0.60059, Best Accuracy: 80.00000, Best Loss: 0.060689253 at epoch 33
+Time Elasped: 00:10:41
+========= Epoch 37 =========
+171/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.060141548
+342/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.059698492
+ 
+Best Matthews: 0.60059, Best Accuracy: 80.00000, Best Loss: 0.060689253 at epoch 33
+Time Elasped: 00:10:58
+========= Epoch 38 =========
+171/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.059405751
+342/343: Matthews 0.57907, Accuracy: 78.88889, Loss: 0.059562519
+ 
+Best Matthews: 0.60059, Best Accuracy: 80.00000, Best Loss: 0.060689253 at epoch 33
+Time Elasped: 00:11:15
+========= Epoch 39 =========
+171/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.059526110
+342/343: Matthews 0.57907, Accuracy: 78.88889, Loss: 0.059267267
+ 
+Best Matthews: 0.60059, Best Accuracy: 80.00000, Best Loss: 0.060689253 at epoch 33
+Time Elasped: 00:11:33
+========= Epoch 40 =========
+171/343: Matthews 0.57907, Accuracy: 78.88889, Loss: 0.058759589
+342/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.059383011
+ 
+Best Matthews: 0.60059, Best Accuracy: 80.00000, Best Loss: 0.060689253 at epoch 33
+Time Elasped: 00:11:50
+========= Epoch 41 =========
+171/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.059317917
+342/343: Matthews 0.57907, Accuracy: 78.88889, Loss: 0.058853759
+ 
+Best Matthews: 0.60059, Best Accuracy: 80.00000, Best Loss: 0.060689253 at epoch 33
+Time Elasped: 00:12:07
+========= Epoch 42 =========
+171/343: Matthews 0.60238, Accuracy: 80.00000, Loss: 0.058816963
+342/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.058984025
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:12:26
+========= Epoch 43 =========
+171/343: Matthews 0.57907, Accuracy: 78.88889, Loss: 0.058878824
+342/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.058829684
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:12:44
+========= Epoch 44 =========
+171/343: Matthews 0.57907, Accuracy: 78.88889, Loss: 0.058799124
+342/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.058610736
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:13:01
+========= Epoch 45 =========
+171/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.058518818
+342/343: Matthews 0.57907, Accuracy: 78.88889, Loss: 0.058214294
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:13:18
+========= Epoch 46 =========
+171/343: Matthews 0.60238, Accuracy: 80.00000, Loss: 0.058337058
+342/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.058369361
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:13:36
+========= Epoch 47 =========
+171/343: Matthews 0.57907, Accuracy: 78.88889, Loss: 0.058058744
+342/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.058062288
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:13:53
+========= Epoch 48 =========
+171/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.058554771
+342/343: Matthews 0.60238, Accuracy: 80.00000, Loss: 0.057902177
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:14:10
+========= Epoch 49 =========
+171/343: Matthews 0.57907, Accuracy: 78.88889, Loss: 0.058126736
+342/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.057995436
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:14:28
+========= Epoch 50 =========
+171/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.057968648
+342/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.057799848
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:14:45
+========= Epoch 51 =========
+171/343: Matthews 0.57907, Accuracy: 78.88889, Loss: 0.057403013
+342/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.057769224
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:15:03
+========= Epoch 52 =========
+171/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.057685656
+342/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.057470465
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:15:20
+========= Epoch 53 =========
+171/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.057273006
+342/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.057387627
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:15:37
+========= Epoch 54 =========
+171/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.057245763
+342/343: Matthews 0.60238, Accuracy: 80.00000, Loss: 0.056830332
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:15:55
+========= Epoch 55 =========
+171/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.057221021
+342/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.056770054
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:16:12
+========= Epoch 56 =========
+171/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.057078833
+342/343: Matthews 0.57907, Accuracy: 78.88889, Loss: 0.056549549
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:16:29
+========= Epoch 57 =========
+171/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.056523673
+342/343: Matthews 0.60238, Accuracy: 80.00000, Loss: 0.056612640
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:16:47
+========= Epoch 58 =========
+171/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.056667662
+342/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.056577380
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:17:04
+========= Epoch 59 =========
+171/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.056871626
+342/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.056374809
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:17:22
+========= Epoch 60 =========
+171/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.056482193
+342/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.056399684
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:17:39
+========= Epoch 61 =========
+171/343: Matthews 0.60238, Accuracy: 80.00000, Loss: 0.056498199
+342/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.056595029
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:17:56
+========= Epoch 62 =========
+171/343: Matthews 0.60238, Accuracy: 80.00000, Loss: 0.056390815
+342/343: Matthews 0.60059, Accuracy: 80.00000, Loss: 0.056307835
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:18:14
+========= Epoch 63 =========
+Early Stopping activated
+ 
+Best Matthews: 0.60238, Best Accuracy: 80.00000, Best Loss: 0.058816963 at epoch 42
+Time Elasped: 00:18:24
+Test Set:
+0/0: Matthews 0.50055, Accuracy: 75.15723, Loss: 0.018221711
