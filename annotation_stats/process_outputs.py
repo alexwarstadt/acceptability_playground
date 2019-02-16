@@ -210,6 +210,91 @@ def make_triple_plot(avgs, errors, labels):
     plt.show()
 
 
+def make_single_plot(avgs, errors, labels):
+    indices = [0, 2, 8, 10, 4, 6, 7, 14]
+    avgs = [avgs[i] for i in indices]
+    errors = [errors[i] for i in indices]
+    labels = [labels[i] for i in indices]
+    fig, ax = plt.subplots()
+    ind = np.arange(len(avgs))
+    width = 0.75
+
+    # ax.set_xlabel("Sentence Length")
+
+    # figure(num=None, figsize=(8, 2), dpi=80, facecolor='w', edgecolor='k')
+
+    x = np.linspace(0, len(avgs))
+    l1 = ax.plot(x, [0.320 for x in range(50)], color='c', linestyle="--")
+    # l2 = ax.plot(x, [0.528 for x in range(50)], color='m', linestyle="--")
+    # l3 = ax.plot(x, [0.582 for x in range(50)], color='c', linestyle="--")
+    l4 = ax.plot(x, [0.697 for x in range(50)], color='k', linestyle="--")
+
+    p1 = ax.bar(ind, np.array(avgs), width=width, yerr=np.array(errors).transpose(), color='c')
+    # p2 = ax.bar(ind + width, np.array(avgs[1]), width=width, yerr=np.array(errors[1]).transpose(), color='m')
+    # p3 = ax.bar(ind + 2*width, np.array(avgs[2]), width=width, yerr=np.array(errors[2]).transpose(), color='c')
+
+    ax.legend((p1[0], l1[0], l4[0]), ('ELMo-Style Pooling Classifier: phenomenon-specific', 'ELMo-Style Pooling Classifier: overall dev', 'Human performance: 20% of dev'), loc=1)
+    ax.set_xticks(ind)
+    ax.set_xticklabels(labels, rotation="30", va='top', ha='right', rotation_mode='anchor')
+    ax.set_ylim([0, 1])
+    plt.ylabel('MCC', fontsize=16)
+    # plt.xlabel('', fontsize=16)
+    for tick in ax.xaxis.get_major_ticks():
+        tick.label.set_fontsize(14)
+    for tick in ax.yaxis.get_major_ticks():
+        tick.label.set_fontsize(14)
+    plt.tight_layout()
+    plt.show()
+
+def make_single_plot_with_freq(avgs, errors, labels, freqs):
+    indices = [0, 2, 8, 10, 4, 6, 7, 14]
+    avgs = [avgs[i] for i in indices]
+    errors = [errors[i] for i in indices]
+    labels = [labels[i] for i in indices]
+    freqs = [freqs[i] for i in indices]
+    fig, ax = plt.subplots()
+    ind = np.arange(len(avgs))
+    # width = 0.375
+
+    ax2 = ax.twinx()  # Create another axes that shares the same x-axis as ax.
+
+    width = 0.45
+
+
+    ax.set_ylabel('MCC', fontsize=16)
+    ax2.set_ylabel('Percent of sentences', fontsize=16)
+
+    x = np.linspace(0, len(avgs))
+    l1 = ax.plot(x, [0.320 for x in range(50)], color='c', linestyle="--")
+    l4 = ax.plot(x, [0.697 for x in range(50)], color='k', linestyle="--")
+
+
+    p1 = ax.bar(ind, np.array(avgs), width=width, yerr=np.array(errors).transpose(), color='c')
+    p2 = ax2.bar(ind + width, np.array(freqs), color='m', width=width)
+
+    ax.legend((p1[0], p2[0], l1[0], l4[0]), ('ELMo-Style Real/Fake Encoder phenomenon-specific', 'Frequency in CoLA', 'ELMo-Style Real/Fake Encoder overall', 'Human perf.'), loc=1)
+    ax.set_xticks(ind)
+    ax.set_xticklabels(labels, rotation="30", va='top', ha='right', rotation_mode='anchor')
+    ax.set_ylim([0, 1])
+
+    # ax2.set_xticks(ind)
+    # ax2.set_xticklabels(labels, rotation="30", va='top', ha='right', rotation_mode='anchor')
+    ax2.set_ylim([0, 100])
+    for tick in ax.xaxis.get_major_ticks():
+        tick.label.set_fontsize(14)
+
+    ax2.tick_params('y', labelsize=14)
+    # for tick in ax.yaxis.get_major_ticks():
+    #     tick.label.set_fontsize(14)
+
+    # for tick in ax2.xaxis.get_major_ticks():
+    #     tick.label.set_fontsize(14)
+    for tick in ax2.yaxis.get_major_ticks():
+        tick.label.set_fontsize(14)
+    plt.tight_layout()
+    plt.show()
+
+
 def make_triple_plot_line(avgs, errors, labels):
     fig, ax = plt.subplots()
     ind = np.arange(len(avgs[0]))
@@ -290,8 +375,10 @@ def pairwise_correlations(table, labels):
         print("%s\t%s\t%f\t%f" % (key[0], key[1], value[0], value[1]))
 
 
-major_header = ["Simple", "Predicate", "Adjunct", "Argument Types", "Arg Altern", "Imperative", "Binding", "Question",
+major_header = ["Simple", "Predicate", "Adjunct", "Argument Type", "Arg Altern", "Imperative", "Binding", "Question",
                 "Comp Clause", "Auxiliary", "to-VP", "N, Adj", "S-Syntax", "Determiner", "Violations"]
+
+major_freqs = [8.3, 24.5, 21.7, 41.0, 40.4, 1.2, 11.6, 21.3, 18.2, 32.6, 16.3, 26.7, 27.4, 17.1, 13.9]
 
 cats_vec = [0, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 5, 6, 6, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 9, 9, 9,
             9, 10, 10, 10, 10, 10, 11, 11, 11, 11, 11, 11, 11, 12, 12, 12, 12, 12, 12, 12, 13, 13, 13, 13, 14, 14, 14]
@@ -338,8 +425,8 @@ def plot_several(annotations_table, header, metadata, split):
 annotations_table, header, metadata = read_table()
 cat_table = get_cat_table(annotations_table, cats_vec)
 
-# annotations_table = cat_table
-# header = major_header
+annotations_table = cat_table
+header = major_header
 
 
 # # Sentence length
@@ -393,10 +480,17 @@ elmo_avgs, elmo_errors = get_avgs_errors(elmo_processed)
 # make_triple_plot([elmo_avgs, openAI_avgs, BERT_avgs], [elmo_errors, openAI_errors, BERT_errors], header)
 # make_triple_plot_line([elmo_avgs, openAI_avgs, BERT_avgs], [elmo_errors, openAI_errors, BERT_errors], header)
 
+# SMALL PLOT FOR NNAJ paper
+# make_single_plot_with_freq(elmo_avgs, elmo_errors, header, major_freqs)
+make_single_plot(elmo_avgs, elmo_errors, header)
+
+
 #
-fig, ax = make_triple_plot([x[:33] for x in [elmo_avgs, openAI_avgs, BERT_avgs]],
-                 [x[:33] for x in [elmo_errors, openAI_errors, BERT_errors]],
-                 header[:33])
+# fig, ax = make_triple_plot([x[:33] for x in [elmo_avgs, openAI_avgs, BERT_avgs]],
+#                  [x[:33] for x in [elmo_errors, openAI_errors, BERT_errors]],
+#                  header[:33])
+
+
 
 # fig2, ax2 = make_triple_plot([x[33:] for x in [elmo_avgs, openAI_avgs, BERT_avgs]],
 #                  [x[33:] for x in [elmo_errors, openAI_errors, BERT_errors]],
